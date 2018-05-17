@@ -1,0 +1,988 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass revtex4-1
+\begin_preamble
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage{amsfonts}
+%\usepackage{palatino}
+\usepackage{MnSymbol}
+\usepackage{bbm}
+%\usepackage{hyperref}
+%\usepackage[hyphenbreaks]{breakurl1}
+\usepackage{url}
+\usepackage{ragged2e}
+\edef\UrlBreaks{\do\-\UrlBreaks}% after loading url or hyperref
+\usepackage{accents}% needed for \underbar that's same as \bar (\underaccent)
+\usepackage{microtype}
+
+
+
+
+\newcommand*{\mathcolor}{}
+\def\mathcolor#1#{\mathcoloraux{#1}}
+\newcommand*{\mathcoloraux}[3]{%
+  \protect\leavevmode
+  \begingroup
+    \color#1{#2}#3%
+  \endgroup
+}
+%%% adding some commands to comment 
+%Some shortcuts added for edits
+%Some shortcuts added for edits
+% \usepackage{ulem}
+\definecolor{dred}{rgb}{.8,0.2,.2}
+\definecolor{ddred}{rgb}{.8,0.5,.5}
+\definecolor{dblue}{rgb}{.2,0.2,.8}
+% suggested change
+\newcommand{\add}[1]{\textcolor{dred}{*#1*}} 
+% \usepackage{ulem}
+\newcommand{\out}[1]{\textcolor{ddred}{\textbf{[}#1\textbf{]}}}
+% comment or remark
+%\newcommand{\yo}[1]{\textcolor{dblue}{\textbf{[}#1\textbf{]}}}
+% \newcommand{\todo}[1]{\textbf{\underline{\textcolor{dblue}{\textbf{[}#1\textbf{]}}}}}
+%\newcommand{\jb}[1]{\textcolor{dblue}{\textbf{[}JB: #1\textbf{]}}}
+
+\newcommand{\yo}[1]{\todo{{\textbf{[}JB: #1\textbf{]}}}}
+\newcommand{\jb}[1]{\todo[inline]{{\textbf{[}JB: #1\textbf{]}}}}
+%%%%%%%%%%
+
+
+
+%% Set space of itemize environment
+\usepackage{enumitem}% Used for setting height of itemize environments
+\setlist[itemize]{topsep=0pt}%topsep=0pt
+
+
+% Bookmarks in PDF (navigation pane)
+\usepackage{bookmark}
+
+
+\newcommand{\hi}{$H_{\rm init}$\xspace}
+\newcommand{\hf}{$H_{\rm final}$\xspace}
+
+%% Set formatting of headers
+\newcommand{\secspace}{\vspace{2mm}}
+
+\newcommand{\summarysec}{\secspace\emph{\textbf{Summary}}}
+\newcommand{\prossec}{\secspace\emph{\textbf{Pros}}}
+\newcommand{\conssec}{\secspace\emph{\textbf{Cons}}}
+\newcommand{\costsec}{\secspace\emph{\textbf{Cost}}}
+\newcommand{\examplesec}{\secspace\emph{\textbf{Example}}}
+\newcommand{\refsec}{\secspace\emph{\textbf{Bibliography}}}
+
+
+
+\usepackage{babel}
+\end_preamble
+\options notitlepage,showpacs,preprintnumbers,amsmath,amssymb,aps,nofootinbib
+\use_default_options false
+\begin_modules
+algorithm2e
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding iso8859-15
+\fontencoding T1
+\font_roman "lmodern" "default"
+\font_sans "lmss" "default"
+\font_typewriter "lmtt" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_bookmarks false
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref section
+\pdf_pdfusetitle false
+\pdf_quoted_options "linkcolor=black,urlcolor=black,bookmarksopen=true"
+\papersize default
+\use_geometry false
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Hamiltonian Zoo
+\end_layout
+
+\begin_layout Author
+
+\bar under
+Nike Dattani
+\end_layout
+
+\begin_layout Author Email
+
+n.dattani@cfa.harvard.edu
+\end_layout
+
+\begin_layout Affiliation
+Harvard-Smithsonian Center for Astrophysics, McMaster University
+\end_layout
+
+\begin_layout Author
+and 
+\bar under
+Whoever Else Contributes
+\end_layout
+
+\begin_layout Affiliation
+No Matter Where They're From
+\end_layout
+
+\begin_layout Date
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+today
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Model Hamiltonians
+\end_layout
+
+\begin_layout Subsubsection
+Coulomb
+\end_layout
+
+\begin_layout Subsection
+Electronic Structure 
+\end_layout
+
+\begin_layout Subsubsection
+Born-Oppenheimer Model
+\end_layout
+
+\begin_layout Subsubsection
+Watson Model
+\end_layout
+
+\begin_layout Subsection
+Fine and Hyperfine Structure
+\end_layout
+
+\begin_layout Subsubsection
+Stark
+\end_layout
+
+\begin_layout Subsubsection
+Zeeman
+\end_layout
+
+\begin_layout Subsubsection
+Frosch-Foley
+\end_layout
+
+\begin_layout Subsubsection
+Spin-orbit
+\end_layout
+
+\begin_layout Subsubsection
+Orbit-orbit
+\end_layout
+
+\begin_layout Subsubsection
+Spin-other-orbit (Gaunt)
+\end_layout
+
+\begin_layout Subsubsection
+Fermi Contact
+\end_layout
+
+\begin_layout Subsection
+Special Relativity
+\end_layout
+
+\begin_layout Subsubsection
+Dirac
+\end_layout
+
+\begin_layout Subsubsection
+Klein-Gordon
+\end_layout
+
+\begin_layout Subsubsection
+Darwin (1
+\begin_inset Formula $e^{-}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Subsubsection
+Darwin (2
+\begin_inset Formula $e^{-}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Subsubsection
+Mass Velocity
+\end_layout
+
+\begin_layout Subsubsection
+Breit-Pauli
+\end_layout
+
+\begin_layout Subsubsection
+Dirac-Coulomb-Breit
+\end_layout
+
+\begin_layout Subsection
+Quantum Electrodynamics
+\end_layout
+
+\begin_layout Subsubsection
+Aracki-Sucher
+\end_layout
+
+\begin_layout Subsubsection
+One-Loop
+\end_layout
+
+\begin_layout Subsubsection
+Schwinger-Dyson
+\end_layout
+
+\begin_layout Subsection
+Nuclear Motion
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+H_{{\rm Nuc}}=-\frac{\hbar^{2}}{2}\sum_{i=1}^{N}\sum_{\alpha=1}^{3}\frac{1}{M_{i}}\frac{\partial^{2}}{\partial R_{i\alpha}^{2}}+V(\text{\ensuremath{\boldsymbol{R}_{1},\ldots,\boldsymbol{R}_{N})}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Rigid Rotor Harmonic Oscillator
+\end_layout
+
+\begin_layout Subsubsection
+Centrifugal distortion
+\end_layout
+
+\begin_layout Subsubsection
+Centrifugal distortion
+\end_layout
+
+\begin_layout Subsection
+Long-range Interactions
+\end_layout
+
+\begin_layout Subsubsection
+van der Waals
+\end_layout
+
+\begin_layout Subsubsection
+Lenard-Jones
+\end_layout
+
+\begin_layout Subsubsection
+Casimir-Polder
+\end_layout
+
+\begin_layout Subsubsection
+Resonance dipole-dipole
+\end_layout
+
+\begin_layout Subsubsection
+Meath
+\end_layout
+
+\begin_layout Subsubsection
+Axilrod-Teller
+\end_layout
+
+\begin_layout Subsection
+Hubbard Models
+\end_layout
+
+\begin_layout Subsubsection
+Bose-Hubbard (Boson Hubbard)
+\end_layout
+
+\begin_layout Subsubsection
+Fermi-Hubbard (Fermi Hubbard)
+\end_layout
+
+\begin_layout Subsubsection
+Jaynes-Cummings-Hubbard 
+\end_layout
+
+\begin_layout Subsection
+Open Quantum Systems
+\end_layout
+
+\begin_layout Subsubsection
+Rabi model
+\end_layout
+
+\begin_layout Subsubsection
+Spin-Boson
+\end_layout
+
+\begin_layout Subsubsection
+Feynman-Vernon
+\end_layout
+
+\begin_layout Subsubsection
+Leggett-Caldeira
+\end_layout
+
+\begin_layout Subsubsection
+Ishizaki-Fleming
+\end_layout
+
+\begin_layout Subsubsection
+Jaynes-Cummings
+\end_layout
+
+\begin_layout Subsection
+Models of Superconductivity
+\end_layout
+
+\begin_layout Subsubsection
+BCS
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+H_{{\rm BCS}}=\sum_{i}\epsilon_{i}n_{i}+g\sum_{ij}c_{i\uparrow}^{\dagger}c_{-i\downarrow}^{\dagger}c_{-j\downarrow}c_{j\uparrow}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Richardson-Gaudin
+\end_layout
+
+\begin_layout Subsubsection
+Exactly solvable pairing Hamiltonians
+\end_layout
+
+\begin_layout Paragraph
+SU(2), Rank 1 algebra
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+H_{{\rm SU(2)}}=\sum_{i}\epsilon_{i}n_{i}-g\sum_{ij}P_{i}^{+}P_{j}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+SO(5), Rank 2 algebra
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+J.
+ Dukelsky, V.
+ G.
+ Gueorguiev, P.
+ Van Isacker, S.
+ Dimitrova, B.
+ Errea y S.
+ Lerma H.
+ PRL 96 (2006) 072503.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+H_{{\rm SO(5)}}=\sum_{i}\epsilon_{i}n_{i}-g\sum_{ijk}P_{ik}^{+}P_{jk}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+SO(8), Rank 4 algebra
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+S.
+ Lerma H., B.
+ Errea, J.
+ Dukeslky and W.
+ Satula.
+ PRL 99, 032501 (2007).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+H_{{\rm SO(8)}}=\sum_{i}\epsilon_{i}n_{i}-g_{T}\sum_{ijk}P_{ik}^{+}P_{jk}-g_{S}\sum_{ijk}D_{ik}^{+}D_{jk}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+t-J model
+\end_layout
+
+\begin_layout Subsection
+Models of Superfluidity
+\end_layout
+
+\begin_layout Subsubsection
+2D 
+\begin_inset Formula $p$
+\end_inset
+
+-wave Fermi superfluid
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://courses.physics.illinois.edu/phys598PTD/fa2013/L26.pdf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+H_{2DFSF}=\sum_{i}\epsilon_{i}a_{i}^{\dagger}a_{i}+\frac{{\rm i}\Delta_{i}}{2}\left(a_{i}^{\dagger}a_{-i}^{\dagger}+\text{H.c.}\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Spin Hamiltonians
+\end_layout
+
+\begin_layout Subsection
+Ising
+\end_layout
+
+\begin_layout Subsection
+Heisenberg
+\end_layout
+
+\begin_layout Subsection
+J1-J2 Model
+\end_layout
+
+\begin_layout Subsection
+Majumdar-Ghosh
+\end_layout
+
+\begin_layout Subsection
+AKLT Model
+\end_layout
+
+\begin_layout Subsection
+Kitaev Models
+\end_layout
+
+\begin_layout Subsubsection
+Toric Code
+\end_layout
+
+\begin_layout Subsubsection
+Ocko-Yoshida
+\end_layout
+
+\begin_layout Subsubsection
+Honeycomb Model
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+H_{{\rm Honeycomb}}=-J_{x}\sum_{x-{\rm links}}x_{i}x_{j}-J_{y}\sum_{y-{\rm links}}y_{i}y_{j}-J_{z}\sum_{z-{\rm links}}z_{i}z_{j}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+2-level systems (spin-
+\begin_inset Formula $\nicefrac{1}{2}$
+\end_inset
+
+ particles)
+\end_layout
+
+\begin_layout Standard
+
+\size footnotesize
+\begin_inset Formula 
+\begin{align}
+z & \equiv\begin{pmatrix}1 & 0\\
+0 & -1
+\end{pmatrix},x\equiv\begin{pmatrix}0 & 1\\
+1 & 0
+\end{pmatrix},y\equiv\begin{pmatrix}0 & -{\rm i}\\
+{\rm i} & 0
+\end{pmatrix}\\
+s_{+} & \equiv\begin{pmatrix}0 & 1\\
+0 & 0
+\end{pmatrix}=\frac{x+{\rm i}y}{2}\\
+s_{-} & \equiv\begin{pmatrix}0 & 0\\
+1 & 0
+\end{pmatrix}=\frac{x-{\rm i}y}{2}\\
+s_{\alpha} & \equiv\begin{pmatrix}1 & 0\\
+0 & 0
+\end{pmatrix}=\frac{\openone+z}{2}\equiv b\\
+s_{\beta} & \equiv\begin{pmatrix}0 & 0\\
+0 & 1
+\end{pmatrix}=\frac{\openone-z}{2}
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+3-level systems (spin-
+\begin_inset Formula $1$
+\end_inset
+
+ particles)
+\end_layout
+
+\begin_layout Standard
+
+\size scriptsize
+\begin_inset Formula 
+\begin{align}
+z_{3}\equiv & \begin{pmatrix}1 & 0 & 0\\
+0 & 0 & 0\\
+0 & 0 & -1
+\end{pmatrix},x\equiv\begin{pmatrix}0 & 1 & 0\\
+1 & 0 & 1\\
+0 & 1 & 0
+\end{pmatrix},y\equiv\begin{pmatrix}0 & {\rm -i} & 0\\
+{\rm i} & 0 & {\rm -i}\\
+0 & {\rm i} & 0
+\end{pmatrix}\\
+s_{3+} & \equiv\begin{pmatrix}0 & 1 & 0\\
+0 & 0 & 1\\
+0 & 0 & 0
+\end{pmatrix}=\frac{x_{3}+{\rm i}y_{3}}{2}\\
+s_{3-} & \equiv\begin{pmatrix}0 & 0 & 0\\
+1 & 0 & 0\\
+0 & 1 & 0
+\end{pmatrix}=\frac{x_{3}-{\rm i}y_{3}}{2}\\
+s_{3,1} & \equiv\begin{pmatrix}1 & 0 & 0\\
+0 & 0 & 0\\
+0 & 0 & 0
+\end{pmatrix}=\frac{\openone+z}{2}\equiv t\\
+s_{3,2} & \equiv\begin{pmatrix}0 & 0 & 0\\
+0 & 1 & 0\\
+0 & 0 & 0
+\end{pmatrix}\\
+s_{3,3} & \equiv\begin{pmatrix}0 & 0 & 0\\
+0 & 0 & 0\\
+0 & 0 & 1
+\end{pmatrix}=\frac{\openone-z}{2}\equiv t
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+4-level systems (spin-
+\begin_inset Formula $\nicefrac{3}{2}$
+\end_inset
+
+ particles)
+\end_layout
+
+\begin_layout Standard
+
+\size scriptsize
+\begin_inset Formula 
+\begin{align}
+z_{4}\equiv & \begin{pmatrix}3 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & -1 & 0\\
+0 & 0 & 0 & -3
+\end{pmatrix},x_{4}\equiv\begin{pmatrix}0 & \sqrt{3} & 0 & 0\\
+\sqrt{3} & 0 & 2 & 0\\
+0 & 2 & 0 & \sqrt{3}\\
+0 & 0 & \sqrt{3} & 0
+\end{pmatrix},y_{4}\equiv\begin{pmatrix}0 & -\sqrt{3}{\rm i} & 0 & 0\\
+\sqrt{3}{\rm i} & 0 & 2 & 0\\
+0 & 2 & 0 & -\sqrt{3}{\rm i}\\
+0 & 0 & \sqrt{3}{\rm i} & 0
+\end{pmatrix}\\
+s_{4+} & \equiv\begin{pmatrix}0 & \sqrt{3} & 0 & 0\\
+0 & 0 & 2 & 0\\
+0 & 0 & 0 & \sqrt{3}\\
+0 & 0 & 0 & 0
+\end{pmatrix}\equiv\frac{x_{\nicefrac{3}{2}}+{\rm i}y_{\nicefrac{3}{2}}}{2}\equiv\frac{x_{4\times4}+{\rm i}y_{4\times4}}{2}\\
+s_{4-} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+\sqrt{3} & 0 & 0 & 0\\
+0 & 2 & 0 & 0\\
+0 & 0 & \sqrt{3} & 0
+\end{pmatrix}\equiv\frac{x_{4}-{\rm i}y_{4}}{2}\\
+s_{4,1} & \equiv\begin{pmatrix}1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{2}\left(z_{2}+z_{1}z_{2}+z_{1}-\openone\right)\\
+s_{4,2} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix}=\\
+s_{4,3} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix}=\\
+s_{4,4} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1
+\end{pmatrix}=\\
+ & \equiv\begin{pmatrix}1 & 0 & 0 & 0\\
+0 & -1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+0 & 0 & 0 & 1
+\end{pmatrix}=\frac{1}{2}\left(\openone-z_{1}+z_{1}z_{2}+z_{2}\right)\\
+ & \equiv\begin{pmatrix}1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & -1 & 0\\
+0 & 0 & 0 & 1
+\end{pmatrix}=\frac{1}{2}\left(\openone-z_{2}+z_{1}z_{2}+z_{1}\right)
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+5-level systems (spin-
+\begin_inset Formula $2$
+\end_inset
+
+ particles)
+\end_layout
+
+\begin_layout Standard
+
+\size scriptsize
+\begin_inset Formula 
+\begin{align}
+z_{5}\equiv & \begin{pmatrix}2 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & -1 & 0\\
+0 & 0 & 0 & 0 & -2
+\end{pmatrix},x_{5}\equiv\begin{pmatrix}0 & 2 & 0 & 0 & 0\\
+2 & 0 & \sqrt{6} & 0 & 0\\
+0 & \sqrt{6} & 0 & \sqrt{6} & 0\\
+0 & 0 & \sqrt{6} & 0 & 2\\
+0 & 0 & 0 & 2 & 0
+\end{pmatrix},y_{5}\equiv\begin{pmatrix}0 & -2{\rm i} & 0 & 0 & 0\\
+2{\rm i} & 0 & -\sqrt{6}{\rm i} & 0 & 0\\
+0 & \sqrt{6}{\rm i} & 0 & -\sqrt{6}{\rm i} & 0\\
+0 & 0 & \sqrt{6}{\rm i} & 0 & -2{\rm i}\\
+0 & 0 & 0 & 2{\rm i} & 0
+\end{pmatrix}\\
+s_{5+} & \equiv\begin{pmatrix}0 & 2 & 0 & 0 & 0\\
+0 & 0 & \sqrt{6} & 0 & 0\\
+0 & 0 & 0 & \sqrt{6} & 0\\
+0 & 0 & 0 & 0 & 2\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}\equiv\frac{x_{5\times5}+{\rm i}y_{5\times5}}{2}\equiv\frac{x_{(5)}+{\rm i}y_{(5)}}{2}\\
+s_{5-} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+2 & 0 & 0 & 0 & 0\\
+0 & \sqrt{6} & 0 & 0 & 0\\
+0 & 0 & \sqrt{6} & 0 & 0\\
+0 & 0 & 0 & 2 & 0
+\end{pmatrix}\equiv\frac{x_{5\times5}+{\rm i}y_{5\times5}}{2}\equiv\frac{x_{(5)}+{\rm i}y_{(5)}}{2}\\
+s_{5,1} & \equiv\begin{pmatrix}1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\\
+s_{5,2} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\\
+s_{5,3} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\\
+s_{5,4} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\\
+s_{5,5} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1
+\end{pmatrix}=
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+Wavefunction Zoo
+\end_layout
+
+\begin_layout Subsection
+Electronic Structure Ansatze
+\end_layout
+
+\begin_layout Subsubsection
+Hartree Product
+\end_layout
+
+\begin_layout Subsubsection
+Configuration Interaction
+\end_layout
+
+\begin_layout Subsubsection
+Coupled Cluster
+\end_layout
+
+\begin_layout Paragraph
+CC(n)
+\end_layout
+
+\begin_layout Paragraph
+Bruckner-CC(n)
+\end_layout
+
+\begin_layout Paragraph
+EOM-CC(n)
+\end_layout
+
+\begin_layout Paragraph
+EOM-IP-CC(n)
+\end_layout
+
+\begin_layout Paragraph
+FS-CC(n)
+\end_layout
+
+\begin_layout Paragraph
+DLPNO-CC(n)
+\end_layout
+
+\begin_layout Paragraph
+MR-EOM
+\end_layout
+
+\begin_layout Subsubsection
+Geminals
+\end_layout
+
+\begin_layout Paragraph
+AP1roG/pCCD
+\end_layout
+
+\begin_layout Paragraph
+APIG
+\end_layout
+
+\begin_layout Paragraph
+APSetG
+\end_layout
+
+\begin_layout Paragraph
+APG
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+Potential Zoo
+\end_layout
+
+\begin_layout Subsection
+Diatomics
+\end_layout
+
+\begin_layout Paragraph
+Morse
+\end_layout
+
+\begin_layout Paragraph
+Lenard-Jones
+\end_layout
+
+\begin_layout Paragraph
+Morse/Long-range
+\end_layout
+
+\begin_layout Paragraph
+Tiemann
+\end_layout
+
+\begin_layout Paragraph
+Morse-Rosen
+\end_layout
+
+\begin_layout Subsection
+Triatomics
+\end_layout
+
+\begin_layout Paragraph
+Jensen
+\end_layout
+
+\begin_layout Paragraph
+Schwenke
+\end_layout
+
+\begin_layout Paragraph
+PolyMLR
+\end_layout
+
+\end_body
+\end_document
