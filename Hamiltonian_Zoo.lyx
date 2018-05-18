@@ -984,5 +984,80 @@ Schwenke
 PolyMLR
 \end_layout
 
+\begin_layout Subsection
+Torsion Potentials
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+Functional Zoo
+\end_layout
+
+\begin_layout Part*
+Function Zoo
+\end_layout
+
+\begin_layout Part*
+Particle Zoo
+\end_layout
+
+\begin_layout Standard
+https://en.wikipedia.org/wiki/Particle_zoo
+\end_layout
+
+\begin_layout Part*
+Complexity Zoo 
+\size normal
+(founded by Scott Aarsonson of UWaterloo)
+\end_layout
+
+\begin_layout Standard
+https://complexityzoo.uwaterloo.ca/Complexity_Zoo
+\end_layout
+
+\begin_layout Part*
+Algorithms Zoo 
+\size normal
+(founded by Stephen Jordan of NIST)
+\end_layout
+
+\begin_layout Standard
+https://math.nist.gov/quantum/zoo/
+\end_layout
+
 \end_body
 \end_document
