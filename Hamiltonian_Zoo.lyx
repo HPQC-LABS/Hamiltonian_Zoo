@@ -212,6 +212,17 @@ Model Hamiltonians
 Coulomb
 \end_layout
 
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+H_{{\rm Coulomb}}=\frac{q_{1}q_{2}}{4\pi\epsilon_{0}r}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Electronic Structure 
 \end_layout
@@ -234,6 +245,34 @@ Stark
 
 \begin_layout Subsubsection
 Zeeman
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+H_{{\rm Zeeman}}=-\frac{\mu_{B}\left(g_{l}\vec{L}+g_{s}\vec{S}\right)}{\hbar}\cdot\vec{B}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Complete magnetic dipole interaction
+\end_layout
+
+\begin_layout Standard
+
+\size scriptsize
+\begin_inset Formula 
+\begin{align}
+H_{{\rm Magnetic}\,\text{Dipole}} & =\frac{g_{I}\mu_{N}\mu_{B}\mu_{0}}{2\pi}\left(\frac{1}{L_{z}}\sum_{i}\frac{\hat{l}_{zi}}{r_{i}^{3}}\vec{I}\cdot\vec{L}+\frac{2g_{s}}{S_{z}}\sum_{i}\frac{\hat{s}_{zi}}{r_{i}^{3}}\left(3\left(\vec{I}\cdot\hat{r}\right)\left(\vec{S}\cdot\hat{r}\right)-\vec{I}\cdot\vec{S}\right)+\frac{g_{s}}{3S_{z}}\sum_{i}\hat{s}_{zi}\delta^{3}\left(\vec{r}_{i}\right)\vec{I}\cdot\vec{S}\right)
+\end{align}
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
