@@ -343,6 +343,35 @@ Quantum Electrodynamics
 Aracki-Sucher
 \end_layout
 
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+H_{{\rm Aracki-Sucher}}=-\frac{7\alpha_{{\rm FS}}^{3}}{6\pi}\sum_{i>j}\lim_{a\rightarrow0}\left(\frac{\theta\left(r_{ij}-a\right)}{r_{ij}^{3}}+4\pi\left(\gamma+\ln a\right)\delta(\vec{r}_{ij})\right)
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+where 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ is the Euler-Mascheroni constant, and 
+\begin_inset Formula $\theta(\cdot)$
+\end_inset
+
+ is the Heaviside step function.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 One-Loop
 \end_layout
