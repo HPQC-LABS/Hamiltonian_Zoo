@@ -933,6 +933,28 @@ s_{5,5} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 
 \end_layout
 
+\begin_layout Section
+Other Hamiltonians
+\end_layout
+
+\begin_layout Subsection
+Feynman Hamiltonian
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+[R.
+ Feynman, Quantum mechanical computers, Opt.
+ News, vol.
+ 11, pp.
+ 1146, 1985.]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part*
 Wavefunction Zoo
 \end_layout
