@@ -170,7 +170,6 @@ Nike Dattani
 \end_layout
 
 \begin_layout Author Email
-
 n.dattani@cfa.harvard.edu
 \end_layout
 
@@ -621,7 +620,7 @@ H_{2DFSF}=\sum_{i}\epsilon_{i}a_{i}^{\dagger}a_{i}+\frac{{\rm i}\Delta_{i}}{2}\l
 
 \end_layout
 
-\begin_layout Part
+\begin_layout Part*
 Matrix Zoo
 \end_layout
 
