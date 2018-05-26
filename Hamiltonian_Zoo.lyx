@@ -741,6 +741,32 @@ z_{3}\equiv & \begin{pmatrix}1 & 0 & 0\\
 {\rm i} & 0 & {\rm -i}\\
 0 & {\rm i} & 0
 \end{pmatrix}\\
+\lambda_{1}\equiv & \begin{pmatrix}0 & 1 & 0\\
+1 & 0 & 0\\
+0 & 0 & 0
+\end{pmatrix},\lambda_{2}\equiv\begin{pmatrix}0 & -{\rm i} & 0\\
+{\rm i} & 0 & 0\\
+0 & 0 & 0
+\end{pmatrix},\lambda_{3}\equiv\begin{pmatrix}1 & 0 & 0\\
+0 & -1 & {\rm 0}\\
+0 & 0 & 0
+\end{pmatrix},\lambda_{4}\equiv\begin{pmatrix}0 & 0 & 1\\
+0 & 0 & {\rm 0}\\
+1 & 0 & 0
+\end{pmatrix},\\
+\lambda_{5} & \equiv\begin{pmatrix}0 & 0 & -{\rm i}\\
+0 & 0 & {\rm 0}\\
+{\rm i} & 0 & 0
+\end{pmatrix},\lambda_{6}\equiv\begin{pmatrix}0 & 0 & 0\\
+0 & 0 & {\rm 1}\\
+0 & 1 & 0
+\end{pmatrix},\lambda_{7}\equiv\begin{pmatrix}0 & 0 & 0\\
+0 & 0 & {\rm -{\rm i}}\\
+0 & {\rm i} & 0
+\end{pmatrix},\lambda_{8}\equiv\frac{1}{\sqrt{3}}\begin{pmatrix}1 & 0 & 0\\
+0 & 1 & {\rm 0}\\
+0 & 0 & -2
+\end{pmatrix}\\
 s_{3+} & \equiv\begin{pmatrix}0 & 1 & 0\\
 0 & 0 & 1\\
 0 & 0 & 0
@@ -763,6 +789,13 @@ s_{3,3} & \equiv\begin{pmatrix}0 & 0 & 0\\
 \end{pmatrix}=\frac{\openone-z}{2}\equiv t
 \end{align}
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -794,6 +827,27 @@ z_{4}\equiv & \begin{pmatrix}3 & 0 & 0 & 0\\
 0 & 2 & 0 & -\sqrt{3}{\rm i}\\
 0 & 0 & \sqrt{3}{\rm i} & 0
 \end{pmatrix}\\
+\gamma^{0} & \equiv\begin{pmatrix}1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & -1 & 0\\
+0 & 0 & 0 & -1
+\end{pmatrix},\gamma^{1\equiv}\begin{pmatrix}0 & 0 & 0 & 1\\
+0 & 0 & 1 & 0\\
+0 & -1 & -1 & 0\\
+-1 & 0 & 0 & 0
+\end{pmatrix},\gamma^{2}\equiv\begin{pmatrix}0 & 0 & 0 & -{\rm i}\\
+0 & 0 & {\rm i} & 0\\
+0 & {\rm i} & 0 & 0\\
+-{\rm i} & 0 & 0 & 0
+\end{pmatrix},\gamma^{3}\equiv\begin{pmatrix}0 & 0 & 1 & 0\\
+0 & 0 & 0 & -1\\
+-1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0
+\end{pmatrix},\gamma^{5}\equiv\begin{pmatrix}0 & 0 & 1 & 0\\
+0 & 0 & 0 & 1\\
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0
+\end{pmatrix}\\
 s_{4+} & \equiv\begin{pmatrix}0 & \sqrt{3} & 0 & 0\\
 0 & 0 & 2 & 0\\
 0 & 0 & 0 & \sqrt{3}\\
@@ -824,16 +878,48 @@ s_{4,4} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 1
 \end{pmatrix}=\\
- & \equiv\begin{pmatrix}1 & 0 & 0 & 0\\
+ & \begin{pmatrix}1 & 0 & 0 & 0\\
 0 & -1 & 0 & 0\\
 0 & 0 & 1 & 0\\
 0 & 0 & 0 & 1
 \end{pmatrix}=\frac{1}{2}\left(\openone-z_{1}+z_{1}z_{2}+z_{2}\right)\\
- & \equiv\begin{pmatrix}1 & 0 & 0 & 0\\
+ & \begin{pmatrix}1 & 0 & 0 & 0\\
 0 & 1 & 0 & 0\\
 0 & 0 & -1 & 0\\
 0 & 0 & 0 & 1
 \end{pmatrix}=\frac{1}{2}\left(\openone-z_{2}+z_{1}z_{2}+z_{1}\right)
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+|10\rangle\langle01| & =\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{4}\left(x_{1}x_{2}-{\rm i}y_{1}x_{2}+{\rm i}x_{1}y_{2}+y_{1}y_{2}\right)\\
+|10\rangle\langle01| & =\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{4}\left(x_{1}x_{2}-{\rm i}x_{1}y_{2}+{\rm i}y_{1}x_{2}+y_{1}y_{2}\right)\\
+\text{CNOT} & \equiv\begin{pmatrix}1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 0 & 1\\
+0 & 0 & 1 & 0
+\end{pmatrix}=\frac{1}{2}\left(\openone+z_{1}+x_{2}-z_{1}x_{2}\right)
 \end{align}
 
 \end_inset
@@ -924,6 +1010,14 @@ s_{5,5} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection
+6-level systems (spin-
+\begin_inset Formula $3/2$
+\end_inset
+
+ particles)
 \end_layout
 
 \begin_layout Standard
