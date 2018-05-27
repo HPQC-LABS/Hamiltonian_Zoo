@@ -786,7 +786,11 @@ s_{3,2} & \equiv\begin{pmatrix}0 & 0 & 0\\
 s_{3,3} & \equiv\begin{pmatrix}0 & 0 & 0\\
 0 & 0 & 0\\
 0 & 0 & 1
-\end{pmatrix}=\frac{\openone-z}{2}\equiv t
+\end{pmatrix}=\frac{\openone-z}{2}\equiv t\\
+|1\rangle\langle2| & \equiv\begin{pmatrix}0 & 0 & 0\\
+0 & 0 & 1\\
+0 & 0 & 0
+\end{pmatrix}=\frac{1}{2}\left(\lambda_{6}+{\rm i}\lambda_{7}\right)
 \end{align}
 
 \end_inset
@@ -1106,7 +1110,7 @@ s_{5,5} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 1 & 0\\
 0 & 0 & 0 & 1 & 0 & 0\\
 0 & 0 & 1 & 0 & 0 & 0
-\end{pmatrix}=\lambda_{6}x_{2}=\ensuremath{-\frac{1}{2}z\lambda_{1}+\frac{1}{2}\lambda_{1}-\frac{1}{\sqrt{3}}x\lambda_{8}+\frac{1}{3}}x
+\end{pmatrix}=\lambda_{6}x_{2}=\ensuremath{-\frac{1}{2}z\lambda_{1}+\frac{1}{2}\lambda_{1}-\frac{1}{\sqrt{3}}x\lambda_{8}+\frac{1}{3}}x\ne x_{2}\lambda_{6}
 \end{align}
 
 \end_inset
@@ -1118,14 +1122,31 @@ s_{5,5} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 
 \size scriptsize
 \begin_inset Formula 
-\begin{equation}
-|0_{b}1_{t}\rangle\langle0_{b}2_{t}|\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\begin{align}
+|0_{b}1_{t}\rangle\langle0_{b}2_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 1 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
 \end{pmatrix}=\frac{1}{4}\left(x\lambda_{6}+{\rm i}y\lambda_{6}-{\rm i}x\lambda_{7}+y\lambda_{7}\right)=\frac{1}{4}\left(\lambda_{6}+\lambda_{6}z+{\rm i}\lambda_{7}+{\rm i}\lambda_{7}z\right)\ne\frac{1}{4}\left(\lambda_{6}+z\lambda_{6}+{\rm i}\lambda_{7}+{\rm i}z\lambda_{7}\right)
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+|0_{b}1_{t}\rangle\langle0_{b}2_{t}|+|0_{b}1_{t}\rangle\langle0_{b}2_{t}|\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{2}\left(\lambda_{6}+\lambda_{6}z\right)
 \end{equation}
 
 \end_inset
