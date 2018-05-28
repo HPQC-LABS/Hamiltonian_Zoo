@@ -1037,48 +1037,48 @@ s_{5,5} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 \begin_inset Formula 
 \begin{align}
 |0_{b}1_{t}\rangle\langle1_{b}0_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}\left(z\lambda_{1}+\lambda_{1}-{\rm i}z\lambda_{2}-{\rm i}\lambda_{2}\right)\\
-|1_{b}0_{t}\rangle\langle0_{b}1_{t}| & \equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0 & 0\\
+\end{pmatrix}=\frac{1}{4}\left(x\lambda_{1}+{\rm i}y\lambda_{1}-{\rm i}x\lambda_{2}+y\lambda_{2}\right)\\
+|1_{b}0_{t}\rangle\langle0_{b}1_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}\left(z\lambda_{1}+\lambda_{1}+{\rm i}z\lambda_{2}+{\rm i}\lambda_{2}\right)\\
+\end{pmatrix}=\frac{1}{4}\left(x\lambda_{1}-{\rm i}y\lambda_{1}+{\rm i}x\lambda_{2}+y\lambda_{2}\right)\\
 |0_{b}1_{t}\rangle\langle1_{b}0_{t}|+|1_{b}0_{t}\rangle\langle0_{b}1_{t}| & \equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0 & 0\\
 1 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{2}\left(z\lambda_{1}+\lambda_{1}\right)\\
-|0_{b}2_{t}\rangle\langle1_{b}0_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-1 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}=\frac{1}{2}\left(x\lambda_{1}+y\lambda_{2}\right)\\
+|2_{t}0_{b}\rangle\langle0_{t}1_{b}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}\left(z\lambda_{4}+\lambda_{4}-{\rm i}z\lambda_{5}-{\rm i}\lambda_{5}\right)\\
-|0_{b}2_{t}\rangle\langle1_{b}0_{t}|+|1_{b}0_{t}\rangle\langle0_{b}2_{t}| & \equiv\begin{pmatrix}0 & 0 & 1 & 0 & 0 & 0\\
+\end{pmatrix}=\\
+|2_{t}0_{b}\rangle\langle0_{t}1_{b}|+|0_{t}1_{b}\rangle\langle2_{t}0_{b}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
-1 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}\left(z\lambda_{4}+\lambda_{4}\right)\\
-|1_{b}1_{t}\rangle\langle1_{b}2_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}=\frac{1}{2}\left(\lambda_{5}y+\lambda_{4}x\right)\\
+|1_{t}1_{b}\rangle\langle2_{t}1_{b}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 1\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{2}\left(\lambda_{6}-z\lambda_{6}+{\rm i}\lambda_{7}-{\rm i}z\lambda_{7}\right)\\
-|1_{b}1_{t}\rangle\langle1_{b}2_{t}|+|1_{b}2_{t}\rangle\langle1_{b}1_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}=\frac{1}{4}\left(\lambda_{6}-z\lambda_{6}+{\rm i}\lambda_{7}-{\rm i}z\lambda_{7}\right)=|1_{b}1_{t}\rangle\langle1_{b}2_{t}|\\
+|1_{t}1_{b}\rangle\langle2_{t}1_{b}|+|2_{t}1_{b}\rangle\langle1_{t}1_{b}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 1\\
@@ -1101,6 +1101,98 @@ s_{5,5} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 
 \begin_layout Standard
 
+\size scriptsize
+\begin_inset Formula 
+\begin{align}
+ & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{4}\left(z\lambda_{1}+\lambda_{1}-{\rm i}z\lambda_{2}-{\rm i}\lambda_{2}\right)\\
+ & \equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{4}\left(z\lambda_{1}+\lambda_{1}+{\rm i}z\lambda_{2}+{\rm i}\lambda_{2}\right)\\
+ & \equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{2}\left(z\lambda_{1}+\lambda_{1}\right)\\
+|0_{b}2_{t}\rangle\langle1_{b}0_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{4}\left(x\lambda_{4}+{\rm i}y\lambda_{4}-{\rm i}x\lambda_{5}+y\lambda_{5}\right)\\
+|0_{b}2_{t}\rangle\langle1_{b}0_{t}|+|1_{b}0_{t}\rangle\langle0_{b}2_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{2}\left(x\lambda_{4}+y\lambda_{5}\right)
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+ & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{4}\left(z\lambda_{4}+\lambda_{4}-{\rm i}z\lambda_{5}-{\rm i}\lambda_{5}\right)\\
+ & \equiv\begin{pmatrix}0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{4}\left(z\lambda_{4}+\lambda_{4}\right)\\
+|1_{b}1_{t}\rangle\langle1_{b}2_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\\
+|1_{b}1_{t}\rangle\langle1_{b}2_{t}|+|1_{b}2_{t}\rangle\langle1_{b}1_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 1 & 0
+\end{pmatrix}=
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
 \size footnotesize
 \begin_inset Formula 
 \begin{align}
@@ -1110,7 +1202,21 @@ s_{5,5} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 1 & 0\\
 0 & 0 & 0 & 1 & 0 & 0\\
 0 & 0 & 1 & 0 & 0 & 0
-\end{pmatrix}=\lambda_{6}x_{2}=\ensuremath{-\frac{1}{2}z\lambda_{1}+\frac{1}{2}\lambda_{1}-\frac{1}{\sqrt{3}}x\lambda_{8}+\frac{1}{3}}x\ne x_{2}\lambda_{6}
+\end{pmatrix}=\lambda_{6}x_{2}=\ensuremath{-\frac{1}{2}z\lambda_{1}+\frac{1}{2}\lambda_{1}-\frac{1}{\sqrt{3}}x\lambda_{8}+\frac{1}{3}}x\ne x_{2}\lambda_{6}\\
+x_{1}|1_{t,2}\rangle\langle2_{t,2}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{2}x\left(\lambda_{6}+{\rm i}\lambda_{7}\right)\\
+x_{1}|1_{t,2}\rangle\langle2_{t,2}|+x_{1}|2_{t,2}\rangle\langle1_{t,2}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0
+\end{pmatrix}=x\lambda_{6}
 \end{align}
 
 \end_inset
@@ -1123,13 +1229,20 @@ s_{5,5} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 \size scriptsize
 \begin_inset Formula 
 \begin{align}
-|0_{b}1_{t}\rangle\langle0_{b}2_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+|1_{t}0_{b}\rangle\langle2_{t}0_{b}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 1 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}\left(x\lambda_{6}+{\rm i}y\lambda_{6}-{\rm i}x\lambda_{7}+y\lambda_{7}\right)=\frac{1}{4}\left(\lambda_{6}+\lambda_{6}z+{\rm i}\lambda_{7}+{\rm i}\lambda_{7}z\right)\ne\frac{1}{4}\left(\lambda_{6}+z\lambda_{6}+{\rm i}\lambda_{7}+{\rm i}z\lambda_{7}\right)
+\end{pmatrix}=\frac{1}{4}\left(x\lambda_{6}+{\rm i}y\lambda_{6}-{\rm i}x\lambda_{7}+y\lambda_{7}\right)=\frac{1}{4}\left(\lambda_{6}+\lambda_{6}z+{\rm i}\lambda_{7}+{\rm i}\lambda_{7}z\right)\ne\frac{1}{4}\left(\lambda_{6}+z\lambda_{6}+{\rm i}\lambda_{7}+{\rm i}z\lambda_{7}\right)\\
+|0_{b}1_{t}\rangle\langle0_{b}2_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}\ne\frac{1}{4}\left(\lambda_{6}+z\lambda_{6}+{\rm i}\lambda_{7}+{\rm i}z\lambda_{7}\right)=\frac{1}{4}\left(\lambda_{6}+\lambda_{6}z+{\rm i}\lambda_{7}+{\rm i}\lambda_{7}z\right)
 \end{align}
 
 \end_inset
@@ -1140,11 +1253,11 @@ s_{5,5} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-|0_{b}1_{t}\rangle\langle0_{b}2_{t}|+|0_{b}1_{t}\rangle\langle0_{b}2_{t}|\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 1 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
+|0_{b}1_{t}\rangle\langle0_{b}2_{t}|+|0_{b}2_{t}\rangle\langle0_{b}1_{t}|\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
 \end{pmatrix}=\frac{1}{2}\left(\lambda_{6}+\lambda_{6}z\right)
 \end{equation}
@@ -1379,6 +1492,10 @@ Algorithms Zoo
 
 \begin_layout Standard
 https://math.nist.gov/quantum/zoo/
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \end_body
