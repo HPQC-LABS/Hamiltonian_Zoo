@@ -315,6 +315,16 @@ Darwin (1
 )
 \end_layout
 
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Darwin (2
 \begin_inset Formula $e^{-}$
@@ -374,6 +384,17 @@ where
 
 \begin_layout Subsubsection
 One-Loop
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+H_{{\rm 1-loop}}=-\frac{7\alpha_{{\rm FS}}^{3}}{6\pi}\sum_{i>j}\lim_{a\rightarrow0}\left(\frac{\theta\left(r_{ij}-a\right)}{r_{ij}^{3}}+4\pi\left(\gamma+\ln a\right)\delta(\vec{r}_{ij})\right)
+\end{equation}
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -1492,10 +1513,6 @@ Algorithms Zoo
 
 \begin_layout Standard
 https://math.nist.gov/quantum/zoo/
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \end_body
