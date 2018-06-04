@@ -318,6 +318,7 @@ Darwin (1
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
+H_{{\rm Darwin-1}}=\alpha_{{\rm FS}}^{2}\frac{\pi Z}{2}\sum_{i}\delta\left(\vec{r}_{i}\right)
 \end{equation}
 
 \end_inset
@@ -333,8 +334,30 @@ Darwin (2
 )
 \end_layout
 
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+H_{{\rm Darwin-2}}=\alpha_{{\rm FS}}^{2}\pi\sum_{i<j}\delta\left(\vec{r}_{ij}\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Mass Velocity
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+H_{{\rm Mass-Velocity}}=-\alpha_{{\rm FS}}^{2}\frac{1}{8}\sum_{i}\nabla_{i}^{4}.
+\end{equation}
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -356,7 +379,7 @@ Aracki-Sucher
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-H_{{\rm Aracki-Sucher}}=-\frac{7\alpha_{{\rm FS}}^{3}}{6\pi}\sum_{i>j}\lim_{a\rightarrow0}\left(\frac{\theta\left(r_{ij}-a\right)}{r_{ij}^{3}}+4\pi\left(\gamma+\ln a\right)\delta(\vec{r}_{ij})\right)
+H_{{\rm Aracki-Sucher}}=-\alpha_{{\rm FS}}^{3}\frac{7}{6\pi}\sum_{i>j}\lim_{a\rightarrow0}\left(\frac{\theta\left(r_{ij}-a\right)}{r_{ij}^{3}}+4\pi\left(\gamma+\ln a\right)\delta(\vec{r}_{ij})\right)
 \end{equation}
 
 \end_inset
@@ -389,7 +412,7 @@ One-Loop
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-H_{{\rm 1-loop}}=-\frac{7\alpha_{{\rm FS}}^{3}}{6\pi}\sum_{i>j}\lim_{a\rightarrow0}\left(\frac{\theta\left(r_{ij}-a\right)}{r_{ij}^{3}}+4\pi\left(\gamma+\ln a\right)\delta(\vec{r}_{ij})\right)
+H_{{\rm 1-loop}}=\alpha_{{\rm FS}}^{4}\pi Z^{2}\left(\frac{427}{96}-{\rm ln}2\right)\sum_{i}\delta\left(\vec{r}_{i}\right)
 \end{equation}
 
 \end_inset
