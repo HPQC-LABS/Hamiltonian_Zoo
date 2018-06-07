@@ -170,7 +170,6 @@ Nike Dattani
 \end_layout
 
 \begin_layout Author Email
-
 n.dattani@cfa.harvard.edu
 \end_layout
 
@@ -834,7 +833,18 @@ s_{3,3} & \equiv\begin{pmatrix}0 & 0 & 0\\
 |1\rangle\langle2| & \equiv\begin{pmatrix}0 & 0 & 0\\
 0 & 0 & 1\\
 0 & 0 & 0
-\end{pmatrix}=\frac{1}{2}\left(\lambda_{6}+{\rm i}\lambda_{7}\right)
+\end{pmatrix}=\frac{1}{2}\left(\lambda_{6}+{\rm i}\lambda_{7}\right)\\
+\lambda_{7}\lambda_{7} & =\begin{pmatrix}0 & 0 & 0\\
+0 & 1 & 0\\
+0 & 0 & 1
+\end{pmatrix}\\
+\lambda_{7}\lambda_{5} & =\begin{pmatrix}0 & 0 & 0\\
+1 & 0 & 0\\
+0 & 0 & 0
+\end{pmatrix},\lambda_{3}\lambda_{7}=\begin{pmatrix}0 & 1 & 0\\
+0 & 0 & 0\\
+0 & 0 & 0
+\end{pmatrix},\lambda_{7}\lambda_{3}+\lambda_{3}\lambda_{7}=\lambda_{1}
 \end{align}
 
 \end_inset
