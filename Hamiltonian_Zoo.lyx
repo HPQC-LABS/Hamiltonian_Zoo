@@ -170,6 +170,7 @@ Nike Dattani
 \end_layout
 
 \begin_layout Author Email
+
 n.dattani@cfa.harvard.edu
 \end_layout
 
@@ -772,6 +773,27 @@ s_{\beta} & \equiv\begin{pmatrix}0 & 0\\
 \begin_layout Standard
 
 \size scriptsize
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\size scriptsize
+usefullness of the products is described in John Watrous's TQI, search 
+\begin_inset Quotes eld
+\end_inset
+
+follows from the observation that the Choi representation of the map defined
+ by the right-hand side of that equation is in agreement with
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \begin_inset Formula 
 \begin{align}
 z_{3}\equiv & \begin{pmatrix}1 & 0 & 0\\
@@ -844,7 +866,49 @@ s_{3,3} & \equiv\begin{pmatrix}0 & 0 & 0\\
 \end{pmatrix},\lambda_{3}\lambda_{7}=\begin{pmatrix}0 & 1 & 0\\
 0 & 0 & 0\\
 0 & 0 & 0
-\end{pmatrix},\lambda_{7}\lambda_{3}+\lambda_{3}\lambda_{7}=\lambda_{1}
+\end{pmatrix},\lambda_{7}\lambda_{3}+\lambda_{3}\lambda_{7}=\lambda_{1}\\
+\lambda_{7}\lambda_{2} & =\begin{pmatrix}0 & 0 & 0\\
+0 & 0 & 0\\
+-1 & 0 & 0
+\end{pmatrix}=-\lambda_{6}\lambda_{1},\lambda_{2}\lambda_{7}=\begin{pmatrix}0 & 0 & -1\\
+0 & 0 & 0\\
+0 & 0 & 0
+\end{pmatrix}=-\lambda_{1}\lambda_{6},\lambda_{7}\lambda_{2}+\lambda_{2}\lambda_{7}=-\lambda_{4},\lambda_{6}\lambda_{1}+\lambda_{1}\lambda_{6}=\lambda_{4}\\
+\lambda_{5}^{2} & =\begin{pmatrix}1 & 0 & 0\\
+0 & 0 & 0\\
+0 & 0 & 1
+\end{pmatrix}=\left|\lambda_{1}\right|
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\lambda_{5}\lambda_{2} & =\begin{pmatrix}0 & 0 & 0\\
+0 & 0 & 0\\
+0 & 1 & 0
+\end{pmatrix},\lambda_{2}\lambda_{3}=\begin{pmatrix}0 & 0 & 0\\
+0 & 0 & 1\\
+0 & 0 & 0
+\end{pmatrix},\lambda_{3}\lambda_{2}+\lambda_{2}\lambda_{3}=\begin{pmatrix}0 & 0 & 0\\
+0 & 0 & 1\\
+0 & 1 & 0
+\end{pmatrix}=\lambda_{6}\\
+\lambda_{2}^{2} & =\begin{pmatrix}1 & 0 & 0\\
+0 & 1 & 0\\
+0 & 0 & 0
+\end{pmatrix}=|\lambda_{3}|
 \end{align}
 
 \end_inset
