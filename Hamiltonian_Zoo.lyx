@@ -669,12 +669,44 @@ H_{2DFSF}=\sum_{i}\epsilon_{i}a_{i}^{\dagger}a_{i}+\frac{{\rm i}\Delta_{i}}{2}\l
 
 \end_layout
 
-\begin_layout Part*
-Matrix Zoo
+\begin_layout Subsection
+Spin models
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Ising
+\end_layout
+
+\begin_layout Subsubsection
+Transverse Ising
+\end_layout
+
+\begin_layout Subsubsection
+XY
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+see https://arxiv.org/pdf/1610.02208.pdf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+XYZ
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+see https://arxiv.org/pdf/1610.02208.pdf
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -725,6 +757,10 @@ H_{{\rm Honeycomb}}=-J_{x}\sum_{x-{\rm links}}x_{i}x_{j}-J_{y}\sum_{y-{\rm links
 \end_inset
 
 
+\end_layout
+
+\begin_layout Part*
+Matrix Zoo
 \end_layout
 
 \begin_layout Subsection
