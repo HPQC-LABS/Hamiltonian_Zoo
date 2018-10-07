@@ -175,6 +175,7 @@ Nike Dattani
 \end_layout
 
 \begin_layout Author Email
+
 n.dattani@cfa.harvard.edu
 \end_layout
 
@@ -229,6 +230,21 @@ H_{{\rm Coulomb}}=\frac{q_{1}q_{2}}{4\pi\epsilon_{0}r}
 
 \begin_layout Subsection
 Electronic Structure 
+\end_layout
+
+\begin_layout Subsubsection
+Molecular Hamiltonian
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+H_{{\rm BO}}=-\sum_{A}\frac{1}{2M_{A}}\nabla_{A}^{2}-\sum_{i}\frac{1}{2}\nabla_{i}^{2}-\sum_{iA}\frac{Z_{A}}{r_{iA}}+\sum_{i>j}\frac{1}{r_{ij}}+\sum_{B>A}\frac{Z_{A}Z_{B}}{R_{AB}}
+\end{equation}
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
