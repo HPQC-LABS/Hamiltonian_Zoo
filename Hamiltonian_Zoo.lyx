@@ -175,7 +175,6 @@ Nike Dattani
 \end_layout
 
 \begin_layout Author Email
-
 n.dattani@cfa.harvard.edu
 \end_layout
 
@@ -230,6 +229,20 @@ H_{{\rm Coulomb}}=\frac{q_{1}q_{2}}{4\pi\epsilon_{0}r}
 
 \begin_layout Subsection
 Electronic Structure 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://doi.org/10.1146/annurev.physchem.53.082201.124330 See Eq 36 (coriolis,
+ centrifugal, anharmonic Hamiltonians)
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
