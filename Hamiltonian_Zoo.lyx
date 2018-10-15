@@ -175,6 +175,7 @@ Nike Dattani
 \end_layout
 
 \begin_layout Author Email
+
 n.dattani@cfa.harvard.edu
 \end_layout
 
@@ -312,6 +313,48 @@ H_{{\rm Magnetic}\,\text{Dipole}} & =\frac{g_{I}\mu_{N}\mu_{B}\mu_{0}}{2\pi}\lef
 Frosch-Foley
 \end_layout
 
+\begin_layout Standard
+
+\color black
+\begin_inset Formula 
+\begin{equation}
+H_{{\rm Frosch-Foley,1}}=\frac{e\hbar}{2mc}\frac{2\mathbf{\mu}\cdot\mathbf{L}}{r_{1}^{3}}+\frac{{\rm i}2\mu_{0}}{\hbar}\mathbf{S}\cdot[\mathbf{p}\times\mathbf{A}]+\frac{2e^{2}\hbar}{4m^{2}c^{3}}\mathbf{S}\cdot[\mathbf{\epsilon^{\prime}\times\mathbf{A}]}.\label{eq:eq2.6of1952FroschFoley}
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+H_{{\rm Frosch-Foley,2}}=aI_{z}L_{z}+b\vec{I}\cdot\vec{S}+cI_{z}S_{z},\label{eq:Eq.4.7of1952FroschFoley}
+\end{equation}
+
+\end_inset
+
+
+\color inherit
+where 
+\end_layout
+
+\begin_layout Standard
+
+\color black
+\begin_inset Formula 
+\begin{eqnarray}
+a & \equiv & 2g_{I}\mu_{0}\mu_{N}\sum_{i}\Big\langle\frac{1}{r_{i}^{3}}\Bigr\rangle,\\
+b & \equiv & 2g_{I}\mu_{0}\mu_{N}\sum_{i}\Big\langle\frac{2e^{2}mc^{2}\mathcal{E}_{r}}{\left(E+eV+mc^{2}\right)^{2}}\frac{\left(\nicefrac{1}{2}\sin^{2}\chi+\cos^{2}\chi\right)}{r_{i}^{2}}-\frac{1}{2}\left(\frac{3\cos^{2}\chi-1}{r_{i}^{3}}\right)\Bigr\rangle,\,{\rm and}\\
+c & \equiv & 2g_{I}\mu_{0}\mu_{N}\sum_{i}\Big\langle\frac{2e^{2}mc^{2}\mathcal{E}_{r}}{\left(E+eV+mc^{2}\right)^{2}}\frac{\left(\nicefrac{1}{2}\sin^{2}\chi-\cos^{2}\chi\right)}{r_{i}^{2}}+\frac{3}{2}\left(\frac{3\cos^{2}\chi-1}{r_{i}^{3}}\right)\Bigr\rangle.
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Spin-orbit
 \end_layout
@@ -334,6 +377,19 @@ Special Relativity
 
 \begin_layout Subsubsection
 Dirac
+\end_layout
+
+\begin_layout Standard
+
+\color black
+\begin_inset Formula 
+\begin{equation}
+H=\beta mc^{2}-eV+c\mathbf{\alpha}\cdot(\mathbf{p}-\frac{e}{c}\mathbf{A}).\label{eq:diracHamiltonian}
+\end{equation}
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
