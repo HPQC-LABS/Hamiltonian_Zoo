@@ -589,6 +589,50 @@ Tavis-Cummings-Hubbard
 \end_layout
 
 \begin_layout Subsection
+Spin lattices
+\end_layout
+
+\begin_layout Subsubsection
+XY model
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+H=-J\sum_{i}\left(\frac{1+\gamma}{2}\sigma_{x,i}\sigma_{x,i+1}+\frac{1-\gamma}{2}\sigma_{y,i}\sigma_{y,i+1}\right)-h\sum_{i}\sigma_{z,i}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+H=-J\sum_{i}\left(\frac{1+\gamma}{2}x_{i}x_{i+1}+\frac{1-\gamma}{2}y_{i}y_{i+1}\right)-h\sum_{i}z_{i}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://arxiv.org/pdf/1811.03988.pdf (Eq.
+ 31)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
 Open Quantum Systems
 \end_layout
 
