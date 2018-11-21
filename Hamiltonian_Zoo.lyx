@@ -175,7 +175,6 @@ Nike Dattani
 \end_layout
 
 \begin_layout Author Email
-
 n.dattani@cfa.harvard.edu
 \end_layout
 
@@ -586,6 +585,84 @@ Jaynes-Cummings-Hubbard
 
 \begin_layout Subsubsection
 Tavis-Cummings-Hubbard 
+\end_layout
+
+\begin_layout Subsection
+Disorder Models
+\end_layout
+
+\begin_layout Subsubsection
+Tight-binding Model with Onsite Disorder
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\hat{H}=\sum_{i}\omega_{i}\hat{c}_{i}^{\dagger}\hat{c}_{i}+t\sum_{<i,j>}\hat{c}_{i}^{\dagger}\hat{c}_{j},
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\omega_{i}$
+\end_inset
+
+ is drawn from a unifrom distribution of width 
+\begin_inset Formula $W$
+\end_inset
+
+, the disorder strength, and the angular brackets indicate a sum over nearest-ne
+ighbours only.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Need to generalize to arbitrary distributions.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+Refs:
+\end_layout
+
+\begin_layout Plain Layout
+L.
+ J.
+ Root and J.
+ L.
+ Skinner J.
+ Chem.
+ Phys.
+ 89, 3279-3284 (1988).
+ DOI:10.1063/1.454933
+\end_layout
+
+\begin_layout Plain Layout
+Contributors:
+\end_layout
+
+\begin_layout Plain Layout
+JTC
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Tight-binding Model with Continuous Off-diagonal Disorder
+\end_layout
+
+\begin_layout Subsubsection
+Tight-binding Model with Binary Off-diagonal Disorder
+\end_layout
+
+\begin_layout Subsubsection
+Long-range Disorder Models
 \end_layout
 
 \begin_layout Subsection
