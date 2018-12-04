@@ -586,11 +586,104 @@ Hubbard Models
 \end_layout
 
 \begin_layout Subsubsection
+Non-interacting Hubbard model
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+H=\sum_{\boldsymbol{{\rm k}}}\sum_{\sigma}\left(\varepsilon_{\boldsymbol{{\rm k}}}-\mu\right)n_{\boldsymbol{{\rm k}},\sigma}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+1D Hydrogen chain Hubbard model
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+H=-t\sum_{\langle i,j\rangle}\sum_{\sigma}\left(\hat{c}_{i,\sigma}^{\dagger}\hat{c}_{j,\sigma}+\hat{c}_{j,\sigma}^{\dagger}\hat{c}_{i,\sigma}\right)+U\sum_{i=1}^{N}\hat{n}_{i\uparrow}\hat{n}_{i\downarrow},\,\,\,t>0,U>0
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+1D Hydrogen chain Hubbard model with 
+\begin_inset Formula $\mu$
+\end_inset
+
+ term 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+H=-t\sum_{\langle i,j\rangle}\sum_{\sigma}\left(\hat{c}_{i,\sigma}^{\dagger}\hat{c}_{j,\sigma}+\hat{c}_{j,\sigma}^{\dagger}\hat{c}_{i,\sigma}\right)+U\sum_{i=1}^{N}\hat{n}_{i\uparrow}\hat{n}_{i\downarrow}-\mu\sum_{i}\left(n_{i\uparrow}+n_{i\downarrow}\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+With particle-hole symmetry
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+H=-t\sum_{\langle i,j\rangle}\sum_{\sigma}\left(\hat{c}_{i,\sigma}^{\dagger}\hat{c}_{j,\sigma}+\hat{c}_{j,\sigma}^{\dagger}\hat{c}_{i,\sigma}\right)+U\sum_{i=1}^{N}\left(\hat{n}_{i\uparrow}-\frac{1}{2}\right)\left(\hat{n}_{i\downarrow}-\frac{1}{2}\right)-\mu\sum_{i}\left(n_{i\uparrow}+n_{i\downarrow}\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+is completely equivalent to the original HH (https://www.cond-mat.de/events/correl
+16/manuscripts/scalettar.pdf)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
 Bose-Hubbard (Boson Hubbard)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+H=-t\sum_{\langle i,j\rangle}\hat{b}_{i}^{\dagger}\hat{b}_{j}+\frac{1}{2}U\sum_{i}\hat{n}_{i}\left(\hat{n}_{i}-1\right)-\mu\sum_{i}\hat{n}_{i}
+\end{equation}
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
 Fermi-Hubbard (Fermi Hubbard)
+\end_layout
+
+\begin_layout Subsubsection
+Bose–Fermi–Hubbard
 \end_layout
 
 \begin_layout Subsubsection
@@ -612,7 +705,7 @@ Tight-binding Model with Onsite Disorder
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\hat{H}=\sum_{i}\omega_{i}\hat{c}_{i}^{\dagger}\hat{c}_{i}+t\sum_{<i,j>}\hat{c}_{i}^{\dagger}\hat{c}_{j},
+H=\sum_{i}\omega_{i}\hat{c}_{i}^{\dagger}\hat{c}_{i}+t\sum_{\langle i,j\rangle}\hat{c}_{i}^{\dagger}\hat{c}_{j},
 \end{equation}
 
 \end_inset
@@ -677,6 +770,43 @@ Tight-binding Model with Binary Off-diagonal Disorder
 
 \begin_layout Subsubsection
 Long-range Disorder Models
+\end_layout
+
+\begin_layout Subsection
+Mean-field Hamiltonians
+\end_layout
+
+\begin_layout Subsubsection
+Clean Bose-Hubbard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+https://en.wikipedia.org/wiki/Bose%E2%80%93Hubbard_model
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+More available there.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+H_{\textrm{MF}}=\sum_{i}\left[-\mu\hat{n}_{i}+\frac{U}{2}\hat{n}_{i}(\hat{n}_{i}-1)-zt(\psi^{*}\hat{b}_{i}+\psi\hat{b}_{i}^{\dagger})+zt\psi^{*}\psi\right]
+\end{equation}
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -1799,6 +1929,10 @@ Potential Zoo
 
 \begin_layout Subsection
 Diatomics
+\end_layout
+
+\begin_layout Paragraph
+Harmonic Oscillator
 \end_layout
 
 \begin_layout Paragraph
