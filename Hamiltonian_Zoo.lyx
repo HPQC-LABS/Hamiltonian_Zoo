@@ -175,7 +175,6 @@ Nike Dattani
 \end_layout
 
 \begin_layout Author Email
-
 n.dattani@cfa.harvard.edu
 \end_layout
 
@@ -1117,7 +1116,7 @@ Fertitta-Booth auxiliary Hamiltonian
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-H_{{\rm aux}}=\sum_{x=0}^{N_{{\rm cells}}-1}\sum_{\alpha}^{N_{{\rm Impurities}}}\sum_{k}^{N_{{\rm aux}}}\nu_{\alpha k}\left(\hat{c}_{\alpha+x}^{\dagger}\hat{c}_{k+x}+\hat{c}_{k+x}^{\dagger}\hat{c}_{\alpha+x}\right)+\varepsilon_{k}\hat{c}_{k+x}^{\dagger}\hat{c}_{k+x}
+H_{{\rm FB}}=\sum_{x=0}^{N_{{\rm cells}}-1}\sum_{\alpha}^{N_{{\rm Impurities}}}\sum_{k}^{N_{{\rm aux}}}\nu_{\alpha k}\left(\hat{c}_{\alpha+x}^{\dagger}\hat{c}_{k+x}+\hat{c}_{k+x}^{\dagger}\hat{c}_{\alpha+x}\right)+\varepsilon_{k}\hat{c}_{k+x}^{\dagger}\hat{c}_{k+x}
 \end{equation}
 
 \end_inset
