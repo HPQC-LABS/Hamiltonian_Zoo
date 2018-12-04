@@ -175,6 +175,7 @@ Nike Dattani
 \end_layout
 
 \begin_layout Author Email
+
 n.dattani@cfa.harvard.edu
 \end_layout
 
@@ -969,6 +970,46 @@ Honeycomb Model
 \begin{equation}
 H_{{\rm Honeycomb}}=-J_{x}\sum_{x-{\rm links}}x_{i}x_{j}-J_{y}\sum_{y-{\rm links}}y_{i}y_{j}-J_{z}\sum_{z-{\rm links}}z_{i}z_{j}
 \end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Miscellaneous
+\end_layout
+
+\begin_layout Subsubsection
+Fertitta-Booth auxiliary Hamiltonian
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+H_{{\rm aux}}=\sum_{x=0}^{N_{{\rm cells}}-1}\sum_{\alpha}^{N_{{\rm Impurities}}}\sum_{k}^{N_{{\rm aux}}}\nu_{\alpha k}\left(\hat{c}_{\alpha+x}^{\dagger}\hat{c}_{k+x}+\hat{c}_{k+x}^{\dagger}\hat{c}_{\alpha+x}\right)+\varepsilon_{k}\hat{c}_{k+x}^{\dagger}\hat{c}_{k+x}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+where 
+\begin_inset Formula $\hat{c}_{\alpha+x}$
+\end_inset
+
+ denotes the annihilation operator on the site α after translation by x
+ impurity cells.
+ These auxiliary sites have energies (εk) and couplings (ναk) to the physical
+ impurity cell which are fit to optimally mimic the correlation-driven dynamical
+ fluctuations in the lattice arising through the self-consistency scheme.
+\end_layout
 
 \end_inset
 
