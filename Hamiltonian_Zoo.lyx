@@ -175,6 +175,7 @@ Nike Dattani
 \end_layout
 
 \begin_layout Author Email
+
 n.dattani@cfa.harvard.edu
 \end_layout
 
@@ -690,7 +691,210 @@ Jaynes-Cummings-Hubbard
 \end_layout
 
 \begin_layout Subsubsection
-Tavis-Cummings-Hubbard 
+Tavis-Cummings-Hubbard
+\end_layout
+
+\begin_layout Subsubsection
+Periodic Anderson Model
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{align}
+\end_layout
+
+\begin_layout Plain Layout
+
+H=&-t
+\backslash
+sum_{
+\backslash
+langle i,j
+\backslash
+rangle}
+\backslash
+sum_{
+\backslash
+sigma}
+\backslash
+left(
+\backslash
+hat{c}_{i,
+\backslash
+sigma}^{
+\backslash
+dagger}
+\backslash
+hat{c}_{j,
+\backslash
+sigma}+
+\backslash
+hat{c}_{j,
+\backslash
+sigma}^{
+\backslash
+dagger}
+\backslash
+hat{c}_{i,
+\backslash
+sigma}
+\backslash
+right)+V
+\backslash
+sum_{
+\backslash
+langle i,j
+\backslash
+rangle}
+\backslash
+sum_{
+\backslash
+sigma}
+\backslash
+left(c_{j
+\backslash
+sigma}^{
+\backslash
+dagger}d_{i
+\backslash
+sigma}+d_{i
+\backslash
+sigma}^{
+\backslash
+dagger}c_{j
+\backslash
+sigma}
+\backslash
+right) 
+\backslash
+nonumber 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+&+U
+\backslash
+sum_{i=1}^{N}
+\backslash
+left(
+\backslash
+hat{n}_{di
+\backslash
+uparrow}-
+\backslash
+frac{1}{2}
+\backslash
+right)
+\backslash
+left(
+\backslash
+hat{n}_{di
+\backslash
+downarrow}-
+\backslash
+frac{1}{2}
+\backslash
+right)-
+\backslash
+mu
+\backslash
+sum_{i}
+\backslash
+left(n_{di
+\backslash
+uparrow}+n_{di
+\backslash
+downarrow}+n_{ci
+\backslash
+uparrow}+n_{ci
+\backslash
+downarrow}
+\backslash
+right),
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{align}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $d_{i\sigma}$
+\end_inset
+
+ is the annihilation operator for an electron in the localized band at site
+ 
+\begin_inset Formula $i$
+\end_inset
+
+, 
+\begin_inset Formula $c_{i\sigma}$
+\end_inset
+
+ is the annihilation operator for an electron in the conduction band at
+ site i, 
+\begin_inset Formula $V$
+\end_inset
+
+ is termed the hybridization and is the transition amplitude of an electron
+ moving from the localized band at site 
+\begin_inset Formula $i$
+\end_inset
+
+ to the conduction band at site 
+\begin_inset Formula $i$
+\end_inset
+
+ or vice versa.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Should include diagram of geometry (Fig 5 of Ref [1]).
+ This Hami is Eqn.
+ 24 of Ref [1]
+\end_layout
+
+\begin_layout Plain Layout
+Refs:
+\end_layout
+
+\begin_layout Plain Layout
+[1] https://www.cond-mat.de/events/correl16/manuscripts/scalettar.pdf
+\end_layout
+
+\begin_layout Plain Layout
+Contributors:
+\end_layout
+
+\begin_layout Plain Layout
+JTC
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
