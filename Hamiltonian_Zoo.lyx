@@ -889,7 +889,184 @@ Contributors:
 \end_layout
 
 \begin_layout Plain Layout
-JTC
+JTC (Nike found the PDF and suggested this Hami)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Mean Field Fermi-Hubbard Model
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{align}
+\end_layout
+
+\begin_layout Plain Layout
+
+H=&-t
+\backslash
+sum_{
+\backslash
+langle i,j
+\backslash
+rangle}
+\backslash
+sum_{
+\backslash
+sigma}
+\backslash
+left(
+\backslash
+hat{c}_{i,
+\backslash
+sigma}^{
+\backslash
+dagger}
+\backslash
+hat{c}_{j,
+\backslash
+sigma}+
+\backslash
+hat{c}_{j,
+\backslash
+sigma}^{
+\backslash
+dagger}
+\backslash
+hat{c}_{i,
+\backslash
+sigma}
+\backslash
+right) %
+\backslash
+nonumber 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
++U
+\backslash
+sum_{i}
+\backslash
+left(n_{i
+\backslash
+uparrow}
+\backslash
+langle n_{i
+\backslash
+downarrow}
+\backslash
+rangle+n_{i
+\backslash
+downarrow}
+\backslash
+langle n_{i
+\backslash
+uparrow}
+\backslash
+rangle-
+\backslash
+langle n_{i
+\backslash
+downarrow}
+\backslash
+rangle
+\backslash
+langle n_{i
+\backslash
+uparrow}
+\backslash
+rangle
+\backslash
+right)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{align}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $c_{i\sigma}$
+\end_inset
+
+ is the annihilation operator for an electron, 
+\begin_inset Formula $U$
+\end_inset
+
+ is the on-site interaction, 
+\begin_inset Formula $n_{i\sigma}$
+\end_inset
+
+ is the number operator at site 
+\begin_inset Formula $i$
+\end_inset
+
+, 
+\begin_inset Formula $\langle n_{i\sigma}\rangle$
+\end_inset
+
+ is the average value of the number operator, and 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ denotes the spin (either up 
+\begin_inset Formula $\uparrow$
+\end_inset
+
+ or down 
+\begin_inset Formula $\downarrow$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+This Hami is Eqn.
+ 48 of Ref [1]
+\end_layout
+
+\begin_layout Plain Layout
+Refs:
+\end_layout
+
+\begin_layout Plain Layout
+[1] https://www.cond-mat.de/events/correl16/manuscripts/scalettar.pdf
+\end_layout
+
+\begin_layout Plain Layout
+Contributors:
+\end_layout
+
+\begin_layout Plain Layout
+JTC (Nike found the PDF and suggested this Hami)
 \end_layout
 
 \end_inset
