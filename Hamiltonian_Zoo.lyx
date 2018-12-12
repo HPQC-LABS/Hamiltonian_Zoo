@@ -899,6 +899,13 @@ JTC (Nike found the PDF and suggested this Hami)
 
 \begin_layout Subsubsection
 Mean Field Fermi-Hubbard Model
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Mean-Field-Fermi-Hubbard"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1045,6 +1052,20 @@ where
 \end_layout
 
 \begin_layout Standard
+Cross-listed in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Mean-Field-Fermi-Hubbard-1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Note Note
 status open
 
@@ -1187,6 +1208,31 @@ H_{\textrm{MF}}=\sum_{i}\left[-\mu\hat{n}_{i}+\frac{U}{2}\hat{n}_{i}(\hat{n}_{i}
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsubsection
+Mean Field Fermi-Hubbard Model
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Mean-Field-Fermi-Hubbard-1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+See Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Mean-Field-Fermi-Hubbard"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
