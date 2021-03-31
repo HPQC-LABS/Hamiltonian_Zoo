@@ -175,7 +175,6 @@ Nike Dattani
 \end_layout
 
 \begin_layout Author Email
-
 n.dattani@cfa.harvard.edu
 \end_layout
 
@@ -1436,10 +1435,10 @@ follows from the observation that the Choi representation of the map defined
 z_{3}\equiv & \begin{pmatrix}1 & 0 & 0\\
 0 & 0 & 0\\
 0 & 0 & -1
-\end{pmatrix},x\equiv\begin{pmatrix}0 & 1 & 0\\
+\end{pmatrix},x_{3}\equiv\begin{pmatrix}0 & 1 & 0\\
 1 & 0 & 1\\
 0 & 1 & 0
-\end{pmatrix},y\equiv\begin{pmatrix}0 & {\rm -i} & 0\\
+\end{pmatrix},y_{3}\equiv\begin{pmatrix}0 & {\rm -i} & 0\\
 {\rm i} & 0 & {\rm -i}\\
 0 & {\rm i} & 0
 \end{pmatrix}\\
