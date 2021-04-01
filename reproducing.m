@@ -276,7 +276,7 @@ x = [0 1 ; 1 0]; y = [0 -1i ; 1i 0];
 gm1 = [0 1 0 ; 1 0 0 ; 0 0 0]; gm2 = [0 -1i 0 ; 1i 0 0 ; 0 0 0];
 
 LHS = kron(kron(zero_b,one_t),kron(conj(transpose(one_b)),conj(transpose(zero_t)))) + kron(kron(one_b,zero_t),kron(conj(transpose(zero_b)),conj(transpose(one_t))));
-RHS_1 = [0 0 0 0 0 0 ; 0 0 0 1 0 0 ; 0 0 0 0 0 0 ; 0 1 0 0 0 0 ; 0 0 0 0 0 0 ; 0 0 0 0 0 0]; % Not Working
+RHS_1 = [0 0 0 0 0 0 ; 0 0 0 1 0 0 ; 0 0 0 0 0 0 ; 0 1 0 0 0 0 ; 0 0 0 0 0 0 ; 0 0 0 0 0 0];
 RHS_2 = (1/2)*(kron(x,gm1) + kron(y,gm2));
 isequal(LHS,RHS_1)
 isequal(LHS,RHS_2)
