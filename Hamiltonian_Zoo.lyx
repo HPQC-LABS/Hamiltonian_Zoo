@@ -1858,21 +1858,21 @@ s_{5,5} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 \size scriptsize
 \begin_inset Formula 
 \begin{align}
- & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+|0_{b}1_{t}\rangle\langle0_{b}0_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 1 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
 \end{pmatrix}=\frac{1}{4}\left(z\lambda_{1}+\lambda_{1}-{\rm i}z\lambda_{2}-{\rm i}\lambda_{2}\right)\\
- & \equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0 & 0\\
+|0_{b}0_{t}\rangle\langle0_{b}1_{t}| & \equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
 \end{pmatrix}=\frac{1}{4}\left(z\lambda_{1}+\lambda_{1}+{\rm i}z\lambda_{2}+{\rm i}\lambda_{2}\right)\\
- & \equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0 & 0\\
+|0_{b}1_{t}\rangle\langle0_{b}0_{t}|+|0_{b}0_{t}\rangle\langle0_{b}1_{t}| & \equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0 & 0\\
 1 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
@@ -1910,14 +1910,14 @@ s_{5,5} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 \begin_layout Standard
 \begin_inset Formula 
 \begin{align}
- & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+|0_{b}2_{t}\rangle\langle0_{b}0_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 1 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
 \end{pmatrix}=\frac{1}{4}\left(z\lambda_{4}+\lambda_{4}-{\rm i}z\lambda_{5}-{\rm i}\lambda_{5}\right)\\
- & \equiv\begin{pmatrix}0 & 0 & 1 & 0 & 0 & 0\\
+|0_{b}2_{t}\rangle\langle0_{b}0_{t}|+|0_{b}0_{t}\rangle\langle0_{b}2_{t}| & \equiv\begin{pmatrix}0 & 0 & 1 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 1 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
