@@ -1811,28 +1811,28 @@ s_{5,5} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
 \end{pmatrix}=\frac{1}{2}\left(x\lambda_{1}+y\lambda_{2}\right)\\
-|2_{t}0_{b}\rangle\langle0_{t}1_{b}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+|1_{b}1_{t}\rangle\langle0_{b}1_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 1 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
 \end{pmatrix}=\\
-|2_{t}0_{b}\rangle\langle0_{t}1_{b}|+|0_{t}1_{b}\rangle\langle2_{t}0_{b}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+|1_{b}1_{t}\rangle\langle0_{b}1_{t}|+|0_{b}1_{t}\rangle\langle1_{b}1_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 1 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 1 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
 \end{pmatrix}=\frac{1}{2}\left(\lambda_{5}y+\lambda_{4}x\right)\\
-|1_{t}1_{b}\rangle\langle2_{t}1_{b}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+|1_{b}0_{t}\rangle\langle1_{b}2_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 1\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
 \end{pmatrix}=\frac{1}{4}\left(\lambda_{6}-z\lambda_{6}+{\rm i}\lambda_{7}-{\rm i}z\lambda_{7}\right)=|1_{b}1_{t}\rangle\langle1_{b}2_{t}|\\
-|1_{t}1_{b}\rangle\langle2_{t}1_{b}|+|2_{t}1_{b}\rangle\langle1_{t}1_{b}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+|1_{b}0_{t}\rangle\langle1_{b}2_{t}|+|1_{b}2_{t}\rangle\langle1_{b}0_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 1\\
@@ -1983,7 +1983,7 @@ x_{1}|1_{t,2}\rangle\langle2_{t,2}|+x_{1}|2_{t,2}\rangle\langle1_{t,2}| & \equiv
 \size scriptsize
 \begin_inset Formula 
 \begin{align}
-|1_{t}0_{b}\rangle\langle2_{t}0_{b}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+|0_{b}2_{t}\rangle\langle1_{b}1_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 1 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\

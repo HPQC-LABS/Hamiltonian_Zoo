@@ -316,30 +316,30 @@ isequal(LHS,RHS_1)
 isequal(LHS,RHS_2)
 
 %% Eq. 78
-zero_b = [1 ; 0]; one_b = [0 ; 1];
-zero_t = [1 ; 0 ; 0]; two_t = [0 ; 0 ; 1];
+zero_b = [1 ; 0]; one_b = [0 ; 1]; one_t = [0 ; 1 ; 0];
 
-LHS = kron(two_t,zero_b)*kron(zero_t,one_b)';
+LHS = kron(one_b,one_t)*kron(zero_b,one_t)';
 RHS = [0 0 0 0 0 0 ; 0 0 0 0 0 0 ; 0 0 0 0 0 0 ; 0 0 0 0 0 0 ; 0 1 0 0 0 0 ; 0 0 0 0 0 0];
 isequal(LHS, RHS)
+% LHS = kron(two_t,zero_b)*kron(zero_t,one_b)'; Original Qutrit-Qubit Interaction
 
 %% Eq. 79
-zero_b = [1 ; 0]; one_b = [0 ; 1];
-zero_t = [1 ; 0 ; 0]; two_t = [0 ; 0 ; 1];
+zero_b = [1 ; 0]; one_b = [0 ; 1]; one_t = [0 ; 1 ; 0];
 x = [0 1 ; 1 0]; y = [0 -1i ; 1i 0];
 gm4 = [0 0 1 ; 0 0 0 ; 1 0 0]; gm5 = [0 0 -1i ; 0 0 0 ; 1i 0 0];
 
-LHS = kron(two_t,zero_b)*kron(zero_t,one_b)' + kron(zero_t,one_b)*kron(two_t,zero_b)';
+LHS = kron(one_b,one_t)*kron(zero_b,one_t)' + kron(zero_b,one_t)*kron(one_b,one_t)';
 RHS_1 = [0 0 0 0 0 0 ; 0 0 0 0 1 0 ; 0 0 0 0 0 0 ; 0 0 0 0 0 0 ; 0 1 0 0 0 0 ; 0 0 0 0 0 0];
 RHS_2 = (1/2)*(kron(gm5,y) + kron(gm4,x));
 isequal(LHS,RHS_1)
 isequal(LHS,RHS_2)
+% LHS = kron(two_t,zero_b)*kron(zero_t,one_b)' + kron(zero_t,one_b)*kron(two_t,zero_b)'; Original Qutrit-Qubit Interaction
 
 %% Eq. 80
-one_b = [0 ; 1]; one_t = [0 ; 1 ; 0]; two_t = [0 ; 0 ; 1];
+one_b = [0 ; 1]; zero_t = [1 ; 0 ; 0]; one_t = [0 ; 1 ; 0]; two_t = [0 ; 0 ; 1];
 z = [1 0 ; 0 -1]; gm6 = [0 0 0 ; 0 0 1 ; 0 1 0]; gm7 = [0 0 0 ; 0 0 -1i ; 0 1i 0];
 
-LHS = kron(one_t,one_b)*kron(two_t,one_b)';
+LHS = kron(one_b,zero_t)*kron(one_b,two_t)';
 RHS_1 = [0 0 0 0 0 0 ; 0 0 0 0 0 0 ; 0 0 0 0 0 0 ; 0 0 0 0 0 1 ; 0 0 0 0 0 0 ; 0 0 0 0 0 0];
 RHS_2 = (1/4)*(kron(eye(2),gm6) - kron(z,gm6) + 1i*kron(eye(2),gm7) - 1i*kron(z,gm7)); % Not Working
 RHS_3 = kron(one_b,one_t)*kron(one_b,two_t)'; % Not working, equal to RHS_2, not equal to RHS_1
@@ -348,14 +348,15 @@ isequal(LHS,RHS_2)
 isequal(LHS,RHS_3)
 
 %% Eq. 81
-one_b = [0 ; 1]; one_t = [0 ; 1 ; 0]; two_t = [0 ; 0 ; 1];
+one_b = [0 ; 1]; zero_t = [1 ; 0 ; 0]; two_t = [0 ; 0 ; 1];
 z = [1 0 ; 0 -1]; gm6 = [0 0 0 ; 0 0 1 ; 0 1 0];
 
-LHS = kron(one_t,one_b)*kron(two_t,one_b)' + kron(two_t,one_b)*kron(one_t,one_b)';
+LHS = kron(one_b,zero_t)*kron(one_b,two_t)' + kron(one_b,two_t)*kron(one_b,zero_t)';
 RHS_1 = [0 0 0 0 0 0 ; 0 0 0 0 0 0 ; 0 0 0 0 0 0 ; 0 0 0 0 0 1 ; 0 0 0 0 0 0 ; 0 0 0 1 0 0];
 RHS_2 = (1/2)*(kron(gm6,eye(2)) - kron(gm6,z));
 isequal(LHS,RHS_1)
 isequal(LHS,RHS_2)
+% LHS = kron(one_t,one_b)*kron(two_t,one_b)' + kron(two_t,one_b)*kron(one_t,one_b)'; Original Qutrit-Qubit Interaction
 
 %% Eq. 82
 z = [1 0 ; 0 -1]; gm1 = [0 1 0 ; 1 0 0 ; 0 0 0]; gm2 = [0 -1i 0 ; 1i 0 0 ; 0 0 0];
@@ -478,17 +479,18 @@ isequal(LHS,RHS_1)
 isequal(LHS,RHS_2)
 
 %% Eq. 94
-zero_b = [1 ; 0]; one_t = [0 ; 1 ; 0]; two_t = [0 ; 0 ; 1];
+zero_b = [1 ; 0]; one_b = [0 ; 1]; one_t = [0 ; 1 ; 0]; two_t = [0 ; 0 ; 1];
 x = [0 1 ; 1 0]; y = [0 -1i ; 1i 0]; z = [1 0 ; 0 -1];
 gm6 = [0 0 0 ; 0 0 1 ; 0 1 0]; gm7 = [0 0 0 ; 0 0 -1i ; 0 1i 0];
 
-LHS = kron(one_t,zero_b)*kron(two_t,zero_b)';
+LHS = kron(zero_b,two_t)*kron(one_b,one_t)';
 RHS_1 = [0 0 0 0 0 0 ; 0 0 0 0 0 0 ; 0 0 0 0 1 0 ; 0 0 0 0 0 0 ; 0 0 0 0 0 0 ; 0 0 0 0 0 0];
 RHS_2 = (1/4)*(kron(x,gm6) + 1i*kron(y,gm6) - 1i*kron(x,gm7) + kron(y,gm7));
 RHS_3 = (1/4)*(kron(gm6,eye(2)) + kron(gm6,z) + 1i*kron(gm7,eye(2)) + 1i*kron(gm7,z));
 isequal(LHS,RHS_1)
 isequal(LHS,RHS_2)
 isequal(LHS,RHS_3)
+% LHS = kron(one_t,zero_b)*kron(two_t,zero_b)'; % Original Qutrit-Qubit Interaction
 
 %% Eq. 95
 zero_b = [1 ; 0]; one_t = [0 ; 1 ; 0]; two_t = [0 ; 0 ; 1];
