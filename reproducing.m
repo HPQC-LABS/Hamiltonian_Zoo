@@ -1,70 +1,148 @@
 %% Section V: 3-level Systems
-%% Eq. 42
+%% Eq. 39
+x3 = [0 1 0 ; 1 0 1 ; 0 1 0]; y3 = [0 -1i 0 ; 1i 0 -1i ; 0 1i 0]; z3 = [1 0 0 ; 0 0 0 ; 0 0 -1];
+
+%% Eq. 40 - 1 
+x3 = [0 1 0 ; 1  0 1 ; 0 1 0]; z3 = [1 0 0 ; 0 0 0 ; 0 0 -1];
+LHS = [0 1 0 ; 1 0 0 ; 0 0 0];
+RHS = (1/2)*(x3 + z3*x3 + x3*z3);
+isequal(LHS,RHS)
+
+%% Eq. 40 - 2
+y3 = [0 -1i 0 ; 1i 0 -1i ; 0 1i 0]; z3 = [1 0 0 ; 0 0 0 ; 0 0 -1];
+LHS = [0 -1i 0 ; 1i 0 0 ; 0 0 0];
+RHS = (1/2)*(y3 + y3*z3 + z3*y3);
+isequal(LHS,RHS)
+
+%% Eq. 41 - 1
+x3 = [0 1 0 ; 1  0 1 ; 0 1 0]; y3 = [0 -1i 0 ; 1i 0 -1i ; 0 1i 0]; z3 = [1 0 0 ; 0 0 0 ; 0 0 -1];
+LHS = [1 0 0 ; 0 -1 0 ; 0 0 0];
+RHS = 2*eye(3) + (1/2)*(z3 - (3/2)*x3^2 - (3/2)*y3^2);
+isequal(LHS,RHS)
+
+%% Eq. 41 - 2
+x3 = [0 1 0 ; 1  0 1 ; 0 1 0]; y3 = [0 -1i 0 ; 1i 0 -1i ; 0 1i 0]; z3 = [1 0 0 ; 0 0 0 ; 0 0 -1];
+LHS = [0 0 1 ; 0 0 0 ; 1 0 0];
+RHS = (1/2)*(x3^2 - y3^2);
+isequal(LHS,RHS)
+
+%% Eq. 42 - 1
+x3 = [0 1 0 ; 1  0 1 ; 0 1 0]; y3 = [0 -1i 0 ; 1i 0 -1i ; 0 1i 0];
+LHS = [0 0 -1i ; 0 0 0 ; 1i 0 0];
+RHS = (1/2)*(x3*y3 + y3*x3);
+isequal(LHS,RHS)
+
+%% Eq. 42 - 2
+x3 = [0 1 0 ; 1  0 1 ; 0 1 0]; z3 = [1 0 0 ; 0 0 0 ; 0 0 -1];
+LHS = [0 0 0 ; 0 0 1 ; 0 1 0];
+RHS = (1/2)*(x3 - z3*x3 - x3*z3);
+isequal(LHS,RHS)
+
+%% Eq. 43 - 1
+y3 = [0 -1i 0 ; 1i 0 -1i ; 0 1i 0]; z3 = [1 0 0 ; 0 0 0 ; 0 0 -1];
+LHS = [0 0 0 ; 0 0 -1i ; 0 1i 0];
+RHS = (1/2)*(y3 - y3*z3 - z3*y3);
+isequal(LHS,RHS)
+
+%% Eq. 43 - 2
+x3 = [0 1 0 ; 1  0 1 ; 0 1 0]; y3 = [0 -1i 0 ; 1i 0 -1i ; 0 1i 0]; z3 = [1 0 0 ; 0 0 0 ; 0 0 -1];
+LHS = (1/sqrt(3))*[1 0 0 ; 0 1 0 ; 0 0 -2];
+RHS = (1/sqrt(3))*(-2*eye(3) + (3/2)*(z3 + (1/2)*x3^2 + (1/2)*y3^2));
+isequal(LHS,RHS)
+
+%% Eq. 44
 x3 = [0 1 0 ; 1 0 1 ; 0 1 0]; y3 = [0 -1i 0 ; 1i 0 -1i ; 0 1i 0];
 
 LHS = [0 1 0 ; 0 0 1 ; 0 0 0];
 RHS = (1/2)*(x3 + 1i*y3);
 isequal(LHS, RHS)
 
-%% Eq. 43
+%% Eq. 45
 x3 = [0 1 0 ; 1 0 1 ; 0 1 0]; y3 = [0 -1i 0 ; 1i 0 -1i ; 0 1i 0];
 
 LHS = [0 0 0 ; 1 0 0 ; 0 1 0];
 RHS = (1/2)*(x3 - 1i*y3);
 isequal(LHS, RHS)
 
-%% Eq. 44 (Not Working)
+%% Eq. 46 (Not Working)
 z3 = [1 0 0 ; 0 0 0 ; 0 0 -1];
 
 LHS = [1 0 0 ; 0 0 0 ; 0 0 0];
 RHS = (eye(3) + z3)/2;
 isequal(LHS, RHS)
 
-%% Eq. 45
+%% Eq. 47
 s_32 = [0 0 0 ; 0 1 0 ; 0 0 0];
 
-%% Eq. 46 (Not Working)
+%% Eq. 48 (Not Working)
 z3 = [1 0 0 ; 0 0 0 ; 0 0 -1];
 
 LHS = [0 0 0 ; 0 0 0 ; 0 0 1];
 RHS = (eye(3) - z3)/2;
 isequal(LHS, RHS)
 
-%% Eq. 47
+%% Eq. 49 - 1
+x3 = [0 1 0 ; 1 0 1 ; 0 1 0];
+LHS = [1 0 1 ; 0 2 0 ; 1 0 1];
+RHS = x3^2;
+isequal(LHS,RHS)
+
+%% Eq. 49 - 2
+y3 = [0 -1i 0 ; 1i 0 -1i ; 0 1i 0];
+LHS = [1 0 -1 ; 0 2 0 ; -1 0 1];
+RHS = y3^2;
+isequal(LHS,RHS)
+
+%% Eq. 50 - 1
+x3 = [0 1 0 ; 1  0 1 ; 0 1 0]; y3 = [0 -1i 0 ; 1i 0 -1i ; 0 1i 0];
+LHS = [0 0 -2i ; 0 0 0 ; 2i 0 0];
+RHS = x3*y3 + y3*x3;
+isequal(LHS,RHS)
+
+%% Eq. 50 - 2
+x3 = [0 1 0 ; 1  0 1 ; 0 1 0]; y3 = [0 -1i 0 ; 1i 0 -1i ; 0 1i 0]; z3 = [1 0 0 ; 0 0 0 ; 0 0 -1];
+LHS = [0 -1i 0 ; 1i 0 1i ; 0 -1i 0];
+RHS = y3*z3 + z3*y3;
+isequal(LHS,RHS)
+
+%% Eq. 51
 gm6 = [0 0 0 ; 0 0 1 ; 0 1 0]; gm7 = [0 0 0 ; 0 0 -1i ; 0 1i 0];
+one = [0 ; 1 ; 0]; two = [0 ; 0 ; 1];
 
-LHS = [0 0 0 ; 0 0 1 ; 0 0 0];
-RHS = (gm6 + 1i*gm7)/2;
-isequal(LHS, RHS)
+LHS = kron(one,two');
+RHS_1 = [0 0 0 ; 0 0 1 ; 0 0 0];
+RHS_2 = (gm6 + 1i*gm7)/2;
+isequal(LHS,RHS_1)
+isequal(LHS,RHS_2)
 
-%% Eq. 48
+%% Eq. 52
 gm7 = [0 0 0 ; 0 0 -1i ; 0 1i 0];
 
 LHS = [0 0 0 ; 0 1 0 ; 0 0 1];
 RHS = gm7*gm7;
 isequal(LHS, RHS)
 
-%% Eq. 49 - 1
+%% Eq. 53 - 1
 gm5 = [0 0 -1i ; 0 0 0 ; 1i 0 0]; gm7 = [0 0 0 ; 0 0 -1i ; 0 1i 0];
 
 LHS = gm7*gm5;
 RHS = [0 0 0 ; 1 0 0 ; 0 0 0];
 isequal(LHS, RHS)
 
-%% Eq. 49 - 2 (Not Working)
+%% Eq. 53 - 2 (Not Working)
 gm3 = [1 0 0 ; 0 -1 0 ; 0 0 0]; gm7 = [0 0 0 ; 0 0 -1i ; 0 1i 0];
 
 LHS = gm3*gm7;
 RHS = [0 1 0 ; 0 0 0 ; 0 0 0];
 isequal(LHS, RHS)
 
-%% Eq. 49 - 3 (Not Working)
+%% Eq. 53 - 3 (Not Working)
 gm1 = [0 1 0 ; 1 0 0 ; 0 0 0]; gm3 = [1 0 0 ; 0 -1 0 ; 0 0 0]; gm7 = [0 0 0 ; 0 0 -1i ; 0 1i 0];
 
 LHS = gm7*gm3 + gm3*gm7;
 isequal(LHS, gm1)
 
-%% Eq. 50 - 1
+%% Eq. 54 - 1
 gm1 = [0 1 0 ; 1 0 0 ; 0 0 0]; gm2 = [0 -1i 0 ; 1i 0 0 ; 0 0 0];
 gm6 = [0 0 0 ; 0 0 1 ; 0 1 0]; gm7 = [0 0 0 ; 0 0 -1i ; 0 1i 0];
 
@@ -75,7 +153,7 @@ RHS_2 = -gm6*gm1;
 isequal(LHS, RHS_1)
 isequal(LHS, RHS_2)
 
-%% Eq. 50 - 2
+%% Eq. 54 - 2
 gm1 = [0 1 0 ; 1 0 0 ; 0 0 0]; gm2 = [0 -1i 0 ; 1i 0 0 ; 0 0 0];
 gm6 = [0 0 0 ; 0 0 1 ; 0 1 0]; gm7 = [0 0 0 ; 0 0 -1i ; 0 1i 0];
 
@@ -85,19 +163,19 @@ RHS_2 = -gm1*gm6;
 isequal(LHS,RHS_1)
 isequal(LHS,RHS_2)
 
-%% Eq. 50 - 3
+%% Eq. 54 - 3
 gm2 = [0 -1i 0 ; 1i 0 0 ; 0 0 0]; gm4 = [0 0 1 ; 0 0 0 ; 1 0 0]; gm7 = [0 0 0 ; 0 0 -1i ; 0 1i 0];
 
 LHS = gm7*gm2 + gm2*gm7;
 isequal(LHS, -gm4)
 
-%% Eq. 50 - 4
+%% Eq. 54 - 4
 gm1 = [0 1 0 ; 1 0 0 ; 0 0 0]; gm4 = [0 0 1 ; 0 0 0 ; 1 0 0]; gm6 = [0 0 0 ; 0 0 1 ; 0 1 0];
 
 LHS = gm6*gm1 + gm1*gm6;
 isequal(LHS, gm4);
 
-%% Eq. 51
+%% Eq. 55
 gm1 = [0 1 0 ; 1 0 0 ; 0 0 0]; gm5 = [0 0 -1i ; 0 0 0 ; 1i 0 0];
 
 LHS = gm5^2;
@@ -106,44 +184,44 @@ RHS_2 = abs(gm1);
 isequal(LHS,RHS_1)
 isequal(LHS,RHS_2) % Not Working
 
-%% Eq. 52 - 1
+%% Eq. 56 - 1
 gm2 = [0 -1i 0 ; 1i 0 0 ; 0 0 0]; gm5 = [0 0 -1i ; 0 0 0 ; 1i 0 0];
 
 LHS = gm5*gm2;
 RHS = [0 0 0 ; 0 0 0 ; 0 1 0];
 isequal(LHS, RHS)
 
-%% Eq. 52 - 2 (Not Working)
+%% Eq. 56 - 2 (Not Working)
 gm2 = [0 -1i 0 ; 1i 0 0 ; 0 0 0]; gm3 = [1 0 0 ; 0 -1 0 ; 0 0 0]; 
 
 LHS = gm2*gm3;
 RHS = [0 0 0 ; 0 0 1 ; 0 0 0];
 isequal(LHS, RHS)
 
-%% Eq. 52 - 3 (Not Working)
+%% Eq. 56 - 3 (Not Working)
 gm2 = [0 -1i 0 ; 1i 0 0 ; 0 0 0]; gm3 = [1 0 0 ; 0 -1 0 ; 0 0 0]; gm6 = [0 0 0 ; 0 0 1 ; 0 1 0];
 
 LHS = gm3*gm2 + gm2*gm3;
 isequal(LHS, gm6)
 
-%% Eq. 53
+%% Eq. 57
 gm2 = [0 -1i 0 ; 1i 0 0 ; 0 0 0]; gm3 = [1 0 0 ; 0 -1 0 ; 0 0 0]; 
 
 LHS = gm2^2;
 isequal(LHS, abs(gm3))
 
 %% Section W: 4-Level Systems
-%% Eq. 54
+%% Eq. 58
 x4 = [0 sqrt(3) 0 0 ; sqrt(3) 0 2 0 ; 0 2 0 sqrt(3) ; 0 0 sqrt(3) 0]; 
 y4 = [0 -sqrt(3)*1i 0 0 ; sqrt(3)*1i 0 2 0 ; 0 2 0 -sqrt(3)*1i ; 0 0 sqrt(3)*1i 0]; 
 z4 = [3 0 0 0 ; 0 1 0 0 ; 0 0 -1 0 ; 0 0 0 -3];
 
-%% Eq. 55
+%% Eq. 59
 gamma1 = [1 0 0 0 ; 0 1 0 0 ; 0 0 -1 0 ; 0 0 0 -1]; gamma2 = [0 0 0 1 ; 0 0 1 0 ; 0 -1 -1 0 ; -1 0 0 0];
 gamma3 = [0 0 0 -1i ; 0 0 1i 0 ; 0 1i 0 0 ; -1i 0 0 0]; gamma4 = [0 0 1 0 ; 0 0 0 -1 ; -1 0 0 0 ; 0 1 0 0];
 gamma5 = [0 0 1 0 ; 0 0 0 1 ; 1 0 0 0 ; 0 1 0 0];
 
-%% Eq. 56 (Not Working)
+%% Eq. 63 (Not Working)
 x4 = [0 sqrt(3) 0 0 ; sqrt(3) 0 2 0 ; 0 2 0 sqrt(3) ; 0 0 sqrt(3) 0]; 
 y4 = [0 -sqrt(3)*1i 0 0 ; sqrt(3)*1i 0 2 0 ; 0 2 0 -sqrt(3)*1i ; 0 0 sqrt(3)*1i 0]; 
 
@@ -151,7 +229,7 @@ LHS = [0 sqrt(3) 0 0 ; 0 0 2 0 ; 0 0 0 sqrt(3) ; 0 0 0 0];
 RHS = (x4 + 1i*y4)/2;
 isequal(LHS, RHS)
 
-%% Eq. 57 (Not Working)
+%% Eq. 64 (Not Working)
 x4 = [0 sqrt(3) 0 0 ; sqrt(3) 0 2 0 ; 0 2 0 sqrt(3) ; 0 0 sqrt(3) 0]; 
 y4 = [0 -sqrt(3)*1i 0 0 ; sqrt(3)*1i 0 2 0 ; 0 2 0 -sqrt(3)*1i ; 0 0 sqrt(3)*1i 0]; 
 z4 = [3 0 0 0 ; 0 1 0 0 ; 0 0 -1 0 ; 0 0 0 -3];
@@ -160,7 +238,7 @@ LHS = [0 0 0 0 ; sqrt(3) 0 0 0 ; 0 2 0 0 ; 0 0 sqrt(3) 0];
 RHS = (x4 - 1i*y4)/2;
 isequal(LHS, RHS)
 
-%% Eq. 58
+%% Eq. 65
 z = [1 0 ; 0 -1];
 z1 = kron(z,eye(2));
 z2 = kron(eye(2),z);
@@ -169,7 +247,7 @@ LHS = (1/4)*(z2 + z1*z2 + z1 + eye(4));
 RHS = [1 0 0 0 ; 0 0 0 0 ; 0 0 0 0 ; 0 0 0 0];
 isequal(LHS, RHS)
 
-%% Eq. 59
+%% Eq. 66
 z = [1 0 ; 0 -1];
 z1 = kron(z,eye(2));
 z2 = kron(eye(2),z);
@@ -178,7 +256,7 @@ LHS = [0 0 0 0 ; 0 1 0 0 ; 0 0 0 0 ; 0 0 0 0];
 RHS = (1/4)*(eye(4) + z1 - z2 - z1*z2);
 isequal(LHS, RHS)
 
-%% Eq. 60
+%% Eq. 67
 z = [1 0 ; 0 -1];
 z1 = kron(z,eye(2));
 z2 = kron(eye(2),z);
@@ -187,7 +265,7 @@ LHS = [0 0 0 0 ; 0 0 0 0 ; 0 0 1 0 ; 0 0 0 0];
 RHS = (1/4)*(eye(4) - z1 + z2 - z1*z2);
 isequal(LHS, RHS)
 
-%% Eq. 61
+%% Eq. 68
 z = [1 0 ; 0 -1];
 z1 = kron(z,eye(2));
 z2 = kron(eye(2),z);
@@ -196,7 +274,7 @@ LHS = [0 0 0 0 ; 0 0 0 0 ; 0 0 0 0 ; 0 0 0 1];
 RHS = (1/4)*(eye(4) - z1 - z2 + z1*z2);
 isequal(LHS, RHS)
 
-%% Eq. 62
+%% Eq. 69
 z = [1 0 ; 0 -1];
 z1 = kron(z,eye(2));
 z2 = kron(eye(2),z);
@@ -204,7 +282,7 @@ LHS = (1/2)*(eye(4) - z1 + z1*z2 + z2);
 RHS = [1 0 0 0 ; 0 -1 0 0 ; 0 0 1 0 ; 0 0 0 1];
 isequal(LHS, RHS)
 
-%% Eq. 63
+%% Eq. 70
 z = [1 0 ; 0 -1];
 z1 = kron(z,eye(2));
 z2 = kron(eye(2),z);
@@ -212,7 +290,7 @@ LHS = (1/2)*(eye(4) - z2 + z1*z2 + z1);
 RHS = [1 0 0 0 ; 0 1 0 0 ; 0 0 -1 0 ; 0 0 0 1];
 isequal(LHS, RHS)
 
-%% Eq. 64
+%% Eq. 71
 zero = [1 ; 0]; one = [0 ; 1];
 x = [0 1 ; 1 0]; y = [0 -1i ; 1i 0];
 
@@ -228,7 +306,7 @@ RHS_2 = (1/4)*(x1*x2 - 1i*y1*x2 + 1i*x1*y2 + y1*y2);
 isequal(LHS,RHS_1)
 isequal(LHS,RHS_2)
 
-%% Eq. 65
+%% Eq. 72
 zero = [1 ; 0]; one = [0 ; 1];
 x = [0 1 ; 1 0]; y = [0 -1i ; 1i 0];
 
@@ -244,7 +322,7 @@ RHS_2 = (1/4)*(x1*x2 - 1i*x1*y2 + 1i*y1*x2 + y1*y2);
 isequal(LHS,RHS_1)
 isequal(LHS,RHS_2)
 
-%% Eq. 66
+%% Eq. 73
 x = [0 1 ; 1 0]; y = [0 -1i ; 1i 0]; z = [1 0 ; 0 -1];
 
 x1 = kron(x,eye(2));
@@ -260,12 +338,12 @@ RHS = (1/2)*(eye(4) + z1 + x2 - z1*x2);
 isequal(LHS, RHS)
 
 %% Section X: 5-level systems
-%% Eq. 67
+%% Eq. 74
 x5 = [0 2 0 0 0 ; 2 0 sqrt(6) 0 0 ; 0 sqrt(6) 0 sqrt(6) 0 ; 0 0 sqrt(6) 0 2 ; 0 0 0 2 0];
 y5 = [0 -2i 0 0 0 ; 2i 0 -sqrt(6)*1i 0 0 ; 0 sqrt(6)*1i 0 -sqrt(6)*1i 0 ;  0 0 sqrt(6)*1i 0 -2i ; 0 0 0 2i 0];
 z5 = [2 0 0 0 0 ; 0 1 0 0 0 ; 0 0 0 0 0 ; 0 0 0 -1 0 ; 0 0 0 0 -2];
 
-%% Eq. 68
+%% Eq. 75
 x5 = [0 2 0 0 0 ; 2 0 sqrt(6) 0 0 ; 0 sqrt(6) 0 sqrt(6) 0 ; 0 0 sqrt(6) 0 2 ; 0 0 0 2 0];
 y5 = [0 -2i 0 0 0 ; 2i 0 -sqrt(6)*1i 0 0 ; 0 sqrt(6)*1i 0 -sqrt(6)*1i 0 ;  0 0 sqrt(6)*1i 0 -2i ; 0 0 0 2i 0];
 
@@ -273,7 +351,7 @@ LHS = [0 2 0 0 0 ; 0 0 sqrt(6) 0 0 ; 0 0 0 sqrt(6) 0 ; 0 0 0 0 2 ; 0 0 0 0 0];
 RHS = (x5 + 1i*y5)/2;
 isequal(LHS, RHS)
 
-%% Eq. 69
+%% Eq. 76
 z5 = [2 0 0 0 0 ; 0 1 0 0 0 ; 0 0 0 0 0 ; 0 0 0 -1 0 ; 0 0 0 0 -2];
 x5 = [0 2 0 0 0 ; 2 0 sqrt(6) 0 0 ; 0 sqrt(6) 0 sqrt(6) 0 ; 0 0 sqrt(6) 0 2 ; 0 0 0 2 0];
 y5 = [0 -2i 0 0 0 ; 2i 0 -sqrt(6)*1i 0 0 ; 0 sqrt(6)*1i 0 -sqrt(6)*1i 0 ;  0 0 sqrt(6)*1i 0 -2i ; 0 0 0 2i 0];
@@ -282,27 +360,32 @@ LHS = [0 0 0 0 0 ; 2 0 0 0 0 ; 0 sqrt(6) 0 0 0 ; 0 0 sqrt(6) 0 0 ; 0 0 0 2 0];
 RHS = (x5 - 1i*y5)/2;
 isequal(LHS, RHS)
 
-%% Eq. 70
+%% Eq. 77
 s_51 = [1 0 0 0 0 ; 0 0 0 0 0 ; 0 0 0 0 0 ; 0 0 0 0 0 ; 0 0 0 0 0];
 
-%% Eq. 71
+%% Eq. 78
 s_52 = [0 0 0 0 0 ; 0 1 0 0 0 ; 0 0 0 0 0 ; 0 0 0 0 0 ; 0 0 0 0 0];
 
-%% Eq. 72
+%% Eq. 79
 s_53 = [0 0 0 0 0 ; 0 0 0 0 0 ; 0 0 1 0 0 ; 0 0 0 0 0 ; 0 0 0 0 0];
 
-%% Eq. 73
+%% Eq. 80
 s_54 = [0 0 0 0 0 ; 0 0 0 0 0 ; 0 0 0 0 0 ; 0 0 0 1 0 ; 0 0 0 0 0];
 
-%% Eq. 74
+%% Eq. 81
 s_55 = [0 0 0 0 0 ; 0 0 0 0 0 ; 0 0 0 0 0 ; 0 0 0 0 0 ; 0 0 0 0 1];
 
 %% Section Y: 6-level Systems
-%% Eq. 75 - 77
+%% Eq. 82 - 83
 x6 = [0 sqrt(5) 0 0 0 0 ; sqrt(5) 0 sqrt(8) 0 0 0 ; 0 sqrt(8) 0 sqrt(9) 0 0 ; 0 0 sqrt(9) 0 sqrt(8) 0 ; 0 0 0 sqrt(8) 0 sqrt(5) ; 0 0 0 0 sqrt(5) 0];
 y6 = [0 -sqrt(5)*1i 0 0 0 0 ; sqrt(5)*1i 0 -sqrt(8)*1i 0 0 0 ; 0 sqrt(8)*1i 0 -sqrt(9)*1i 0 0 ; 0 0 sqrt(9)*1i 0 -sqrt(8)*1i 0 ; 0 0 0 sqrt(8)*1i 0 -sqrt(5)*1i ; 0 0 0 0 sqrt(5)*1i 0];
 z6 = [5 0 0 0 0 0 ; 0 3 0 0 0 0 ; 0 0 1 0 0 0 ; 0 0 0 -1 0 0 ; 0 0 0 0 -3 0 ; 0 0 0 0 0 -5];
-%% Eq. 78
+
+%% Eq. 84
+s6_plus = [0 sqrt(5) 0 0 0 0 ; 0 0 sqrt(8) 0 0 0 ; 0 0 0 sqrt(9) 0 0 ; 0 0 0 0 sqrt(8) 0 ; 0 0 0 0 0 sqrt(5) ; 0 0 0 0 0 0];
+s6_minus = [0 0 0 0 0 0 ; sqrt(5) 0 0 0 0 0 ; 0 sqrt(8) 0 0 0 0 ; 0 0 sqrt(9) 0 0 0 ; 0 0 0 sqrt(8) 0 0 ; 0 0 0 0 sqrt(5) 0];
+
+%% Eq. 85
 zero_b = [1 ; 0]; one_b = [0 ; 1];
 zero_t = [1 ; 0 ; 0]; one_t = [0 ; 1 ; 0];
 x = [0 1 ; 1 0]; y = [0 -1i ; 1i 0];
@@ -314,7 +397,7 @@ RHS_2 = (1/4)*(kron(x,gm1) + 1i*kron(y,gm1) - 1i*kron(x,gm2) + kron(y,gm2));
 isequal(LHS, RHS_1)
 isequal(LHS, RHS_2)
 
-%% Eq. 79
+%% Eq. 86
 zero_b = [1 ; 0]; one_b = [0 ; 1];
 zero_t = [1 ; 0 ; 0]; one_t = [0 ; 1 ; 0];
 x = [0 1 ; 1 0]; y = [0 -1i ; 1i 0];
@@ -326,7 +409,7 @@ RHS_2 = (1/4)*(kron(x,gm1) - 1i*kron(y,gm1) + 1i*kron(x,gm2) + kron(y,gm2));
 isequal(LHS,RHS_1)
 isequal(LHS,RHS_2)
 
-%% Eq. 80
+%% Eq. 87
 zero_b = [1 ; 0]; one_b = [0 ; 1];
 zero_t = [1 ; 0 ; 0]; one_t = [0 ; 1 ; 0];
 x = [0 1 ; 1 0]; y = [0 -1i ; 1i 0];
@@ -338,7 +421,7 @@ RHS_2 = (1/2)*(kron(x,gm1) + kron(y,gm2));
 isequal(LHS,RHS_1)
 isequal(LHS,RHS_2)
 
-%% Eq. 81
+%% Eq. 88
 zero_b = [1 ; 0]; one_b = [0 ; 1]; one_t = [0 ; 1 ; 0];
 
 LHS = kron(one_b,one_t)*kron(zero_b,one_t)';
@@ -346,7 +429,7 @@ RHS = [0 0 0 0 0 0 ; 0 0 0 0 0 0 ; 0 0 0 0 0 0 ; 0 0 0 0 0 0 ; 0 1 0 0 0 0 ; 0 0
 isequal(LHS, RHS)
 % LHS = kron(two_t,zero_b)*kron(zero_t,one_b)'; Original Qutrit-Qubit Interaction
 
-%% Eq. 82
+%% Eq. 89
 zero_b = [1 ; 0]; one_b = [0 ; 1]; one_t = [0 ; 1 ; 0];
 x = [0 1 ; 1 0]; y = [0 -1i ; 1i 0];
 gm4 = [0 0 1 ; 0 0 0 ; 1 0 0]; gm5 = [0 0 -1i ; 0 0 0 ; 1i 0 0];
@@ -358,7 +441,7 @@ isequal(LHS,RHS_1)
 isequal(LHS,RHS_2)
 % LHS = kron(two_t,zero_b)*kron(zero_t,one_b)' + kron(zero_t,one_b)*kron(two_t,zero_b)'; Original Qutrit-Qubit Interaction
 
-%% Eq. 83
+%% Eq. 90
 one_b = [0 ; 1]; zero_t = [1 ; 0 ; 0]; one_t = [0 ; 1 ; 0]; two_t = [0 ; 0 ; 1];
 z = [1 0 ; 0 -1]; gm6 = [0 0 0 ; 0 0 1 ; 0 1 0]; gm7 = [0 0 0 ; 0 0 -1i ; 0 1i 0];
 
@@ -370,7 +453,7 @@ isequal(LHS,RHS_1)
 isequal(LHS,RHS_2)
 isequal(LHS,RHS_3)
 
-%% Eq. 84
+%% Eq. 91
 one_b = [0 ; 1]; zero_t = [1 ; 0 ; 0]; two_t = [0 ; 0 ; 1];
 z = [1 0 ; 0 -1]; gm6 = [0 0 0 ; 0 0 1 ; 0 1 0];
 
@@ -381,7 +464,7 @@ isequal(LHS,RHS_1)
 isequal(LHS,RHS_2)
 % LHS = kron(one_t,one_b)*kron(two_t,one_b)' + kron(two_t,one_b)*kron(one_t,one_b)'; Original Qutrit-Qubit Interaction
 
-%% Eq. 85
+%% Eq. 92
 z = [1 0 ; 0 -1]; gm1 = [0 1 0 ; 1 0 0 ; 0 0 0]; gm2 = [0 -1i 0 ; 1i 0 0 ; 0 0 0];
 zero_b = [1 ; 0]; zero_t = [1 ; 0 ; 0]; one_t = [0 ; 1 ; 0];
 
@@ -391,7 +474,7 @@ RHS_2 = (1/4)*(kron(z,gm1) + kron(eye(2),gm1) - 1i*kron(z,gm2) - 1i*kron(eye(2),
 isequal(LHS,RHS_1)
 isequal(LHS,RHS_2)
 
-%% Eq. 86
+%% Eq. 93
 z = [1 0 ; 0 -1]; gm1 = [0 1 0 ; 1 0 0 ; 0 0 0]; gm2 = [0 -1i 0 ; 1i 0 0 ; 0 0 0];
 zero_b = [1 ; 0]; zero_t = [1 ; 0 ; 0]; one_t = [0 ; 1 ; 0];
 
@@ -401,7 +484,7 @@ RHS_2 = (1/4)*(kron(z,gm1) + kron(eye(2),gm1) + 1i*kron(z,gm2) + 1i*kron(eye(2),
 isequal(LHS,RHS_1)
 isequal(LHS,RHS_2)
 
-%% Eq. 87
+%% Eq. 94
 z = [1 0 ; 0 -1]; gm1 = [0 1 0 ; 1 0 0 ; 0 0 0];
 zero_b = [1 ; 0]; zero_t = [1 ; 0 ; 0]; one_t = [0 ; 1 ; 0];
 
@@ -411,7 +494,7 @@ RHS_2 = (1/2)*(kron(z,gm1) + kron(eye(2),gm1));
 isequal(LHS,RHS_1)
 isequal(LHS,RHS_2)
 
-%% Eq. 88
+%% Eq. 95
 zero_b = [1 ; 0]; one_b = [0 ; 1];
 zero_t = [1 ; 0 ; 0]; two_t = [0 ; 0 ; 1];
 x = [0 1 ; 1 0]; y = [0 -1i ; 1i 0];
@@ -423,7 +506,7 @@ RHS_2 = (1/4)*(kron(x,gm4) + 1i*kron(y,gm4) - 1i*kron(x,gm5) + kron(y,gm5));
 isequal(LHS,RHS_1)
 isequal(LHS,RHS_2)
 
-%% Eq. 89
+%% Eq. 96
 zero_b = [1 ; 0]; one_b = [0 ; 1];
 zero_t = [1 ; 0 ; 0]; two_t = [0 ; 0 ; 1];
 x = [0 1 ; 1 0]; y = [0 -1i ; 1i 0];
@@ -435,7 +518,7 @@ RHS_2 = (1/2)*(kron(x,gm4) + kron(y,gm5));
 isequal(LHS,RHS_1)
 isequal(LHS,RHS_2)
 
-%% Eq. 90
+%% Eq. 97
 z = [1 0 ; 0 -1]; gm4 = [0 0 1 ; 0 0 0 ; 1 0 0]; gm5 = [0 0 -1i ; 0 0 0 ; 1i 0 0];
 zero_b = [1 ; 0]; zero_t = [1 ; 0 ; 0]; two_t = [0 ; 0 ; 1];
 
@@ -445,7 +528,7 @@ RHS_2 = (1/4)*(kron(z,gm4) + kron(eye(2),gm4) - 1i*kron(z,gm5) - 1i*kron(eye(2),
 isequal(LHS,RHS_1)
 isequal(LHS,RHS_2)
 
-%% Eq. 91
+%% Eq. 98
 z = [1 0 ; 0 -1]; gm4 = [0 0 1 ; 0 0 0 ; 1 0 0];
 zero_b = [1 ; 0]; zero_t = [1 ; 0 ; 0]; two_t = [0 ; 0 ; 1];
 
@@ -455,21 +538,21 @@ RHS_2 = (1/2)*(kron(z,gm4) + kron(eye(2),gm4));
 isequal(LHS,RHS_1)
 isequal(LHS,RHS_2)
 
-%% Eq. 92
+%% Eq. 99
 one_b = [0 ; 1]; one_t = [0 ; 1 ; 0]; two_t = [0 ; 0 ; 1];
 
 LHS = kron(one_b,one_t)*kron(one_b,two_t)';
 RHS = [0 0 0 0 0 0 ; 0 0 0 0 0 0 ; 0 0 0 0 0 0 ; 0 0 0 0 0 0 ; 0 0 0 0 0 1 ; 0 0 0 0 0 0];
 isequal(LHS,RHS)
 
-%% Eq. 93
+%% Eq. 100
 one_b = [0 ; 1]; one_t = [0 ; 1 ; 0]; two_t = [0 ; 0 ; 1];
 
 LHS = kron(one_b,one_t)*kron(one_b,two_t)' + kron(one_b,two_t)*kron(one_b,one_t)';
 RHS = [0 0 0 0 0 0 ; 0 0 0 0 0 0 ; 0 0 0 0 0 0 ; 0 0 0 0 0 0 ; 0 0 0 0 0 1 ; 0 0 0 0 1 0];
 isequal(LHS,RHS)
 
-%% Eq. 94
+%% Eq. 101
 one_t = [0 ; 1 ; 0]; two_t = [0 ; 0 ; 1];
 x = [0 1 ; 1 0]; z = [1 0 ; 0 -1];
 gm1 = [0 1 0 ; 1 0 0 ; 0 0 0]; gm6 = [0 0 0 ; 0 0 1 ; 0 1 0]; gm8 = (1/sqrt(3))*[1 0 0 ; 0 1 0 ; 0 0 -2];
@@ -481,7 +564,7 @@ RHS_3 = (-1/2)*kron(z,gm1) + (1/2)*kron(eye(2),gm1) - (1/sqrt(3))*kron(x,gm8) + 
 isequal(LHS,RHS_1)
 isequal(LHS,RHS_2)
 
-%% Eq. 95
+%% Eq. 102
 one_t = [0 ; 1 ; 0]; two_t = [0 ; 0 ; 1];
 x = [0 1 ; 1 0]; gm6 = [0 0 0 ; 0 0 1 ; 0 1 0]; gm7 = [0 0 0 ; 0 0 -1i ; 0 1i 0];
 
@@ -491,7 +574,7 @@ RHS_2 = (1/2)*kron(x,gm6 + 1i*gm7);
 isequal(LHS,RHS_1)
 isequal(LHS,RHS_2)
 
-%% Eq. 96
+%% Eq. 103
 one_t = [0 ; 1 ; 0]; two_t = [0 ; 0 ; 1];
 x = [0 1 ; 1 0]; gm6 = [0 0 0 ; 0 0 1 ; 0 1 0];
 
@@ -501,7 +584,7 @@ RHS_2 = kron(x,gm6);
 isequal(LHS,RHS_1)
 isequal(LHS,RHS_2)
 
-%% Eq. 97
+%% Eq. 104
 zero_b = [1 ; 0]; one_b = [0 ; 1]; one_t = [0 ; 1 ; 0]; two_t = [0 ; 0 ; 1];
 x = [0 1 ; 1 0]; y = [0 -1i ; 1i 0]; z = [1 0 ; 0 -1];
 gm6 = [0 0 0 ; 0 0 1 ; 0 1 0]; gm7 = [0 0 0 ; 0 0 -1i ; 0 1i 0];
@@ -515,7 +598,7 @@ isequal(LHS,RHS_2)
 isequal(LHS,RHS_3)
 % LHS = kron(one_t,zero_b)*kron(two_t,zero_b)'; % Original Qutrit-Qubit Interaction
 
-%% Eq. 98
+%% Eq. 105
 zero_b = [1 ; 0]; one_t = [0 ; 1 ; 0]; two_t = [0 ; 0 ; 1];
 z = [1 0 ; 0 -1]; gm6 = [0 0 0 ; 0 0 1 ; 0 1 0]; gm7 = [0 0 0 ; 0 0 -1i ; 0 1i 0];
 
@@ -525,7 +608,7 @@ RHS_2 = (1/4)*(kron(eye(2),gm6) + kron(z,gm6) + 1i*kron(eye(2),gm7) + 1i*kron(z,
 isequal(LHS,RHS_1)
 isequal(LHS,RHS_2)
 
-%% Eq. 99
+%% Eq. 106
 zero_b = [1 ; 0]; one_b = [0 ; 1];
 zero_t = [1 ; 0 ; 0]; one_t = [0 ; 1 ; 0]; two_t = [0 ; 0 ; 1];
 z = [1 0 ; 0 -1]; gm6 = [0 0 0 ; 0 0 1 ; 0 1 0];

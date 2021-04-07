@@ -175,6 +175,7 @@ Nike Dattani
 \end_layout
 
 \begin_layout Author Email
+
 n.dattani@cfa.harvard.edu
 \end_layout
 
@@ -1432,7 +1433,7 @@ follows from the observation that the Choi representation of the map defined
 
 \begin_inset Formula 
 \begin{align}
-z_{3}\equiv & \begin{pmatrix}1 & 0 & 0\\
+z_{3} & \equiv\begin{pmatrix}1 & 0 & 0\\
 0 & 0 & 0\\
 0 & 0 & -1
 \end{pmatrix},x_{3}\equiv\begin{pmatrix}0 & 1 & 0\\
@@ -1442,32 +1443,34 @@ z_{3}\equiv & \begin{pmatrix}1 & 0 & 0\\
 {\rm i} & 0 & {\rm -i}\\
 0 & {\rm i} & 0
 \end{pmatrix}\\
-\lambda_{1}\equiv & \begin{pmatrix}0 & 1 & 0\\
+\lambda_{1} & \equiv\begin{pmatrix}0 & 1 & 0\\
 1 & 0 & 0\\
 0 & 0 & 0
-\end{pmatrix},\lambda_{2}\equiv\begin{pmatrix}0 & -{\rm i} & 0\\
+\end{pmatrix}=\frac{1}{2}(x_{3}+z_{3}x_{3}+x_{3}z_{3}),\lambda_{2}\equiv\begin{pmatrix}0 & -{\rm i} & 0\\
 {\rm i} & 0 & 0\\
 0 & 0 & 0
-\end{pmatrix},\lambda_{3}\equiv\begin{pmatrix}1 & 0 & 0\\
+\end{pmatrix}=\frac{1}{2}(y_{3}+y_{3}z_{3}+z_{3}y_{3})\\
+\lambda_{3} & \equiv\begin{pmatrix}1 & 0 & 0\\
 0 & -1 & {\rm 0}\\
 0 & 0 & 0
-\end{pmatrix},\lambda_{4}\equiv\begin{pmatrix}0 & 0 & 1\\
+\end{pmatrix}=2\openone+\frac{1}{2}(z_{3}-\frac{3}{2}x_{3}^{2}-\frac{3}{2}y_{3}^{2}),\lambda_{4}\equiv\begin{pmatrix}0 & 0 & 1\\
 0 & 0 & {\rm 0}\\
 1 & 0 & 0
-\end{pmatrix},\\
+\end{pmatrix}=\frac{1}{2}(x_{3}^{2}-y_{3}^{2})\\
 \lambda_{5} & \equiv\begin{pmatrix}0 & 0 & -{\rm i}\\
 0 & 0 & {\rm 0}\\
 {\rm i} & 0 & 0
-\end{pmatrix},\lambda_{6}\equiv\begin{pmatrix}0 & 0 & 0\\
+\end{pmatrix}=\frac{1}{2}(x_{3}y_{3}+y_{3}x_{3}),\lambda_{6}\equiv\begin{pmatrix}0 & 0 & 0\\
 0 & 0 & {\rm 1}\\
 0 & 1 & 0
-\end{pmatrix},\lambda_{7}\equiv\begin{pmatrix}0 & 0 & 0\\
+\end{pmatrix}=\frac{1}{2}(x_{3}-z_{3}x_{3}-x_{3}z_{3})\\
+\lambda_{7} & \equiv\begin{pmatrix}0 & 0 & 0\\
 0 & 0 & {\rm -{\rm i}}\\
 0 & {\rm i} & 0
-\end{pmatrix},\lambda_{8}\equiv\frac{1}{\sqrt{3}}\begin{pmatrix}1 & 0 & 0\\
+\end{pmatrix}=\frac{1}{2}(y_{3}-y_{3}z_{3}-z_{3}y_{3}),\lambda_{8}\equiv\frac{1}{\sqrt{3}}\begin{pmatrix}1 & 0 & 0\\
 0 & 1 & {\rm 0}\\
 0 & 0 & -2
-\end{pmatrix}\\
+\end{pmatrix}=\frac{1}{\sqrt{3}}(-2\openone+\frac{3}{2}(z_{3}+\frac{1}{2}x_{3}^{2}+\frac{1}{2}y_{3}^{2}))\\
 s_{3+} & \equiv\begin{pmatrix}0 & 1 & 0\\
 0 & 0 & 1\\
 0 & 0 & 0
@@ -1488,6 +1491,68 @@ s_{3,3} & \equiv\begin{pmatrix}0 & 0 & 0\\
 0 & 0 & 0\\
 0 & 0 & 1
 \end{pmatrix}=\frac{\openone-z}{2}\equiv t\\
+x_{3}^{2} & =\begin{pmatrix}1 & 0 & 1\\
+0 & 2 & 0\\
+1 & 0 & 1
+\end{pmatrix},y_{3}^{2}=\begin{pmatrix}1 & 0 & -1\\
+0 & 2 & 0\\
+-1 & 0 & 1
+\end{pmatrix}
+\end{align}
+
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+i
+\family default
+\series default
+\shape default
+\size scriptsize
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
++
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size scriptsize
+\begin_inset Formula 
+\begin{align}
+x_{3}y_{3}+y_{3}x_{3} & =\begin{pmatrix}0 & 0 & -2i\\
+0 & 0 & 0\\
+2i & 0 & 0
+\end{pmatrix},y_{3}z_{3}+z_{3}y_{3}=\begin{pmatrix}0 & -i & 0\\
+i & 0 & i\\
+0 & -i & 0
+\end{pmatrix},z_{3}x_{3}+x_{3}z_{3}=\begin{pmatrix}0 & 1 & 0\\
+1 & 0 & -1\\
+0 & -1 & 0
+\end{pmatrix}\\
 |1\rangle\langle2| & \equiv\begin{pmatrix}0 & 0 & 0\\
 0 & 0 & 1\\
 0 & 0 & 0
@@ -1513,24 +1578,7 @@ s_{3,3} & \equiv\begin{pmatrix}0 & 0 & 0\\
 \lambda_{5}^{2} & =\begin{pmatrix}1 & 0 & 0\\
 0 & 0 & 0\\
 0 & 0 & 1
-\end{pmatrix}=\left|\lambda_{1}\right|
-\end{align}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{align}
+\end{pmatrix}=\left|\lambda_{1}\right|\\
 \lambda_{5}\lambda_{2} & =\begin{pmatrix}0 & 0 & 0\\
 0 & 0 & 0\\
 0 & 1 & 0
@@ -1606,6 +1654,69 @@ z_{4}\equiv & \begin{pmatrix}3 & 0 & 0 & 0\\
 1 & 0 & 0 & 0\\
 0 & 1 & 0 & 0
 \end{pmatrix}\\
+\Lambda_{1} & \equiv\begin{pmatrix}0 & 1 & 0 & 0\\
+1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix},\Lambda_{2}\equiv\begin{pmatrix}0 & -i & 0 & 0\\
+i & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix},\Lambda_{3}\equiv\begin{pmatrix}1 & 0 & 0 & 0\\
+0 & -1 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix},\Lambda_{4}\equiv\begin{pmatrix}0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix},\Lambda_{5}\equiv\begin{pmatrix}0 & 0 & -i & 0\\
+0 & 0 & 0 & 0\\
+i & 0 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix}\\
+\Lambda_{6} & \equiv\begin{pmatrix}0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0
+\end{pmatrix},\Lambda_{7}\equiv\begin{pmatrix}0 & 0 & 0 & -i\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+i & 0 & 0 & 0
+\end{pmatrix},\Lambda_{8}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix},\Lambda_{9}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & -i & 0\\
+0 & i & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix},\Lambda_{10}\equiv\frac{1}{\sqrt{3}}\begin{pmatrix}1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & -2 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix}\\
+\Lambda_{11} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0
+\end{pmatrix},\Lambda_{12}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 0 & -i\\
+0 & 0 & 0 & 0\\
+0 & i & 0 & 0
+\end{pmatrix},\Lambda_{13}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1\\
+0 & 0 & 1 & 0
+\end{pmatrix},\Lambda_{14}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & -i\\
+0 & 0 & i & 0
+\end{pmatrix},\Lambda_{15}\equiv\frac{1}{\sqrt{6}}\begin{pmatrix}1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+0 & 0 & 0 & -3
+\end{pmatrix}\\
 s_{4+} & \equiv\begin{pmatrix}0 & \sqrt{3} & 0 & 0\\
 0 & 0 & 2 & 0\\
 0 & 0 & 0 & \sqrt{3}\\
@@ -1630,22 +1741,7 @@ s_{4,3} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0\\
 0 & 0 & 1 & 0\\
 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}(\openone-z_{1}+z_{2}-z_{1}z_{2})\\
-s_{4,4} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0\\
-0 & 0 & 0 & 1
-\end{pmatrix}=\frac{1}{4}(\openone-z_{1}-z_{2}+z_{1}z_{2})\\
- & \begin{pmatrix}1 & 0 & 0 & 0\\
-0 & -1 & 0 & 0\\
-0 & 0 & 1 & 0\\
-0 & 0 & 0 & 1
-\end{pmatrix}=\frac{1}{2}\left(\openone-z_{1}+z_{1}z_{2}+z_{2}\right)\\
- & \begin{pmatrix}1 & 0 & 0 & 0\\
-0 & 1 & 0 & 0\\
-0 & 0 & -1 & 0\\
-0 & 0 & 0 & 1
-\end{pmatrix}=\frac{1}{2}\left(\openone-z_{2}+z_{1}z_{2}+z_{1}\right)
+\end{pmatrix}=\frac{1}{4}(\openone-z_{1}+z_{2}-z_{1}z_{2})
 \end{align}
 
 \end_inset
@@ -1663,6 +1759,21 @@ s_{4,4} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
 \begin_layout Standard
 \begin_inset Formula 
 \begin{align}
+s_{4,4} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1
+\end{pmatrix}=\frac{1}{4}(\openone-z_{1}-z_{2}+z_{1}z_{2})\\
+ & \begin{pmatrix}1 & 0 & 0 & 0\\
+0 & -1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+0 & 0 & 0 & 1
+\end{pmatrix}=\frac{1}{2}\left(\openone-z_{1}+z_{1}z_{2}+z_{2}\right)\\
+ & \begin{pmatrix}1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & -1 & 0\\
+0 & 0 & 0 & 1
+\end{pmatrix}=\frac{1}{2}\left(\openone-z_{2}+z_{1}z_{2}+z_{1}\right)\\
 |10\rangle\langle01| & =\begin{pmatrix}0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0\\
 0 & 1 & 0 & 0\\
@@ -1787,10 +1898,6 @@ s_{5,5} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 
 \begin_layout Standard
 
-\end_layout
-
-\begin_layout Standard
-
 \size scriptsize
 \begin_inset Formula 
 \begin{align}
@@ -1828,7 +1935,7 @@ s_{6+} & \equiv\left(\begin{array}{cccccc}
 0 & \sqrt{8} & 0 & 0 & 0 & 0\\
 0 & 0 & \sqrt{9} & 0 & 0 & 0\\
 0 & 0 & 0 & \sqrt{8} & 0 & 0\\
-0 & 0 & 0 & 0 & \sqrt{5} & 5
+0 & 0 & 0 & 0 & \sqrt{5} & 0
 \end{array}\right)\\
 |0_{b}1_{t}\rangle\langle1_{b}0_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 1 & 0 & 0\\
