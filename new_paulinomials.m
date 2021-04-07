@@ -3,25 +3,18 @@ factors = factor(length(H));
 assert( factors(length(factors)) <= 5, 'This code cannot accept a matrix whose dimensions contain a prime factor greater than 5.');
 assert( length(factors) <= 13, 'This code cannot accept a matrix whose dimensions contain more than 13 prime factors.');
 
-sigma{1}=[0 1; 1 0];
-sigma{2}=[0 -1i; 1i 0];
-sigma{3}=[1 0 ; 0 -1];
-sigma{4}=eye(2);
-
-m{1}=[0 1 0;1 0 0;0 0 0];
-m{2}=[0 -1i 0;1i 0 0;0 0 0];
-m{3}=[1  0 0;0 -1 0;0 0 0];
-m{4}=[0 0 1;0 0 0;1 0 0];
-m{5}=[0  0 -1i;0  0  0; 1i 0  0];
-m{6}=[0 0 0;0 0 1;0 1 0];
-m{7}=[0  0  0;0  0 -1i;0 1i  0];
-m{8}=[1 0 0;0 1 0;0 0 -2]/sqrt(3);
-m{9}=eye(3);
-
-five{1} = [0 2 0 0 0 ; 2 0 sqrt(6) 0 0 ; 0 sqrt(6) 0 sqrt(6) 0 ; 0 0 sqrt(6) 0 2 ; 0 0 0 2 0];
-five{2} = [0 -2i 0 0 0 ; 2i 0 -sqrt(6)*1i 0 0 ; 0 sqrt(6)*1i 0 -sqrt(6)*1i 0 ;  0 0 sqrt(6)*1i 0 -2i ; 0 0 0 2i 0];
-five{3} = [2 0 0 0 0 ; 0 1 0 0 0 ; 0 0 0 0 0 ; 0 0 0 -1 0 ; 0 0 0 0 -2];
-five{4} = eye(5);
+for i = 1:length(factors)
+    if factors(i) == 2
+        sigma = generate_gell_mann(2);
+        sigma{4} = eye(2);
+    elseif factors(i) == 3
+        m = generate_gell_mann(3);
+        m{9} = eye(3);
+    elseif factors(i) == 5
+        five = generate_gell_mann(5);
+        five{25} = eye(5);
+    end
+end
 
 IND = ones([1 length(factors)]);
 
@@ -32,7 +25,7 @@ for i = 1:length(factors)
     elseif factors(i) == 3
         max = [max, 9];
     elseif factors(i) == 5
-        max = [max, 4];
+        max = [max, 25];
     end
 end
 
