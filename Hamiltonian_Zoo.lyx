@@ -1503,32 +1503,6 @@ x_{3}^{2} & =\begin{pmatrix}1 & 0 & 1\\
 \end_inset
 
 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-i
-\family default
-\series default
-\shape default
-\size scriptsize
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-+
 \end_layout
 
 \begin_layout Standard
@@ -1654,65 +1628,65 @@ z_{4}\equiv & \begin{pmatrix}3 & 0 & 0 & 0\\
 1 & 0 & 0 & 0\\
 0 & 1 & 0 & 0
 \end{pmatrix}\\
-\Lambda_{1} & \equiv\begin{pmatrix}0 & 1 & 0 & 0\\
+\Lambda_{S}^{12} & \equiv\begin{pmatrix}0 & 1 & 0 & 0\\
 1 & 0 & 0 & 0\\
 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{2}\equiv\begin{pmatrix}0 & -i & 0 & 0\\
+\end{pmatrix},\Lambda_{A}^{12}\equiv\begin{pmatrix}0 & -i & 0 & 0\\
 i & 0 & 0 & 0\\
 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{3}\equiv\begin{pmatrix}1 & 0 & 0 & 0\\
+\end{pmatrix},\Lambda_{D}^{1}\equiv\begin{pmatrix}1 & 0 & 0 & 0\\
 0 & -1 & 0 & 0\\
 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{4}\equiv\begin{pmatrix}0 & 0 & 1 & 0\\
+\end{pmatrix},\Lambda_{S}^{13}\equiv\begin{pmatrix}0 & 0 & 1 & 0\\
 0 & 0 & 0 & 0\\
 1 & 0 & 0 & 0\\
 0 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{5}\equiv\begin{pmatrix}0 & 0 & -i & 0\\
+\end{pmatrix},\Lambda_{A}^{13}\equiv\begin{pmatrix}0 & 0 & -i & 0\\
 0 & 0 & 0 & 0\\
 i & 0 & 0 & 0\\
 0 & 0 & 0 & 0
 \end{pmatrix}\\
-\Lambda_{6} & \equiv\begin{pmatrix}0 & 0 & 0 & 1\\
+\Lambda_{S}^{14} & \equiv\begin{pmatrix}0 & 0 & 0 & 1\\
 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0\\
 1 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{7}\equiv\begin{pmatrix}0 & 0 & 0 & -i\\
+\end{pmatrix},\Lambda_{A}^{14}\equiv\begin{pmatrix}0 & 0 & 0 & -i\\
 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0\\
 i & 0 & 0 & 0
-\end{pmatrix},\Lambda_{8}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+\end{pmatrix},\Lambda_{S}^{23}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
 0 & 0 & 1 & 0\\
 0 & 1 & 0 & 0\\
 0 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{9}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+\end{pmatrix},\Lambda_{A}^{23}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
 0 & 0 & -i & 0\\
 0 & i & 0 & 0\\
 0 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{10}\equiv\frac{1}{\sqrt{3}}\begin{pmatrix}1 & 0 & 0 & 0\\
+\end{pmatrix},\Lambda_{D}^{2}\equiv\frac{1}{\sqrt{3}}\begin{pmatrix}1 & 0 & 0 & 0\\
 0 & 1 & 0 & 0\\
 0 & 0 & -2 & 0\\
 0 & 0 & 0 & 0
 \end{pmatrix}\\
-\Lambda_{11} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+\Lambda_{S}^{24} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
 0 & 0 & 0 & 1\\
 0 & 0 & 0 & 0\\
 0 & 1 & 0 & 0
-\end{pmatrix},\Lambda_{12}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+\end{pmatrix},\Lambda_{A}^{24}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
 0 & 0 & 0 & -i\\
 0 & 0 & 0 & 0\\
 0 & i & 0 & 0
-\end{pmatrix},\Lambda_{13}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+\end{pmatrix},\Lambda_{S}^{34}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 1\\
 0 & 0 & 1 & 0
-\end{pmatrix},\Lambda_{14}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+\end{pmatrix},\Lambda_{A}^{34}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0\\
 0 & 0 & 0 & -i\\
 0 & 0 & i & 0
-\end{pmatrix},\Lambda_{15}\equiv\frac{1}{\sqrt{6}}\begin{pmatrix}1 & 0 & 0 & 0\\
+\end{pmatrix},\Lambda_{D}^{3}\equiv\frac{1}{\sqrt{6}}\begin{pmatrix}1 & 0 & 0 & 0\\
 0 & 1 & 0 & 0\\
 0 & 0 & 1 & 0\\
 0 & 0 & 0 & -3
@@ -1757,6 +1731,8 @@ s_{4,3} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
+
+\size scriptsize
 \begin_inset Formula 
 \begin{align}
 s_{4,4} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
@@ -1844,6 +1820,147 @@ s_{5-} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 0 & 0 & \sqrt{6} & 0 & 0\\
 0 & 0 & 0 & 2 & 0
 \end{pmatrix}\equiv\frac{x_{5\times5}+{\rm i}y_{5\times5}}{2}\equiv\frac{x_{(5)}+{\rm i}y_{(5)}}{2}\\
+\Lambda_{S}^{12} & \equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix},\Lambda_{A}^{12}\equiv\begin{pmatrix}0 & -i & 0 & 0 & 0\\
+i & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix},\Lambda_{D}^{1}\equiv\begin{pmatrix}1 & 0 & 0 & 0 & 0\\
+0 & -1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix},\Lambda_{S}^{13}\equiv\begin{pmatrix}0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix},\Lambda_{A}^{13}\equiv\begin{pmatrix}0 & 0 & -i & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+i & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}\\
+\Lambda_{S}^{14} & \equiv\begin{pmatrix}0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix},\Lambda_{A}^{14}\equiv\begin{pmatrix}0 & 0 & 0 & -i & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+i & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix},\Lambda_{S}^{15}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0
+\end{pmatrix},\Lambda_{A}^{15}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & -i\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+i & 0 & 0 & 0 & 0
+\end{pmatrix},\Lambda_{S}^{23}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0\\
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}\\
+\Lambda_{A}^{23} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & -i & 0 & 0\\
+0 & i & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix},\Lambda_{D}^{2}\equiv\frac{1}{\sqrt{3}}\begin{pmatrix}1 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & -2 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix},\Lambda_{S}^{24}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix},\Lambda_{A}^{24}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & -i & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & i & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix},\Lambda_{S}^{25}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0
+\end{pmatrix}\\
+\Lambda_{A}^{25} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & -i\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & i & 0 & 0 & 0
+\end{pmatrix},\Lambda_{S}^{34}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0\\
+0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix},\Lambda_{A}^{34}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & -i & 0\\
+0 & 0 & i & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix},\Lambda_{D}^{3}\equiv\frac{1}{\sqrt{6}}\begin{pmatrix}1 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & -3 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix},\Lambda_{S}^{35}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0
+\end{pmatrix}
+\end{align}
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size scriptsize
+\begin_inset Formula 
+\begin{align}
+\Lambda_{A}^{35} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & -i\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & i & 0 & 0
+\end{pmatrix},\Lambda_{S}^{45}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 1 & 0
+\end{pmatrix},\Lambda_{A}^{45}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & -i\\
+0 & 0 & 0 & i & 0
+\end{pmatrix},\Lambda_{D}^{4}\equiv\frac{1}{\sqrt{10}}\begin{pmatrix}1 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & -4
+\end{pmatrix}\\
 s_{5,1} & \equiv\begin{pmatrix}1 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0\\
@@ -1937,6 +2054,241 @@ s_{6+} & \equiv\left(\begin{array}{cccccc}
 0 & 0 & 0 & \sqrt{8} & 0 & 0\\
 0 & 0 & 0 & 0 & \sqrt{5} & 0
 \end{array}\right)\\
+\Lambda_{s}^{12} & \equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix},\varLambda_{A}^{12}\equiv\begin{pmatrix}0 & -i & 0 & 0 & 0 & 0\\
+i & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}\varLambda_{D}^{1}\equiv\begin{pmatrix}1 & 0 & 0 & 0 & 0 & 0\\
+0 & -1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}\varLambda_{S}^{13}\equiv\begin{pmatrix}0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}\\
+\varLambda_{A}^{13} & \equiv\begin{pmatrix}0 & 0 & -i & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+i & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix},\varLambda_{S}^{14}\equiv\begin{pmatrix}0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}\varLambda_{A}^{14}\equiv\begin{pmatrix}0 & 0 & 0 & -i & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+i & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}\varLambda_{S}^{15}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}\\
+\varLambda_{A}^{15} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & -i & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+i & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix},\varLambda_{S}^{16}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}\varLambda_{A}^{16}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & -i\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+i & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}\varLambda_{S}^{23}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}\\
+\varLambda_{A}^{23} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & -i & 0 & 0 & 0\\
+0 & i & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix},\varLambda_{D}^{2}\equiv\frac{1}{\sqrt{3}}\begin{pmatrix}1 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & -2 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}\varLambda_{S}^{24}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}\varLambda_{A}^{24}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & -i & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & i & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}
+\end{align}
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size scriptsize
+\begin_inset Formula 
+\begin{align}
+\varLambda_{S}^{25} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix},\varLambda_{A}^{25}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & -i & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & i & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}\varLambda_{S}^{26}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0
+\end{pmatrix}\varLambda_{A}^{26}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & -i\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & i & 0 & 0 & 0 & 0
+\end{pmatrix}\\
+\varLambda_{S}^{34} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix},\varLambda_{A}^{34}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & -i & 0 & 0\\
+0 & 0 & i & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}\varLambda_{D}^{3}\equiv\frac{1}{\sqrt{6}}\begin{pmatrix}1 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & -3 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}\varLambda_{S}^{35}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}\\
+\varLambda_{A}^{35} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & -i & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & i & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix},\varLambda_{S}^{36}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0
+\end{pmatrix}\varLambda_{A}^{36}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & -i\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & i & 0 & 0 & 0
+\end{pmatrix}\varLambda_{S}^{45}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}\\
+\varLambda_{A}^{45} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & -i & 0\\
+0 & 0 & 0 & i & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix},\varLambda_{D}^{4}\equiv\frac{1}{\sqrt{10}}\begin{pmatrix}1 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & -4 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}\varLambda_{S}^{46}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0
+\end{pmatrix}\varLambda_{A}^{46}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & -i\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & i & 0 & 0
+\end{pmatrix}\\
+\varLambda_{S}^{56} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 1 & 0
+\end{pmatrix},\varLambda_{A}^{56}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & -i\\
+0 & 0 & 0 & 0 & i & 0
+\end{pmatrix}\varLambda_{D}^{5}\equiv\frac{1}{\sqrt{15}}\begin{pmatrix}1 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0 & -5
+\end{pmatrix}\\
 |0_{b}1_{t}\rangle\langle1_{b}0_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 1 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
@@ -1950,21 +2302,7 @@ s_{6+} & \equiv\left(\begin{array}{cccccc}
 0 & 1 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}\left(x\lambda_{1}-{\rm i}y\lambda_{1}+{\rm i}x\lambda_{2}+y\lambda_{2}\right)\\
-|0_{b}1_{t}\rangle\langle1_{b}0_{t}|+|1_{b}0_{t}\rangle\langle0_{b}1_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 1 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 1 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{2}\left(x\lambda_{1}+y\lambda_{2}\right)\\
-|1_{b}1_{t}\rangle\langle0_{b}1_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 1 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=
+\end{pmatrix}=\frac{1}{4}\left(x\lambda_{1}-{\rm i}y\lambda_{1}+{\rm i}x\lambda_{2}+y\lambda_{2}\right)
 \end{align}
 
 \end_inset
@@ -1984,6 +2322,20 @@ s_{6+} & \equiv\left(\begin{array}{cccccc}
 \size scriptsize
 \begin_inset Formula 
 \begin{align}
+|0_{b}1_{t}\rangle\langle1_{b}0_{t}|+|1_{b}0_{t}\rangle\langle0_{b}1_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{2}\left(x\lambda_{1}+y\lambda_{2}\right)\\
+|1_{b}1_{t}\rangle\langle0_{b}1_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\\
 |1_{b}1_{t}\rangle\langle0_{b}1_{t}|+|0_{b}1_{t}\rangle\langle1_{b}1_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 1 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
@@ -1997,7 +2349,13 @@ s_{6+} & \equiv\left(\begin{array}{cccccc}
 0 & 0 & 0 & 0 & 0 & 1\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}\left(\lambda_{6}-z\lambda_{6}+{\rm i}\lambda_{7}-{\rm i}z\lambda_{7}\right)=|1_{b}1_{t}\rangle\langle1_{b}2_{t}|\\
+\end{pmatrix},\frac{1}{4}\left(\lambda_{6}-z\lambda_{6}+{\rm i}\lambda_{7}-{\rm i}z\lambda_{7}\right)=\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=|1_{b}1_{t}\rangle\langle1_{b}2_{t}|\\
 |1_{b}0_{t}\rangle\langle1_{b}2_{t}|+|1_{b}2_{t}\rangle\langle1_{b}0_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
@@ -2018,21 +2376,7 @@ s_{6+} & \equiv\left(\begin{array}{cccccc}
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}\left(z\lambda_{1}+\lambda_{1}+{\rm i}z\lambda_{2}+{\rm i}\lambda_{2}\right)\\
-|0_{b}1_{t}\rangle\langle0_{b}0_{t}|+|0_{b}0_{t}\rangle\langle0_{b}1_{t}| & \equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0 & 0\\
-1 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{2}\left(z\lambda_{1}+\lambda_{1}\right)\\
-|0_{b}2_{t}\rangle\langle1_{b}0_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 1 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}\left(x\lambda_{4}+{\rm i}y\lambda_{4}-{\rm i}x\lambda_{5}+y\lambda_{5}\right)
+\end{pmatrix}=\frac{1}{4}\left(z\lambda_{1}+\lambda_{1}+{\rm i}z\lambda_{2}+{\rm i}\lambda_{2}\right)
 \end{align}
 
 \end_inset
@@ -2048,8 +2392,24 @@ s_{6+} & \equiv\left(\begin{array}{cccccc}
 \end_layout
 
 \begin_layout Standard
+
+\size scriptsize
 \begin_inset Formula 
 \begin{align}
+|0_{b}1_{t}\rangle\langle0_{b}0_{t}|+|0_{b}0_{t}\rangle\langle0_{b}1_{t}| & \equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{2}\left(z\lambda_{1}+\lambda_{1}\right)\\
+|0_{b}2_{t}\rangle\langle1_{b}0_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{4}\left(x\lambda_{4}+{\rm i}y\lambda_{4}-{\rm i}x\lambda_{5}+y\lambda_{5}\right)\\
 |0_{b}2_{t}\rangle\langle1_{b}0_{t}|+|1_{b}0_{t}\rangle\langle0_{b}2_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 1 & 0 & 0\\
@@ -2094,7 +2454,7 @@ s_{6+} & \equiv\left(\begin{array}{cccccc}
 
 \begin_layout Standard
 
-\size footnotesize
+\size scriptsize
 \begin_inset Formula 
 \begin{align}
 |1_{t,1}\rangle\langle2_{t,1}|x_{2}+|2_{t,1}\rangle\langle1_{t,1}|x_{2} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
@@ -2152,6 +2512,8 @@ x_{1}|1_{t,2}\rangle\langle2_{t,2}|+x_{1}|2_{t,2}\rangle\langle1_{t,2}| & \equiv
 \end_layout
 
 \begin_layout Standard
+
+\size scriptsize
 \begin_inset Formula 
 \begin{equation}
 |0_{b}1_{t}\rangle\langle0_{b}2_{t}|+|0_{b}2_{t}\rangle\langle0_{b}1_{t}|\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
