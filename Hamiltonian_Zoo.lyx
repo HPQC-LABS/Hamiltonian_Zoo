@@ -1602,8 +1602,8 @@ z_{4}\equiv & \begin{pmatrix}3 & 0 & 0 & 0\\
 0 & 2 & 0 & \sqrt{3}\\
 0 & 0 & \sqrt{3} & 0
 \end{pmatrix},y_{4}\equiv\begin{pmatrix}0 & -\sqrt{3}{\rm i} & 0 & 0\\
-\sqrt{3}{\rm i} & 0 & 2 & 0\\
-0 & 2 & 0 & -\sqrt{3}{\rm i}\\
+\sqrt{3}{\rm i} & 0 & -2i & 0\\
+0 & 2i & 0 & -\sqrt{3}{\rm i}\\
 0 & 0 & \sqrt{3}{\rm i} & 0
 \end{pmatrix}\\
 \gamma^{0} & \equiv\begin{pmatrix}1 & 0 & 0 & 0\\
