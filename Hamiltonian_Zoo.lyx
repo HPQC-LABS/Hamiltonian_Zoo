@@ -175,7 +175,6 @@ Nike Dattani
 \end_layout
 
 \begin_layout Author Email
-
 n.dattani@cfa.harvard.edu
 \end_layout
 
@@ -1482,15 +1481,15 @@ s_{3-} & \equiv\begin{pmatrix}0 & 0 & 0\\
 s_{3,1} & \equiv\begin{pmatrix}1 & 0 & 0\\
 0 & 0 & 0\\
 0 & 0 & 0
-\end{pmatrix}=\frac{\openone+z}{2}\equiv t\\
+\end{pmatrix}=\frac{1}{2}z_{3}^{2}+\frac{1}{4}i(y_{3}x_{3}-x_{3}y_{3})\\
 s_{3,2} & \equiv\begin{pmatrix}0 & 0 & 0\\
 0 & 1 & 0\\
 0 & 0 & 0
-\end{pmatrix}\\
+\end{pmatrix}=\frac{1}{4}(x_{3}^{2}+y_{3}^{2})-\frac{1}{2}z_{3}^{2}\\
 s_{3,3} & \equiv\begin{pmatrix}0 & 0 & 0\\
 0 & 0 & 0\\
 0 & 0 & 1
-\end{pmatrix}=\frac{\openone-z}{2}\equiv t\\
+\end{pmatrix}=\frac{1}{2}z_{3}^{2}-\frac{1}{4}i(y_{3}x_{3}-x_{3}y_{3})\\
 x_{3}^{2} & =\begin{pmatrix}1 & 0 & 1\\
 0 & 2 & 0\\
 1 & 0 & 1
@@ -1785,6 +1784,19 @@ s_{4,4} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
 \end_inset
 
  particles)
+\size scriptsize
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+5x5 Gell-Mann Matrices can be found here: http://jefferywinkler.com/beyondstandar
+dmodel.html 
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1966,31 +1978,31 @@ s_{5,1} & \equiv\begin{pmatrix}1 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\\
+\end{pmatrix}=\frac{1}{2}\varLambda_{D}^{1}+\sqrt{\frac{1}{12}}\Lambda_{D}^{2}+\sqrt{\frac{1}{24}}\Lambda_{D}^{3}+\sqrt{\frac{1}{40}}\varLambda_{D}^{4}+\frac{1}{5}\openone\\
 s_{5,2} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 0 & 1 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\\
+\end{pmatrix}=-\frac{1}{2}\varLambda_{D}^{1}+\sqrt{\frac{1}{12}}\Lambda_{D}^{2}+\sqrt{\frac{1}{24}}\Lambda_{D}^{3}+\sqrt{\frac{1}{40}}\varLambda_{D}^{4}+\frac{1}{5}\openone\\
 s_{5,3} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 1 & 0 & 0\\
 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\\
+\end{pmatrix}=-\sqrt{\frac{1}{3}}\Lambda_{D}^{2}+\sqrt{\frac{1}{24}}\Lambda_{D}^{3}+\sqrt{\frac{1}{40}}\varLambda_{D}^{4}+\frac{1}{5}\openone\\
 s_{5,4} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 1 & 0\\
 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\\
+\end{pmatrix}=-\sqrt{\frac{3}{8}}\Lambda_{D}^{3}+\sqrt{\frac{1}{40}}\varLambda_{D}^{4}+\frac{1}{5}\openone\\
 s_{5,5} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 1
-\end{pmatrix}=
+\end{pmatrix}=-\sqrt{\frac{2}{5}}\varLambda_{D}^{4}+\frac{1}{5}\openone
 \end{align}
 
 \end_inset
@@ -2335,7 +2347,7 @@ i & 0 & 0 & 0 & 0 & 0
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 1 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\\
+\end{pmatrix}=\frac{1}{4}(iy\lambda_{3}-x\lambda_{3})+\sqrt{\frac{1}{48}}(x\lambda_{8}-iy\lambda_{8})+\frac{1}{6}(x-y)\\
 |1_{b}1_{t}\rangle\langle0_{b}1_{t}|+|0_{b}1_{t}\rangle\langle1_{b}1_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 1 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
@@ -2437,14 +2449,14 @@ i & 0 & 0 & 0 & 0 & 0
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 1\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\\
+\end{pmatrix}=\frac{1}{4}(\lambda_{6}+i\lambda_{7}-z\lambda_{6}-iz\lambda_{7})\\
 |1_{b}1_{t}\rangle\langle1_{b}2_{t}|+|1_{b}2_{t}\rangle\langle1_{b}1_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 1\\
 0 & 0 & 0 & 0 & 1 & 0
-\end{pmatrix}=
+\end{pmatrix}=\frac{1}{2}(\lambda_{6}-z\lambda_{6})
 \end{align}
 
 \end_inset
