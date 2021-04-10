@@ -81,5 +81,5 @@ while IND(1) <= max(1)
     end
 end
 
-c=round(basis\H(:),13,'decimals');
+c=basis\H(:);
 end
