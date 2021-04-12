@@ -1481,7 +1481,7 @@ s_{3-} & \equiv\begin{pmatrix}0 & 0 & 0\\
 s_{3,1} & \equiv\begin{pmatrix}1 & 0 & 0\\
 0 & 0 & 0\\
 0 & 0 & 0
-\end{pmatrix}=\frac{1}{2}z_{3}^{2}+\frac{1}{4}i(y_{3}x_{3}-x_{3}y_{3})\\
+\end{pmatrix}=\frac{1}{2}z_{3}^{2}+\frac{1}{4}i(y_{3}x_{3}-x_{3}y_{3})=\frac{z_{3}}{2}(\openone+z_{3})\\
 s_{3,2} & \equiv\begin{pmatrix}0 & 0 & 0\\
 0 & 1 & 0\\
 0 & 0 & 0
@@ -1489,7 +1489,7 @@ s_{3,2} & \equiv\begin{pmatrix}0 & 0 & 0\\
 s_{3,3} & \equiv\begin{pmatrix}0 & 0 & 0\\
 0 & 0 & 0\\
 0 & 0 & 1
-\end{pmatrix}=\frac{1}{2}z_{3}^{2}-\frac{1}{4}i(y_{3}x_{3}-x_{3}y_{3})\\
+\end{pmatrix}=\frac{1}{2}z_{3}^{2}-\frac{1}{4}i(y_{3}x_{3}-x_{3}y_{3})=\frac{z_{3}}{2}(z_{3}-\openone)\\
 x_{3}^{2} & =\begin{pmatrix}1 & 0 & 1\\
 0 & 2 & 0\\
 1 & 0 & 1
@@ -1565,7 +1565,11 @@ i & 0 & i\\
 \lambda_{2}^{2} & =\begin{pmatrix}1 & 0 & 0\\
 0 & 1 & 0\\
 0 & 0 & 0
-\end{pmatrix}=|\lambda_{3}|
+\end{pmatrix}=|\lambda_{3}|\\
+y_{3}x_{3} & =\begin{pmatrix}-i & 0 & -i\\
+0 & 0 & 0\\
+i & 0 & i
+\end{pmatrix}=\lambda_{5}-iz_{3}
 \end{align}
 
 \end_inset
