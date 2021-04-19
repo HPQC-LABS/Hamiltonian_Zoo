@@ -175,6 +175,7 @@ Nike Dattani
 \end_layout
 
 \begin_layout Author Email
+
 n.dattani@cfa.harvard.edu
 \end_layout
 
@@ -1379,6 +1380,15 @@ z & \equiv\begin{pmatrix}1 & 0\\
 \end{pmatrix},y\equiv\begin{pmatrix}0 & -{\rm i}\\
 {\rm i} & 0
 \end{pmatrix}\\
+A_{1} & \equiv\begin{pmatrix}1 & 0\\
+0 & 0
+\end{pmatrix},A_{2}\equiv\begin{pmatrix}0 & 0\\
+0 & 1
+\end{pmatrix},A_{3}\equiv\begin{pmatrix}0 & 1\\
+1 & 0
+\end{pmatrix},A_{4}\equiv\begin{pmatrix}0 & {\rm i}\\
+{\rm -i} & 0
+\end{pmatrix}\\
 s_{+} & \equiv\begin{pmatrix}0 & 1\\
 0 & 0
 \end{pmatrix}=\frac{x+{\rm i}y}{2}\\
@@ -1470,6 +1480,35 @@ z_{3} & \equiv\begin{pmatrix}1 & 0 & 0\\
 0 & 1 & {\rm 0}\\
 0 & 0 & -2
 \end{pmatrix}=\frac{1}{\sqrt{3}}(-2\openone+\frac{3}{2}(z_{3}+\frac{1}{2}x_{3}^{2}+\frac{1}{2}y_{3}^{2}))\\
+B_{1} & \equiv\begin{pmatrix}1 & 0 & 0\\
+0 & 0 & 0\\
+0 & 0 & 0
+\end{pmatrix},B_{2}\equiv\begin{pmatrix}0 & 0 & 0\\
+0 & 1 & 0\\
+0 & 0 & 0
+\end{pmatrix},B_{3}\equiv\begin{pmatrix}0 & 1 & 0\\
+1 & 0 & 0\\
+0 & 0 & 0
+\end{pmatrix},B_{4}\equiv\begin{pmatrix}0 & i & 0\\
+-i & 0 & 0\\
+0 & 0 & 0
+\end{pmatrix},B_{5}\equiv\begin{pmatrix}0 & 0 & 0\\
+0 & 0 & 0\\
+0 & 0 & 1
+\end{pmatrix}\\
+B_{6} & \equiv\begin{pmatrix}0 & 0 & 1\\
+0 & 0 & 0\\
+1 & 0 & 0
+\end{pmatrix},B_{7}\equiv\begin{pmatrix}0 & 0 & i\\
+0 & 0 & 0\\
+-i & 0 & 0
+\end{pmatrix},B_{8}\equiv\begin{pmatrix}0 & 0 & 0\\
+0 & 0 & 1\\
+0 & 1 & 0
+\end{pmatrix},B_{9}\equiv\begin{pmatrix}0 & 0 & 0\\
+0 & 0 & i\\
+0 & -i & 0
+\end{pmatrix}\\
 s_{3+} & \equiv\begin{pmatrix}0 & 1 & 0\\
 0 & 0 & 1\\
 0 & 0 & 0
@@ -1694,6 +1733,73 @@ i & 0 & 0 & 0
 0 & 0 & 1 & 0\\
 0 & 0 & 0 & -3
 \end{pmatrix}\\
+C_{1} & \equiv\begin{pmatrix}1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix},C_{2}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix},C_{3}\equiv\begin{pmatrix}0 & 1 & 0 & 0\\
+1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix},C_{4}\equiv\begin{pmatrix}0 & i & 0 & 0\\
+-i & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix},C_{5}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix},C_{6}\equiv\begin{pmatrix}0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix}\\
+C_{7} & \equiv\begin{pmatrix}0 & 0 & i & 0\\
+0 & 0 & 0 & 0\\
+-i & 0 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix},C_{8}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix},C_{9}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & i & 0\\
+0 & -i & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix},C_{10}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1
+\end{pmatrix},C_{11}\equiv\begin{pmatrix}0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0
+\end{pmatrix}\\
+C_{12} & \equiv\begin{pmatrix}0 & 0 & 0 & i\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+-i & 0 & 0 & 0
+\end{pmatrix},C_{13}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0
+\end{pmatrix},C_{14}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 0 & i\\
+0 & 0 & 0 & 0\\
+0 & -i & 0 & 0
+\end{pmatrix},C_{15}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1\\
+0 & 0 & 1 & 0
+\end{pmatrix},C_{16}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & i\\
+0 & 0 & -i & 0
+\end{pmatrix}\\
 s_{4+} & \equiv\begin{pmatrix}0 & \sqrt{3} & 0 & 0\\
 0 & 0 & 2 & 0\\
 0 & 0 & 0 & \sqrt{3}\\
@@ -1703,22 +1809,7 @@ s_{4-} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
 \sqrt{3} & 0 & 0 & 0\\
 0 & 2 & 0 & 0\\
 0 & 0 & \sqrt{3} & 0
-\end{pmatrix}\equiv\frac{x_{4}-{\rm i}y_{4}}{2}\\
-s_{4,1} & \equiv\begin{pmatrix}1 & 0 & 0 & 0\\
-0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}\left(z_{2}+z_{1}z_{2}+z_{1}+\openone\right)\\
-s_{4,2} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
-0 & 1 & 0 & 0\\
-0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}(\openone+z_{1}-z_{2}-z_{1}z_{2})\\
-s_{4,3} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0\\
-0 & 0 & 1 & 0\\
-0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}(\openone-z_{1}+z_{2}-z_{1}z_{2})
+\end{pmatrix}\equiv\frac{x_{4}-{\rm i}y_{4}}{2}
 \end{align}
 
 \end_inset
@@ -1735,9 +1826,49 @@ s_{4,3} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
 
 \begin_layout Standard
 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0
+\family default
+\series default
+\shape default
 \size scriptsize
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
 \begin_inset Formula 
 \begin{align}
+s_{4,1} & \equiv\begin{pmatrix}1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{4}\left(z_{2}+z_{1}z_{2}+z_{1}+\openone\right)\\
+s_{4,2} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{4}(\openone+z_{1}-z_{2}-z_{1}z_{2})\\
+s_{4,3} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{4}(\openone-z_{1}+z_{2}-z_{1}z_{2})\\
 s_{4,4} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0\\
@@ -1977,6 +2108,152 @@ i & 0 & 0 & 0 & 0
 0 & 0 & 0 & 1 & 0\\
 0 & 0 & 0 & 0 & -4
 \end{pmatrix}\\
+D_{1} & \equiv\begin{pmatrix}1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix},D_{2}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix},D_{3}\equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix},D_{4}\equiv\begin{pmatrix}0 & i & 0 & 0 & 0\\
+-i & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix},D_{5}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}\\
+D_{6} & \equiv\begin{pmatrix}0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix},D_{7}\equiv\begin{pmatrix}0 & 0 & i & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+-i & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix},D_{8}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0\\
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix},D_{9}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & i & 0 & 0\\
+0 & -i & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix},D_{10}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}\\
+D_{11} & \equiv\begin{pmatrix}0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix},D_{12}\equiv\begin{pmatrix}0 & 0 & 0 & i & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+-i & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix},D_{13}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix},D_{14}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & i & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & -i & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix},D_{15}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0\\
+0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}\\
+D_{16} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & i & 0\\
+0 & 0 & -i & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix},D_{17}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1
+\end{pmatrix},D_{18}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0
+\end{pmatrix},D_{19}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & i\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+-i & 0 & 0 & 0 & 0
+\end{pmatrix},D_{20}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0
+\end{pmatrix}\\
+D_{21} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & i\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & -i & 0 & 0 & 0
+\end{pmatrix},D_{22}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0
+\end{pmatrix},D_{23}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & i\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & -i & 0 & 0
+\end{pmatrix},D_{24}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 1 & 0
+\end{pmatrix},D_{25}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & i\\
+0 & 0 & 0 & -i & 0
+\end{pmatrix}
+\end{align}
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size scriptsize
+\begin_inset Formula 
+\begin{align}
 s_{5,1} & \equiv\begin{pmatrix}1 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0\\
@@ -2305,20 +2582,247 @@ i & 0 & 0 & 0 & 0 & 0
 0 & 0 & 0 & 0 & 1 & 0\\
 0 & 0 & 0 & 0 & 0 & -5
 \end{pmatrix}\\
-|0_{b}1_{t}\rangle\langle1_{b}0_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 1 & 0 & 0\\
+E_{1} & \equiv\begin{pmatrix}1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}\left(x\lambda_{1}+{\rm i}y\lambda_{1}-{\rm i}x\lambda_{2}+y\lambda_{2}\right)\\
-|1_{b}0_{t}\rangle\langle0_{b}1_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix},E_{2}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix},E_{3}\equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix},E_{4}\equiv\begin{pmatrix}0 & i & 0 & 0 & 0 & 0\\
+-i & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}\\
+E_{5} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix},E_{6}\equiv\begin{pmatrix}0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix},E_{7}\equiv\begin{pmatrix}0 & 0 & i & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+-i & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix},E_{8}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}
+\end{align}
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size scriptsize
+\begin_inset Formula 
+\begin{align}
+E_{9} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & i & 0 & 0 & 0\\
+0 & -i & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix},E_{10}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix},E_{11}\equiv\begin{pmatrix}0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix},E_{12}\equiv\begin{pmatrix}0 & 0 & 0 & i & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+-i & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}\\
+E_{13} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 1 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}\left(x\lambda_{1}-{\rm i}y\lambda_{1}+{\rm i}x\lambda_{2}+y\lambda_{2}\right)
+\end{pmatrix},E_{14}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & i & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & -i & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix},E_{15}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix},E_{16}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & i & 0 & 0\\
+0 & 0 & -i & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}\\
+E_{17} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix},E_{18}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix},E_{19}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & i & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+-i & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix},E_{20}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}\\
+E_{21} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & i & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & -i & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix},E_{22}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix},E_{23}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & i & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & -i & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix},E_{24}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}\\
+E_{25} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & i & 0\\
+0 & 0 & 0 & -i & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix},E_{26}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1
+\end{pmatrix},E_{27}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix},E_{28}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & i\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+-i & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}\\
+E_{29} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0
+\end{pmatrix},E_{30}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & i\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & -i & 0 & 0 & 0 & 0
+\end{pmatrix},E_{31}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0
+\end{pmatrix},E_{32}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & i\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & -i & 0 & 0 & 0
+\end{pmatrix}\\
+E_{33} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0
+\end{pmatrix},E_{34}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & i\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & -i & 0 & 0
+\end{pmatrix},E_{35}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 1 & 0
+\end{pmatrix},E_{36}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & i\\
+0 & 0 & 0 & 0 & -i & 0
+\end{pmatrix}
 \end{align}
 
 \end_inset
@@ -2338,6 +2842,20 @@ i & 0 & 0 & 0 & 0 & 0
 \size scriptsize
 \begin_inset Formula 
 \begin{align}
+|0_{b}1_{t}\rangle\langle1_{b}0_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{4}\left(x\lambda_{1}+{\rm i}y\lambda_{1}-{\rm i}x\lambda_{2}+y\lambda_{2}\right)\\
+|1_{b}0_{t}\rangle\langle0_{b}1_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{4}\left(x\lambda_{1}-{\rm i}y\lambda_{1}+{\rm i}x\lambda_{2}+y\lambda_{2}\right)\\
 |0_{b}1_{t}\rangle\langle1_{b}0_{t}|+|1_{b}0_{t}\rangle\langle0_{b}1_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 1 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
@@ -2378,21 +2896,7 @@ i & 0 & 0 & 0 & 0 & 0
 0 & 0 & 0 & 0 & 0 & 1\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 1 & 0 & 0
-\end{pmatrix}=\frac{1}{2}\left(\lambda_{6}-\lambda_{6}z\right)\\
-|0_{b}1_{t}\rangle\langle0_{b}0_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-1 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}\left(z\lambda_{1}+\lambda_{1}-{\rm i}z\lambda_{2}-{\rm i}\lambda_{2}\right)\\
-|0_{b}0_{t}\rangle\langle0_{b}1_{t}| & \equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}\left(z\lambda_{1}+\lambda_{1}+{\rm i}z\lambda_{2}+{\rm i}\lambda_{2}\right)
+\end{pmatrix}=\frac{1}{2}\left(\lambda_{6}-\lambda_{6}z\right)
 \end{align}
 
 \end_inset
@@ -2412,6 +2916,20 @@ i & 0 & 0 & 0 & 0 & 0
 \size scriptsize
 \begin_inset Formula 
 \begin{align}
+|0_{b}1_{t}\rangle\langle0_{b}0_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{4}\left(z\lambda_{1}+\lambda_{1}-{\rm i}z\lambda_{2}-{\rm i}\lambda_{2}\right)\\
+|0_{b}0_{t}\rangle\langle0_{b}1_{t}| & \equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{4}\left(z\lambda_{1}+\lambda_{1}+{\rm i}z\lambda_{2}+{\rm i}\lambda_{2}\right)\\
 |0_{b}1_{t}\rangle\langle0_{b}0_{t}|+|0_{b}0_{t}\rangle\langle0_{b}1_{t}| & \equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0 & 0\\
 1 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
@@ -2446,7 +2964,19 @@ i & 0 & 0 & 0 & 0 & 0
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{2}\left(z\lambda_{4}+\lambda_{4}\right)\\
+\end{pmatrix}=\frac{1}{2}\left(z\lambda_{4}+\lambda_{4}\right)
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size scriptsize
+\begin_inset Formula 
+\begin{align}
 |1_{b}1_{t}\rangle\langle1_{b}2_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
@@ -2460,19 +2990,7 @@ i & 0 & 0 & 0 & 0 & 0
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 1\\
 0 & 0 & 0 & 0 & 1 & 0
-\end{pmatrix}=\frac{1}{2}(\lambda_{6}-z\lambda_{6})
-\end{align}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\size scriptsize
-\begin_inset Formula 
-\begin{align}
+\end{pmatrix}=\frac{1}{2}(\lambda_{6}-z\lambda_{6})\\
 |1_{t,1}\rangle\langle2_{t,1}|x_{2}+|2_{t,1}\rangle\langle1_{t,1}|x_{2} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 1\\
@@ -2486,7 +3004,13 @@ x_{1}|1_{t,2}\rangle\langle2_{t,2}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 1 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{2}x\left(\lambda_{6}+{\rm i}\lambda_{7}\right)\\
+\end{pmatrix}=\frac{1}{2}x|0_{b}1_{t}\rangle\langle0_{b}2_{t}|+|0_{b}2_{t}\rangle\langle0_{b}1_{t}|\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{2}\left(\lambda_{6}+z\lambda_{6}\right)\left(\lambda_{6}+{\rm i}\lambda_{7}\right)\\
 x_{1}|1_{t,2}\rangle\langle2_{t,2}|+x_{1}|2_{t,2}\rangle\langle1_{t,2}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 1\\
 0 & 0 & 0 & 0 & 1 & 0\\
@@ -2522,6 +3046,15 @@ x_{1}|1_{t,2}\rangle\langle2_{t,2}|+x_{1}|2_{t,2}\rangle\langle1_{t,2}| & \equiv
 \end{pmatrix}=\frac{1}{4}\left(\lambda_{6}+z\lambda_{6}+{\rm i}\lambda_{7}+{\rm i}z\lambda_{7}\right)\ne\frac{1}{4}\left(\lambda_{6}+\lambda_{6}z+{\rm i}\lambda_{7}+{\rm i}\lambda_{7}z\right)
 \end{align}
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size scriptsize
+\begin_inset Newpage newpage
 \end_inset
 
 
