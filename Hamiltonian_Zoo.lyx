@@ -1386,6 +1386,18 @@ Matrix Zoo
 \end_inset
 
  particles)
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\size scriptsize
+A1-A4 matrices generated based on: https://math.stackexchange.com/a/4034168/202425
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1457,12 +1469,21 @@ follows from the observation that the Choi representation of the map defined
 
 \end_layout
 
+\begin_layout Plain Layout
+B1-B9 matrices generated based on https://math.stackexchange.com/a/4034168/202425
+\end_layout
+
+\begin_layout Plain Layout
+Gell-Mann decompositions: https://arxiv.org/pdf/0806.1174.pdf
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
+\align center
 
 \size scriptsize
 \begin_inset Tabular
@@ -1476,23 +1497,6 @@ follows from the observation that the Choi representation of the map defined
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\begin_inset Formula $z_{3}=\begin{pmatrix}1 & 0 & 0\\
-0 & 0 & 0\\
-0 & 0 & -1
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -1519,6 +1523,23 @@ follows from the observation that the Choi representation of the map defined
 \begin_inset Formula $y_{3}\equiv\begin{pmatrix}0 & {\rm -i} & 0\\
 {\rm i} & 0 & {\rm -i}\\
 0 & {\rm i} & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $z_{3}\equiv\begin{pmatrix}1 & 0 & 0\\
+0 & 0 & 0\\
+0 & 0 & -1
 \end{pmatrix}$
 \end_inset
 
@@ -1791,6 +1812,14 @@ follows from the observation that the Choi representation of the map defined
 
 \begin_layout Plain Layout
 
+\size scriptsize
+\begin_inset Formula $B_{1}\equiv\begin{pmatrix}1 & 0 & 0\\
+0 & 0 & 0\\
+0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1800,6 +1829,14 @@ follows from the observation that the Choi representation of the map defined
 
 \begin_layout Plain Layout
 
+\size scriptsize
+\begin_inset Formula $B_{2}\equiv\begin{pmatrix}0 & 0 & 0\\
+0 & 1 & 0\\
+0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1808,6 +1845,14 @@ follows from the observation that the Choi representation of the map defined
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $B_{3}\equiv\begin{pmatrix}0 & 1 & 0\\
+1 & 0 & 0\\
+0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
 
 \end_layout
 
@@ -1820,23 +1865,13 @@ follows from the observation that the Choi representation of the map defined
 
 \begin_layout Plain Layout
 
-\end_layout
-
+\size scriptsize
+\begin_inset Formula $B_{4}\equiv\begin{pmatrix}0 & i & 0\\
+-i & 0 & 0\\
+0 & 0 & 0
+\end{pmatrix}$
 \end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
 
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -1847,6 +1882,14 @@ follows from the observation that the Choi representation of the map defined
 
 \begin_layout Plain Layout
 
+\size scriptsize
+\begin_inset Formula $B_{5}\equiv\begin{pmatrix}0 & 0 & 0\\
+0 & 0 & 0\\
+0 & 0 & 1
+\end{pmatrix}$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1856,6 +1899,14 @@ follows from the observation that the Choi representation of the map defined
 
 \begin_layout Plain Layout
 
+\size scriptsize
+\begin_inset Formula $B_{6}\equiv\begin{pmatrix}0 & 0 & 1\\
+0 & 0 & 0\\
+1 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1864,6 +1915,48 @@ follows from the observation that the Choi representation of the map defined
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $B_{7}\equiv\begin{pmatrix}0 & 0 & i\\
+0 & 0 & 0\\
+-i & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $B_{8}\equiv\begin{pmatrix}0 & 0 & 0\\
+0 & 0 & 1\\
+0 & 1 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $B_{9}\equiv\begin{pmatrix}0 & 0 & 0\\
+0 & 0 & i\\
+0 & -i & 0
+\end{pmatrix}$
+\end_inset
+
 
 \end_layout
 
@@ -1960,16 +2053,6 @@ follows from the observation that the Choi representation of the map defined
 
 \begin_inset Formula 
 \begin{align}
-z_{3} & \equiv\begin{pmatrix}1 & 0 & 0\\
-0 & 0 & 0\\
-0 & 0 & -1
-\end{pmatrix},x_{3}\equiv\begin{pmatrix}0 & 1 & 0\\
-1 & 0 & 1\\
-0 & 1 & 0
-\end{pmatrix},y_{3}\equiv\begin{pmatrix}0 & {\rm -i} & 0\\
-{\rm i} & 0 & {\rm -i}\\
-0 & {\rm i} & 0
-\end{pmatrix}\\
 \lambda_{1} & \equiv\begin{pmatrix}0 & 1 & 0\\
 1 & 0 & 0\\
 0 & 0 & 0
@@ -1998,35 +2081,6 @@ z_{3} & \equiv\begin{pmatrix}1 & 0 & 0\\
 0 & 1 & {\rm 0}\\
 0 & 0 & -2
 \end{pmatrix}=\frac{1}{\sqrt{3}}(-2\openone+\frac{3}{2}(z_{3}+\frac{1}{2}x_{3}^{2}+\frac{1}{2}y_{3}^{2}))\\
-B_{1} & \equiv\begin{pmatrix}1 & 0 & 0\\
-0 & 0 & 0\\
-0 & 0 & 0
-\end{pmatrix},B_{2}\equiv\begin{pmatrix}0 & 0 & 0\\
-0 & 1 & 0\\
-0 & 0 & 0
-\end{pmatrix},B_{3}\equiv\begin{pmatrix}0 & 1 & 0\\
-1 & 0 & 0\\
-0 & 0 & 0
-\end{pmatrix},B_{4}\equiv\begin{pmatrix}0 & i & 0\\
--i & 0 & 0\\
-0 & 0 & 0
-\end{pmatrix},B_{5}\equiv\begin{pmatrix}0 & 0 & 0\\
-0 & 0 & 0\\
-0 & 0 & 1
-\end{pmatrix}\\
-B_{6} & \equiv\begin{pmatrix}0 & 0 & 1\\
-0 & 0 & 0\\
-1 & 0 & 0
-\end{pmatrix},B_{7}\equiv\begin{pmatrix}0 & 0 & i\\
-0 & 0 & 0\\
--i & 0 & 0
-\end{pmatrix},B_{8}\equiv\begin{pmatrix}0 & 0 & 0\\
-0 & 0 & 1\\
-0 & 1 & 0
-\end{pmatrix},B_{9}\equiv\begin{pmatrix}0 & 0 & 0\\
-0 & 0 & i\\
-0 & -i & 0
-\end{pmatrix}\\
 s_{3+} & \equiv\begin{pmatrix}0 & 1 & 0\\
 0 & 0 & 1\\
 0 & 0 & 0
@@ -2047,32 +2101,6 @@ s_{3,3} & \equiv\begin{pmatrix}0 & 0 & 0\\
 0 & 0 & 0\\
 0 & 0 & 1
 \end{pmatrix}=\frac{1}{2}z_{3}^{2}-\frac{1}{4}i(y_{3}x_{3}-x_{3}y_{3})=\frac{z_{3}}{2}(z_{3}-\openone)\\
-x_{3}^{2} & =\begin{pmatrix}1 & 0 & 1\\
-0 & 2 & 0\\
-1 & 0 & 1
-\end{pmatrix},y_{3}^{2}=\begin{pmatrix}1 & 0 & -1\\
-0 & 2 & 0\\
--1 & 0 & 1
-\end{pmatrix}
-\end{align}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\size scriptsize
-\begin_inset Formula 
-\begin{align}
 x_{3}y_{3}+y_{3}x_{3} & =\begin{pmatrix}0 & 0 & -2i\\
 0 & 0 & 0\\
 2i & 0 & 0
@@ -2097,7 +2125,26 @@ i & 0 & i\\
 \end{pmatrix},\lambda_{3}\lambda_{7}=\begin{pmatrix}0 & 1 & 0\\
 0 & 0 & 0\\
 0 & 0 & 0
-\end{pmatrix},\lambda_{7}\lambda_{3}+\lambda_{3}\lambda_{7}=\lambda_{1}\\
+\end{pmatrix},\lambda_{7}\lambda_{3}+\lambda_{3}\lambda_{7}=\lambda_{1}
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size scriptsize
+\begin_inset Formula 
+\begin{align}
 \lambda_{7}\lambda_{2} & =\begin{pmatrix}0 & 0 & 0\\
 0 & 0 & 0\\
 -1 & 0 & 0
@@ -2152,16 +2199,37 @@ i & 0 & i
 \begin_layout Standard
 
 \size scriptsize
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\size scriptsize
+4x4 Gell-Mann matrices: https://arxiv.org/pdf/0806.1174.pdf
+\end_layout
+
+\begin_layout Plain Layout
+C1-C16 matrices generated based on: https://math.stackexchange.com/a/4034168/20242
+5
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size scriptsize
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="7">
+<lyxtabular version="3" rows="8" columns="5">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
 <row>
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
@@ -2169,9 +2237,10 @@ i & 0 & i
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $z_{3}=\begin{pmatrix}1 & 0 & 0\\
-0 & 0 & 0\\
-0 & 0 & -1
+\begin_inset Formula $x_{4}\equiv\begin{pmatrix}0 & \sqrt{3} & 0 & 0\\
+\sqrt{3} & 0 & 2 & 0\\
+0 & 2 & 0 & \sqrt{3}\\
+0 & 0 & \sqrt{3} & 0
 \end{pmatrix}$
 \end_inset
 
@@ -2186,9 +2255,10 @@ i & 0 & i
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $x_{3}\equiv\begin{pmatrix}0 & 1 & 0\\
-1 & 0 & 1\\
-0 & 1 & 0
+\begin_inset Formula $y_{4}\equiv\begin{pmatrix}0 & -\sqrt{3}{\rm i} & 0 & 0\\
+\sqrt{3}{\rm i} & 0 & -2i & 0\\
+0 & 2i & 0 & -\sqrt{3}{\rm i}\\
+0 & 0 & \sqrt{3}{\rm i} & 0
 \end{pmatrix}$
 \end_inset
 
@@ -2203,9 +2273,10 @@ i & 0 & i
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $y_{3}\equiv\begin{pmatrix}0 & {\rm -i} & 0\\
-{\rm i} & 0 & {\rm -i}\\
-0 & {\rm i} & 0
+\begin_inset Formula $z_{4}\equiv\begin{pmatrix}3 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & -1 & 0\\
+0 & 0 & 0 & -3
 \end{pmatrix}$
 \end_inset
 
@@ -2220,9 +2291,10 @@ i & 0 & i
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $s_{3+}\equiv\begin{pmatrix}0 & 1 & 0\\
-0 & 0 & 1\\
-0 & 0 & 0
+\begin_inset Formula $\gamma^{0}\equiv\begin{pmatrix}1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & -1 & 0\\
+0 & 0 & 0 & -1
 \end{pmatrix}$
 \end_inset
 
@@ -2237,43 +2309,10 @@ i & 0 & i
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $s_{3-}\equiv\begin{pmatrix}0 & 0 & 0\\
-1 & 0 & 0\\
-0 & 1 & 0
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\begin_inset Formula $x_{3}^{2}=\begin{pmatrix}1 & 0 & 1\\
-0 & 2 & 0\\
-1 & 0 & 1
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\begin_inset Formula $y_{3}^{2}=\begin{pmatrix}1 & 0 & -1\\
-0 & 2 & 0\\
--1 & 0 & 1
+\begin_inset Formula $\gamma^{1}\equiv\begin{pmatrix}0 & 0 & 0 & 1\\
+0 & 0 & 1 & 0\\
+0 & -1 & -1 & 0\\
+-1 & 0 & 0 & 0
 \end{pmatrix}$
 \end_inset
 
@@ -2290,9 +2329,10 @@ i & 0 & i
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $\lambda_{1}\equiv\begin{pmatrix}0 & 1 & 0\\
-1 & 0 & 0\\
-0 & 0 & 0
+\begin_inset Formula $\gamma^{2}\equiv\begin{pmatrix}0 & 0 & 0 & -{\rm i}\\
+0 & 0 & {\rm i} & 0\\
+0 & {\rm i} & 0 & 0\\
+-{\rm i} & 0 & 0 & 0
 \end{pmatrix}$
 \end_inset
 
@@ -2307,9 +2347,10 @@ i & 0 & i
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $\lambda_{2}\equiv\begin{pmatrix}0 & -{\rm i} & 0\\
-{\rm i} & 0 & 0\\
-0 & 0 & 0
+\begin_inset Formula $\gamma^{3}\equiv\begin{pmatrix}0 & 0 & 1 & 0\\
+0 & 0 & 0 & -1\\
+-1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0
 \end{pmatrix}$
 \end_inset
 
@@ -2324,9 +2365,10 @@ i & 0 & i
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $\lambda_{3}\equiv\begin{pmatrix}1 & 0 & 0\\
-0 & -1 & {\rm 0}\\
-0 & 0 & 0
+\begin_inset Formula $\gamma^{5}\equiv\begin{pmatrix}0 & 0 & 1 & 0\\
+0 & 0 & 0 & 1\\
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0
 \end{pmatrix}$
 \end_inset
 
@@ -2341,9 +2383,10 @@ i & 0 & i
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $\lambda_{4}\equiv\begin{pmatrix}0 & 0 & 1\\
-0 & 0 & {\rm 0}\\
-1 & 0 & 0
+\begin_inset Formula $\Lambda_{S}^{12}\equiv\begin{pmatrix}0 & 1 & 0 & 0\\
+1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0
 \end{pmatrix}$
 \end_inset
 
@@ -2358,43 +2401,10 @@ i & 0 & i
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $\lambda_{5}\equiv\begin{pmatrix}0 & 0 & -{\rm i}\\
-0 & 0 & {\rm 0}\\
-{\rm i} & 0 & 0
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\begin_inset Formula $\lambda_{6}\equiv\begin{pmatrix}0 & 0 & 0\\
-0 & 0 & {\rm 1}\\
-0 & 1 & 0
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\begin_inset Formula $\lambda_{7}\equiv\begin{pmatrix}0 & 0 & 0\\
-0 & 0 & {\rm -{\rm i}}\\
-0 & {\rm i} & 0
+\begin_inset Formula $\Lambda_{A}^{12}\equiv\begin{pmatrix}0 & -i & 0 & 0\\
+i & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0
 \end{pmatrix}$
 \end_inset
 
@@ -2411,9 +2421,10 @@ i & 0 & i
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $\lambda_{8}\equiv\begin{pmatrix}\frac{1}{\sqrt{3}} & 0 & 0\\
-0 & \frac{1}{\sqrt{3}} & {\rm 0}\\
-0 & 0 & -\frac{2}{\sqrt{3}}
+\begin_inset Formula $\Lambda_{D}^{1}\equiv\begin{pmatrix}1 & 0 & 0 & 0\\
+0 & -1 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0
 \end{pmatrix}$
 \end_inset
 
@@ -2428,9 +2439,10 @@ i & 0 & i
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $s_{3}^{1}\equiv\begin{pmatrix}1 & 0 & 0\\
-0 & 0 & 0\\
-0 & 0 & 0
+\begin_inset Formula $\Lambda_{S}^{13}\equiv\begin{pmatrix}0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0
 \end{pmatrix}$
 \end_inset
 
@@ -2445,9 +2457,10 @@ i & 0 & i
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $s_{3}^{2}\equiv\begin{pmatrix}0 & 0 & 0\\
-0 & 1 & 0\\
-0 & 0 & 0
+\begin_inset Formula $\Lambda_{A}^{13}\equiv\begin{pmatrix}0 & 0 & -i & 0\\
+0 & 0 & 0 & 0\\
+i & 0 & 0 & 0\\
+0 & 0 & 0 & 0
 \end{pmatrix}$
 \end_inset
 
@@ -2462,9 +2475,10 @@ i & 0 & i
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $s_{3}^{3}\equiv\begin{pmatrix}0 & 0 & 0\\
-0 & 0 & 0\\
-0 & 0 & 1
+\begin_inset Formula $\Lambda_{S}^{14}\equiv\begin{pmatrix}0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0
 \end{pmatrix}$
 \end_inset
 
@@ -2478,23 +2492,14 @@ i & 0 & i
 
 \begin_layout Plain Layout
 
-\end_layout
-
+\size scriptsize
+\begin_inset Formula $\Lambda_{A}^{14}\equiv\begin{pmatrix}0 & 0 & 0 & -i\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+i & 0 & 0 & 0
+\end{pmatrix}$
 \end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
 
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -2507,32 +2512,14 @@ i & 0 & i
 
 \begin_layout Plain Layout
 
-\end_layout
-
+\size scriptsize
+\begin_inset Formula $\Lambda_{S}^{23}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix}$
 \end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
 
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -2543,6 +2530,15 @@ i & 0 & i
 
 \begin_layout Plain Layout
 
+\size scriptsize
+\begin_inset Formula $\Lambda_{A}^{23}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & -i & 0\\
+0 & i & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2552,6 +2548,15 @@ i & 0 & i
 
 \begin_layout Plain Layout
 
+\size scriptsize
+\begin_inset Formula $\Lambda_{D}^{2}\equiv\frac{1}{\sqrt{3}}\begin{pmatrix}1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & -2 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2560,6 +2565,33 @@ i & 0 & i
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\Lambda_{S}^{24}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\Lambda_{A}^{24}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 0 & -i\\
+0 & 0 & 0 & 0\\
+0 & i & 0 & 0
+\end{pmatrix}$
+\end_inset
+
 
 \end_layout
 
@@ -2572,32 +2604,14 @@ i & 0 & i
 
 \begin_layout Plain Layout
 
-\end_layout
-
+\size scriptsize
+\begin_inset Formula $\Lambda_{S}^{34}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1\\
+0 & 0 & 1 & 0
+\end{pmatrix}$
 \end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
 
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -2608,6 +2622,15 @@ i & 0 & i
 
 \begin_layout Plain Layout
 
+\size scriptsize
+\begin_inset Formula $\Lambda_{A}^{34}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & -i\\
+0 & 0 & i & 0
+\end{pmatrix}$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2617,6 +2640,15 @@ i & 0 & i
 
 \begin_layout Plain Layout
 
+\size scriptsize
+\begin_inset Formula $\Lambda_{S}^{14}\equiv\begin{pmatrix}0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2625,6 +2657,309 @@ i & 0 & i
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\Lambda_{D}^{3}\equiv\frac{1}{\sqrt{6}}\begin{pmatrix}1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+0 & 0 & 0 & -3
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $C_{1}\equiv\begin{pmatrix}1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $C_{2}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $C_{3}\equiv\begin{pmatrix}0 & 1 & 0 & 0\\
+1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $C_{4}\equiv\begin{pmatrix}0 & i & 0 & 0\\
+-i & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $C_{5}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $C_{6}\equiv\begin{pmatrix}0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $C_{7}\equiv\begin{pmatrix}0 & 0 & i & 0\\
+0 & 0 & 0 & 0\\
+-i & 0 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $C_{8}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $C_{9}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & i & 0\\
+0 & -i & 0 & 0\\
+0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $C_{10}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $C_{11}\equiv\begin{pmatrix}0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $C_{12}\equiv\begin{pmatrix}0 & 0 & 0 & i\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+-i & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $C_{13}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $C_{14}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 0 & i\\
+0 & 0 & 0 & 0\\
+0 & -i & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $C_{15}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1\\
+0 & 0 & 1 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $C_{16}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0\\
+0 & 0 & 0 & i\\
+0 & 0 & -i & 0
+\end{pmatrix}$
+\end_inset
+
 
 \end_layout
 
@@ -2650,170 +2985,6 @@ i & 0 & i
 \size scriptsize
 \begin_inset Formula 
 \begin{align}
-z_{4}\equiv & \begin{pmatrix}3 & 0 & 0 & 0\\
-0 & 1 & 0 & 0\\
-0 & 0 & -1 & 0\\
-0 & 0 & 0 & -3
-\end{pmatrix},x_{4}\equiv\begin{pmatrix}0 & \sqrt{3} & 0 & 0\\
-\sqrt{3} & 0 & 2 & 0\\
-0 & 2 & 0 & \sqrt{3}\\
-0 & 0 & \sqrt{3} & 0
-\end{pmatrix},y_{4}\equiv\begin{pmatrix}0 & -\sqrt{3}{\rm i} & 0 & 0\\
-\sqrt{3}{\rm i} & 0 & -2i & 0\\
-0 & 2i & 0 & -\sqrt{3}{\rm i}\\
-0 & 0 & \sqrt{3}{\rm i} & 0
-\end{pmatrix}\\
-\gamma^{0} & \equiv\begin{pmatrix}1 & 0 & 0 & 0\\
-0 & 1 & 0 & 0\\
-0 & 0 & -1 & 0\\
-0 & 0 & 0 & -1
-\end{pmatrix},\gamma^{1\equiv}\begin{pmatrix}0 & 0 & 0 & 1\\
-0 & 0 & 1 & 0\\
-0 & -1 & -1 & 0\\
--1 & 0 & 0 & 0
-\end{pmatrix},\gamma^{2}\equiv\begin{pmatrix}0 & 0 & 0 & -{\rm i}\\
-0 & 0 & {\rm i} & 0\\
-0 & {\rm i} & 0 & 0\\
--{\rm i} & 0 & 0 & 0
-\end{pmatrix},\gamma^{3}\equiv\begin{pmatrix}0 & 0 & 1 & 0\\
-0 & 0 & 0 & -1\\
--1 & 0 & 0 & 0\\
-0 & 1 & 0 & 0
-\end{pmatrix},\gamma^{5}\equiv\begin{pmatrix}0 & 0 & 1 & 0\\
-0 & 0 & 0 & 1\\
-1 & 0 & 0 & 0\\
-0 & 1 & 0 & 0
-\end{pmatrix}\\
-\Lambda_{S}^{12} & \equiv\begin{pmatrix}0 & 1 & 0 & 0\\
-1 & 0 & 0 & 0\\
-0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{A}^{12}\equiv\begin{pmatrix}0 & -i & 0 & 0\\
-i & 0 & 0 & 0\\
-0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{D}^{1}\equiv\begin{pmatrix}1 & 0 & 0 & 0\\
-0 & -1 & 0 & 0\\
-0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{S}^{13}\equiv\begin{pmatrix}0 & 0 & 1 & 0\\
-0 & 0 & 0 & 0\\
-1 & 0 & 0 & 0\\
-0 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{A}^{13}\equiv\begin{pmatrix}0 & 0 & -i & 0\\
-0 & 0 & 0 & 0\\
-i & 0 & 0 & 0\\
-0 & 0 & 0 & 0
-\end{pmatrix}\\
-\Lambda_{S}^{14} & \equiv\begin{pmatrix}0 & 0 & 0 & 1\\
-0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0\\
-1 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{A}^{14}\equiv\begin{pmatrix}0 & 0 & 0 & -i\\
-0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0\\
-i & 0 & 0 & 0
-\end{pmatrix},\Lambda_{S}^{23}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
-0 & 0 & 1 & 0\\
-0 & 1 & 0 & 0\\
-0 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{A}^{23}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
-0 & 0 & -i & 0\\
-0 & i & 0 & 0\\
-0 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{D}^{2}\equiv\frac{1}{\sqrt{3}}\begin{pmatrix}1 & 0 & 0 & 0\\
-0 & 1 & 0 & 0\\
-0 & 0 & -2 & 0\\
-0 & 0 & 0 & 0
-\end{pmatrix}\\
-\Lambda_{S}^{24} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
-0 & 0 & 0 & 1\\
-0 & 0 & 0 & 0\\
-0 & 1 & 0 & 0
-\end{pmatrix},\Lambda_{A}^{24}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
-0 & 0 & 0 & -i\\
-0 & 0 & 0 & 0\\
-0 & i & 0 & 0
-\end{pmatrix},\Lambda_{S}^{34}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0\\
-0 & 0 & 0 & 1\\
-0 & 0 & 1 & 0
-\end{pmatrix},\Lambda_{A}^{34}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0\\
-0 & 0 & 0 & -i\\
-0 & 0 & i & 0
-\end{pmatrix},\Lambda_{D}^{3}\equiv\frac{1}{\sqrt{6}}\begin{pmatrix}1 & 0 & 0 & 0\\
-0 & 1 & 0 & 0\\
-0 & 0 & 1 & 0\\
-0 & 0 & 0 & -3
-\end{pmatrix}\\
-C_{1} & \equiv\begin{pmatrix}1 & 0 & 0 & 0\\
-0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0
-\end{pmatrix},C_{2}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
-0 & 1 & 0 & 0\\
-0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0
-\end{pmatrix},C_{3}\equiv\begin{pmatrix}0 & 1 & 0 & 0\\
-1 & 0 & 0 & 0\\
-0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0
-\end{pmatrix},C_{4}\equiv\begin{pmatrix}0 & i & 0 & 0\\
--i & 0 & 0 & 0\\
-0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0
-\end{pmatrix},C_{5}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0\\
-0 & 0 & 1 & 0\\
-0 & 0 & 0 & 0
-\end{pmatrix},C_{6}\equiv\begin{pmatrix}0 & 0 & 1 & 0\\
-0 & 0 & 0 & 0\\
-1 & 0 & 0 & 0\\
-0 & 0 & 0 & 0
-\end{pmatrix}\\
-C_{7} & \equiv\begin{pmatrix}0 & 0 & i & 0\\
-0 & 0 & 0 & 0\\
--i & 0 & 0 & 0\\
-0 & 0 & 0 & 0
-\end{pmatrix},C_{8}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
-0 & 0 & 1 & 0\\
-0 & 1 & 0 & 0\\
-0 & 0 & 0 & 0
-\end{pmatrix},C_{9}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
-0 & 0 & i & 0\\
-0 & -i & 0 & 0\\
-0 & 0 & 0 & 0
-\end{pmatrix},C_{10}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0\\
-0 & 0 & 0 & 1
-\end{pmatrix},C_{11}\equiv\begin{pmatrix}0 & 0 & 0 & 1\\
-0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0\\
-1 & 0 & 0 & 0
-\end{pmatrix}\\
-C_{12} & \equiv\begin{pmatrix}0 & 0 & 0 & i\\
-0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0\\
--i & 0 & 0 & 0
-\end{pmatrix},C_{13}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
-0 & 0 & 0 & 1\\
-0 & 0 & 0 & 0\\
-0 & 1 & 0 & 0
-\end{pmatrix},C_{14}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
-0 & 0 & 0 & i\\
-0 & 0 & 0 & 0\\
-0 & -i & 0 & 0
-\end{pmatrix},C_{15}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0\\
-0 & 0 & 0 & 1\\
-0 & 0 & 1 & 0
-\end{pmatrix},C_{16}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0\\
-0 & 0 & 0 & i\\
-0 & 0 & -i & 0
-\end{pmatrix}\\
 s_{4+} & \equiv\begin{pmatrix}0 & \sqrt{3} & 0 & 0\\
 0 & 0 & 2 & 0\\
 0 & 0 & 0 & \sqrt{3}\\
@@ -2823,26 +2994,7 @@ s_{4-} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
 \sqrt{3} & 0 & 0 & 0\\
 0 & 2 & 0 & 0\\
 0 & 0 & \sqrt{3} & 0
-\end{pmatrix}\equiv\frac{x_{4}-{\rm i}y_{4}}{2}
-\end{align}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\size scriptsize
-\begin_inset Formula 
-\begin{align}
+\end{pmatrix}\equiv\frac{x_{4}-{\rm i}y_{4}}{2}\\
 s_{4,1} & \equiv\begin{pmatrix}1 & 0 & 0 & 0\\
 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0\\
@@ -2908,14 +3060,36 @@ s_{4,4} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
 \end_inset
 
  particles)
-\size scriptsize
+\end_layout
 
+\begin_layout Standard
+
+\size scriptsize
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-5x5 Gell-Mann Matrices can be found here: http://jefferywinkler.com/beyondstandar
-dmodel.html 
+5x5 Gell-Mann matrices generated based on: https://mathworld.wolfram.com/Generaliz
+edGell-MannMatrix.html
+\end_layout
+
+\begin_layout Plain Layout
+They can be explicitly found here: https://www.researchgate.net/publication/327281
+996_Determining_SU_N_symmetry_group_generators
+\end_layout
+
+\begin_layout Plain Layout
+Alternate SU(5) generation found in the following sources: http://jefferywinkler.
+com/beyondstandardmodel.html
+\end_layout
+
+\begin_layout Plain Layout
+http://scipp.ucsc.edu/~haber/ph218/GUT_presentation_Canzano.pdf
+\end_layout
+
+\begin_layout Plain Layout
+D1-D25 matrices generated based on: https://math.stackexchange.com/a/4034168/20242
+5
 \end_layout
 
 \end_inset
@@ -2924,18 +3098,819 @@ dmodel.html
 \end_layout
 
 \begin_layout Standard
+\align center
 
 \size scriptsize
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="7">
+<lyxtabular version="3" rows="8" columns="5">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $x_{5}\equiv\begin{pmatrix}0 & 2 & 0 & 0 & 0\\
+2 & 0 & \sqrt{6} & 0 & 0\\
+0 & \sqrt{6} & 0 & \sqrt{6} & 0\\
+0 & 0 & \sqrt{6} & 0 & 2\\
+0 & 0 & 0 & 2 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $y_{5}\equiv\begin{pmatrix}0 & -2{\rm i} & 0 & 0 & 0\\
+2{\rm i} & 0 & -\sqrt{6}{\rm i} & 0 & 0\\
+0 & \sqrt{6}{\rm i} & 0 & -\sqrt{6}{\rm i} & 0\\
+0 & 0 & \sqrt{6}{\rm i} & 0 & -2{\rm i}\\
+0 & 0 & 0 & 2{\rm i} & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $z_{5}\equiv\begin{pmatrix}2 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & -1 & 0\\
+0 & 0 & 0 & 0 & -2
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $z_{5}\equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\Lambda_{S}^{12}\equiv\begin{pmatrix}2 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & -1 & 0\\
+0 & 0 & 0 & 0 & -2
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\Lambda_{A}^{12}\equiv\begin{pmatrix}0 & -i & 0 & 0 & 0\\
+i & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\Lambda_{D}^{1}\equiv\begin{pmatrix}1 & 0 & 0 & 0 & 0\\
+0 & -1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\Lambda_{S}^{13}\equiv\begin{pmatrix}0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\Lambda_{A}^{13}\equiv\begin{pmatrix}0 & 0 & -i & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+i & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\Lambda_{S}^{14}\equiv\begin{pmatrix}0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\Lambda_{A}^{14}\equiv\begin{pmatrix}0 & 0 & 0 & -i & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+i & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\Lambda_{S}^{15}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\Lambda_{A}^{15}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & -i\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+i & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\Lambda_{S}^{23}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0\\
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\Lambda_{A}^{23}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & -i & 0 & 0\\
+0 & i & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\Lambda_{D}^{2}\equiv\frac{1}{\sqrt{3}}\begin{pmatrix}1 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & -2 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\Lambda_{S}^{24}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\Lambda_{A}^{24}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & -i & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & i & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\Lambda_{S}^{25}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\Lambda_{A}^{25}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & -i\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & i & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\Lambda_{S}^{34}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0\\
+0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\Lambda_{A}^{34}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & -i & 0\\
+0 & 0 & i & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\Lambda_{D}^{3}\equiv\frac{1}{\sqrt{6}}\begin{pmatrix}1 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & -3 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\Lambda_{S}^{35}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\Lambda_{A}^{35}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & -i\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & i & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\Lambda_{S}^{45}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 1 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\Lambda_{A}^{45}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & -i\\
+0 & 0 & 0 & i & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\Lambda_{D}^{4}\equiv\frac{1}{\sqrt{10}}\begin{pmatrix}1 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & -4
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $D_{1}\equiv\begin{pmatrix}1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $D_{2}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $D_{3}\equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $D_{4}\equiv\begin{pmatrix}0 & i & 0 & 0 & 0\\
+-i & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $D_{5}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $D_{6}\equiv\begin{pmatrix}0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $D_{7}\equiv\begin{pmatrix}0 & 0 & i & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+-i & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $D_{8}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0\\
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $D_{9}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & i & 0 & 0\\
+0 & -i & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $D_{10}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $D_{11}\equiv\begin{pmatrix}0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $D_{12}\equiv\begin{pmatrix}0 & 0 & 0 & i & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+-i & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size scriptsize
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="5">
+<features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
 <row>
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
@@ -2943,9 +3918,11 @@ dmodel.html
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $z_{3}=\begin{pmatrix}1 & 0 & 0\\
-0 & 0 & 0\\
-0 & 0 & -1
+\begin_inset Formula $D_{13}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
 \end{pmatrix}$
 \end_inset
 
@@ -2960,9 +3937,11 @@ dmodel.html
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $x_{3}\equiv\begin{pmatrix}0 & 1 & 0\\
-1 & 0 & 1\\
-0 & 1 & 0
+\begin_inset Formula $D_{14}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & i & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & -i & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
 \end{pmatrix}$
 \end_inset
 
@@ -2977,9 +3956,11 @@ dmodel.html
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $y_{3}\equiv\begin{pmatrix}0 & {\rm -i} & 0\\
-{\rm i} & 0 & {\rm -i}\\
-0 & {\rm i} & 0
+\begin_inset Formula $D_{15}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0\\
+0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
 \end{pmatrix}$
 \end_inset
 
@@ -2994,9 +3975,11 @@ dmodel.html
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $s_{3+}\equiv\begin{pmatrix}0 & 1 & 0\\
-0 & 0 & 1\\
-0 & 0 & 0
+\begin_inset Formula $D_{16}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & i & 0\\
+0 & 0 & -i & 0 & 0\\
+0 & 0 & 0 & 0 & 0
 \end{pmatrix}$
 \end_inset
 
@@ -3011,43 +3994,11 @@ dmodel.html
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $s_{3-}\equiv\begin{pmatrix}0 & 0 & 0\\
-1 & 0 & 0\\
-0 & 1 & 0
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\begin_inset Formula $x_{3}^{2}=\begin{pmatrix}1 & 0 & 1\\
-0 & 2 & 0\\
-1 & 0 & 1
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\begin_inset Formula $y_{3}^{2}=\begin{pmatrix}1 & 0 & -1\\
-0 & 2 & 0\\
--1 & 0 & 1
+\begin_inset Formula $D_{17}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1
 \end{pmatrix}$
 \end_inset
 
@@ -3064,9 +4015,11 @@ dmodel.html
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $\lambda_{1}\equiv\begin{pmatrix}0 & 1 & 0\\
-1 & 0 & 0\\
-0 & 0 & 0
+\begin_inset Formula $D_{18}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0
 \end{pmatrix}$
 \end_inset
 
@@ -3081,9 +4034,11 @@ dmodel.html
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $\lambda_{2}\equiv\begin{pmatrix}0 & -{\rm i} & 0\\
-{\rm i} & 0 & 0\\
-0 & 0 & 0
+\begin_inset Formula $D_{19}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & i\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+-i & 0 & 0 & 0 & 0
 \end{pmatrix}$
 \end_inset
 
@@ -3098,9 +4053,11 @@ dmodel.html
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $\lambda_{3}\equiv\begin{pmatrix}1 & 0 & 0\\
-0 & -1 & {\rm 0}\\
-0 & 0 & 0
+\begin_inset Formula $D_{20}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0
 \end{pmatrix}$
 \end_inset
 
@@ -3115,9 +4072,11 @@ dmodel.html
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $\lambda_{4}\equiv\begin{pmatrix}0 & 0 & 1\\
-0 & 0 & {\rm 0}\\
-1 & 0 & 0
+\begin_inset Formula $D_{21}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & i\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & -i & 0 & 0 & 0
 \end{pmatrix}$
 \end_inset
 
@@ -3132,43 +4091,11 @@ dmodel.html
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $\lambda_{5}\equiv\begin{pmatrix}0 & 0 & -{\rm i}\\
-0 & 0 & {\rm 0}\\
-{\rm i} & 0 & 0
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\begin_inset Formula $\lambda_{6}\equiv\begin{pmatrix}0 & 0 & 0\\
-0 & 0 & {\rm 1}\\
-0 & 1 & 0
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\begin_inset Formula $\lambda_{7}\equiv\begin{pmatrix}0 & 0 & 0\\
-0 & 0 & {\rm -{\rm i}}\\
-0 & {\rm i} & 0
+\begin_inset Formula $D_{22}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0
 \end{pmatrix}$
 \end_inset
 
@@ -3185,9 +4112,11 @@ dmodel.html
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $\lambda_{8}\equiv\begin{pmatrix}\frac{1}{\sqrt{3}} & 0 & 0\\
-0 & \frac{1}{\sqrt{3}} & {\rm 0}\\
-0 & 0 & -\frac{2}{\sqrt{3}}
+\begin_inset Formula $D_{23}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & i\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & -i & 0 & 0
 \end{pmatrix}$
 \end_inset
 
@@ -3202,9 +4131,11 @@ dmodel.html
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $s_{3}^{1}\equiv\begin{pmatrix}1 & 0 & 0\\
-0 & 0 & 0\\
-0 & 0 & 0
+\begin_inset Formula $D_{24}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 1 & 0
 \end{pmatrix}$
 \end_inset
 
@@ -3219,168 +4150,14 @@ dmodel.html
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $s_{3}^{2}\equiv\begin{pmatrix}0 & 0 & 0\\
-0 & 1 & 0\\
-0 & 0 & 0
+\begin_inset Formula $D_{25}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & i\\
+0 & 0 & 0 & -i & 0
 \end{pmatrix}$
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\begin_inset Formula $s_{3}^{3}\equiv\begin{pmatrix}0 & 0 & 0\\
-0 & 0 & 0\\
-0 & 0 & 1
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -3410,36 +4187,8 @@ dmodel.html
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\size scriptsize
 \begin_inset Formula 
 \begin{align}
-z_{5}\equiv & \begin{pmatrix}2 & 0 & 0 & 0 & 0\\
-0 & 1 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & -1 & 0\\
-0 & 0 & 0 & 0 & -2
-\end{pmatrix},x_{5}\equiv\begin{pmatrix}0 & 2 & 0 & 0 & 0\\
-2 & 0 & \sqrt{6} & 0 & 0\\
-0 & \sqrt{6} & 0 & \sqrt{6} & 0\\
-0 & 0 & \sqrt{6} & 0 & 2\\
-0 & 0 & 0 & 2 & 0
-\end{pmatrix},y_{5}\equiv\begin{pmatrix}0 & -2{\rm i} & 0 & 0 & 0\\
-2{\rm i} & 0 & -\sqrt{6}{\rm i} & 0 & 0\\
-0 & \sqrt{6}{\rm i} & 0 & -\sqrt{6}{\rm i} & 0\\
-0 & 0 & \sqrt{6}{\rm i} & 0 & -2{\rm i}\\
-0 & 0 & 0 & 2{\rm i} & 0
-\end{pmatrix}\\
 s_{5+} & \equiv\begin{pmatrix}0 & 2 & 0 & 0 & 0\\
 0 & 0 & \sqrt{6} & 0 & 0\\
 0 & 0 & 0 & \sqrt{6} & 0\\
@@ -3452,293 +4201,6 @@ s_{5-} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 0 & 0 & \sqrt{6} & 0 & 0\\
 0 & 0 & 0 & 2 & 0
 \end{pmatrix}\equiv\frac{x_{5\times5}+{\rm i}y_{5\times5}}{2}\equiv\frac{x_{(5)}+{\rm i}y_{(5)}}{2}\\
-\Lambda_{S}^{12} & \equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0\\
-1 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{A}^{12}\equiv\begin{pmatrix}0 & -i & 0 & 0 & 0\\
-i & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{D}^{1}\equiv\begin{pmatrix}1 & 0 & 0 & 0 & 0\\
-0 & -1 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{S}^{13}\equiv\begin{pmatrix}0 & 0 & 1 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-1 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{A}^{13}\equiv\begin{pmatrix}0 & 0 & -i & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-i & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix}\\
-\Lambda_{S}^{14} & \equiv\begin{pmatrix}0 & 0 & 0 & 1 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-1 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{A}^{14}\equiv\begin{pmatrix}0 & 0 & 0 & -i & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-i & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{S}^{15}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 1\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-1 & 0 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{A}^{15}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & -i\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-i & 0 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{S}^{23}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 0 & 1 & 0 & 0\\
-0 & 1 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix}\\
-\Lambda_{A}^{23} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 0 & -i & 0 & 0\\
-0 & i & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{D}^{2}\equiv\frac{1}{\sqrt{3}}\begin{pmatrix}1 & 0 & 0 & 0 & 0\\
-0 & 1 & 0 & 0 & 0\\
-0 & 0 & -2 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{S}^{24}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 1 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 1 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{A}^{24}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & -i & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & i & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{S}^{25}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 1\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 1 & 0 & 0 & 0
-\end{pmatrix}\\
-\Lambda_{A}^{25} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & -i\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & i & 0 & 0 & 0
-\end{pmatrix},\Lambda_{S}^{34}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 1 & 0\\
-0 & 0 & 1 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{A}^{34}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & -i & 0\\
-0 & 0 & i & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{D}^{3}\equiv\frac{1}{\sqrt{6}}\begin{pmatrix}1 & 0 & 0 & 0 & 0\\
-0 & 1 & 0 & 0 & 0\\
-0 & 0 & 1 & 0 & 0\\
-0 & 0 & 0 & -3 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix},\Lambda_{S}^{35}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 1\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 1 & 0 & 0
-\end{pmatrix}
-\end{align}
-
-\end_inset
-
-
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\size scriptsize
-\begin_inset Formula 
-\begin{align}
-\Lambda_{A}^{35} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & -i\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & i & 0 & 0
-\end{pmatrix},\Lambda_{S}^{45}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 1\\
-0 & 0 & 0 & 1 & 0
-\end{pmatrix},\Lambda_{A}^{45}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & -i\\
-0 & 0 & 0 & i & 0
-\end{pmatrix},\Lambda_{D}^{4}\equiv\frac{1}{\sqrt{10}}\begin{pmatrix}1 & 0 & 0 & 0 & 0\\
-0 & 1 & 0 & 0 & 0\\
-0 & 0 & 1 & 0 & 0\\
-0 & 0 & 0 & 1 & 0\\
-0 & 0 & 0 & 0 & -4
-\end{pmatrix}\\
-D_{1} & \equiv\begin{pmatrix}1 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix},D_{2}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 1 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix},D_{3}\equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0\\
-1 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix},D_{4}\equiv\begin{pmatrix}0 & i & 0 & 0 & 0\\
--i & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix},D_{5}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 1 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix}\\
-D_{6} & \equiv\begin{pmatrix}0 & 0 & 1 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-1 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix},D_{7}\equiv\begin{pmatrix}0 & 0 & i & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
--i & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix},D_{8}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 0 & 1 & 0 & 0\\
-0 & 1 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix},D_{9}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 0 & i & 0 & 0\\
-0 & -i & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix},D_{10}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 1 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix}\\
-D_{11} & \equiv\begin{pmatrix}0 & 0 & 0 & 1 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-1 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix},D_{12}\equiv\begin{pmatrix}0 & 0 & 0 & i & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
--i & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix},D_{13}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 1 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 1 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix},D_{14}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & i & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & -i & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix},D_{15}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 1 & 0\\
-0 & 0 & 1 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix}\\
-D_{16} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & i & 0\\
-0 & 0 & -i & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix},D_{17}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 1
-\end{pmatrix},D_{18}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 1\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-1 & 0 & 0 & 0 & 0
-\end{pmatrix},D_{19}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & i\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
--i & 0 & 0 & 0 & 0
-\end{pmatrix},D_{20}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 1\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 1 & 0 & 0 & 0
-\end{pmatrix}\\
-D_{21} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & i\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & -i & 0 & 0 & 0
-\end{pmatrix},D_{22}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 1\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 1 & 0 & 0
-\end{pmatrix},D_{23}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & i\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & -i & 0 & 0
-\end{pmatrix},D_{24}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 1\\
-0 & 0 & 0 & 1 & 0
-\end{pmatrix},D_{25}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & i\\
-0 & 0 & 0 & -i & 0
-\end{pmatrix}
-\end{align}
-
-\end_inset
-
-
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\size scriptsize
-\begin_inset Formula 
-\begin{align}
 s_{5,1} & \equiv\begin{pmatrix}1 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0\\
@@ -3756,7 +4218,24 @@ s_{5,3} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 0 & 0 & 1 & 0 & 0\\
 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=-\sqrt{\frac{1}{3}}\Lambda_{D}^{2}+\sqrt{\frac{1}{24}}\Lambda_{D}^{3}+\sqrt{\frac{1}{40}}\varLambda_{D}^{4}+\frac{1}{5}\openone\\
+\end{pmatrix}=-\sqrt{\frac{1}{3}}\Lambda_{D}^{2}+\sqrt{\frac{1}{24}}\Lambda_{D}^{3}+\sqrt{\frac{1}{40}}\varLambda_{D}^{4}+\frac{1}{5}\openone
+\end{align}
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size scriptsize
+\begin_inset Formula 
+\begin{align}
 s_{5,4} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0\\
@@ -3794,16 +4273,38 @@ s_{5,5} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 \begin_layout Standard
 
 \size scriptsize
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+6x6 Gell-Mann matrices generated based on: https://mathworld.wolfram.com/Generaliz
+edGell-MannMatrix.html
+\end_layout
+
+\begin_layout Plain Layout
+They can be explicitly found in the following: https://www.researchgate.net/public
+ation/327281996_Determining_SU_N_symmetry_group_generators
+\end_layout
+
+\begin_layout Plain Layout
+https://arxiv.org/abs/hep-ph/0504280
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size scriptsize
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="7">
+<lyxtabular version="3" rows="2" columns="3">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
 <row>
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
@@ -3811,9 +4312,12 @@ s_{5,5} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $z_{3}=\begin{pmatrix}1 & 0 & 0\\
-0 & 0 & 0\\
-0 & 0 & -1
+\begin_inset Formula $x_{6}\equiv\begin{pmatrix}0 & \sqrt{5} & 0 & 0 & 0 & 0\\
+\sqrt{5} & 0 & \sqrt{8} & 0 & 0 & 0\\
+0 & \sqrt{8} & 0 & \sqrt{9} & 0 & 0\\
+0 & 0 & \sqrt{9} & 0 & \sqrt{8} & 0\\
+0 & 0 & 0 & \sqrt{8} & 0 & \sqrt{5}\\
+0 & 0 & 0 & 0 & \sqrt{5} & 0
 \end{pmatrix}$
 \end_inset
 
@@ -3828,9 +4332,12 @@ s_{5,5} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $x_{3}\equiv\begin{pmatrix}0 & 1 & 0\\
-1 & 0 & 1\\
-0 & 1 & 0
+\begin_inset Formula $y_{6}\equiv\begin{pmatrix}0 & -\sqrt{5}i & 0 & 0 & 0 & 0\\
+\sqrt{5}i & 0 & -\sqrt{8}i & 0 & 0 & 0\\
+0 & \sqrt{8}i & 0 & -\sqrt{9}i & 0 & 0\\
+0 & 0 & \sqrt{9}i & 0 & -\sqrt{8}i & 0\\
+0 & 0 & 0 & \sqrt{8}i & 0 & -\sqrt{5}i\\
+0 & 0 & 0 & 0 & \sqrt{5}i & 0
 \end{pmatrix}$
 \end_inset
 
@@ -3845,78 +4352,14 @@ s_{5,5} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $y_{3}\equiv\begin{pmatrix}0 & {\rm -i} & 0\\
-{\rm i} & 0 & {\rm -i}\\
-0 & {\rm i} & 0
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\begin_inset Formula $s_{3+}\equiv\begin{pmatrix}0 & 1 & 0\\
-0 & 0 & 1\\
-0 & 0 & 0
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\begin_inset Formula $s_{3-}\equiv\begin{pmatrix}0 & 0 & 0\\
-1 & 0 & 0\\
-0 & 1 & 0
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\begin_inset Formula $x_{3}^{2}=\begin{pmatrix}1 & 0 & 1\\
-0 & 2 & 0\\
-1 & 0 & 1
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\begin_inset Formula $y_{3}^{2}=\begin{pmatrix}1 & 0 & -1\\
-0 & 2 & 0\\
--1 & 0 & 1
-\end{pmatrix}$
+\begin_inset Formula $z_{6}\equiv\left(\begin{array}{cccccc}
+5 & 0 & 0 & 0 & 0 & 0\\
+0 & 3 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & -1 & 0 & 0\\
+0 & 0 & 0 & 0 & -3 & 0\\
+0 & 0 & 0 & 0 & 0 & -5
+\end{array}\right)$
 \end_inset
 
 
@@ -3932,10 +4375,14 @@ s_{5,5} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $\lambda_{1}\equiv\begin{pmatrix}0 & 1 & 0\\
-1 & 0 & 0\\
-0 & 0 & 0
-\end{pmatrix}$
+\begin_inset Formula $s_{6+}\equiv\left(\begin{array}{cccccc}
+0 & \sqrt{5} & 0 & 0 & 0 & 0\\
+0 & 0 & \sqrt{8} & 0 & 0 & 0\\
+0 & 0 & 0 & \sqrt{9} & 0 & 0\\
+0 & 0 & 0 & 0 & \sqrt{8} & 0\\
+0 & 0 & 0 & 0 & 0 & \sqrt{5}\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{array}\right)$
 \end_inset
 
 
@@ -3949,315 +4396,16 @@ s_{5,5} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $\lambda_{2}\equiv\begin{pmatrix}0 & -{\rm i} & 0\\
-{\rm i} & 0 & 0\\
-0 & 0 & 0
-\end{pmatrix}$
+\begin_inset Formula $s_{6-}\equiv\left(\begin{array}{cccccc}
+0 & 0 & 0 & 0 & 0 & 0\\
+\sqrt{5} & 0 & 0 & 0 & 0 & 0\\
+0 & \sqrt{8} & 0 & 0 & 0 & 0\\
+0 & 0 & \sqrt{9} & 0 & 0 & 0\\
+0 & 0 & 0 & \sqrt{8} & 0 & 0\\
+0 & 0 & 0 & 0 & \sqrt{5} & 0
+\end{array}\right)$
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\begin_inset Formula $\lambda_{3}\equiv\begin{pmatrix}1 & 0 & 0\\
-0 & -1 & {\rm 0}\\
-0 & 0 & 0
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\begin_inset Formula $\lambda_{4}\equiv\begin{pmatrix}0 & 0 & 1\\
-0 & 0 & {\rm 0}\\
-1 & 0 & 0
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\begin_inset Formula $\lambda_{5}\equiv\begin{pmatrix}0 & 0 & -{\rm i}\\
-0 & 0 & {\rm 0}\\
-{\rm i} & 0 & 0
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\begin_inset Formula $\lambda_{6}\equiv\begin{pmatrix}0 & 0 & 0\\
-0 & 0 & {\rm 1}\\
-0 & 1 & 0
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\begin_inset Formula $\lambda_{7}\equiv\begin{pmatrix}0 & 0 & 0\\
-0 & 0 & {\rm -{\rm i}}\\
-0 & {\rm i} & 0
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\begin_inset Formula $\lambda_{8}\equiv\begin{pmatrix}\frac{1}{\sqrt{3}} & 0 & 0\\
-0 & \frac{1}{\sqrt{3}} & {\rm 0}\\
-0 & 0 & -\frac{2}{\sqrt{3}}
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\begin_inset Formula $s_{3}^{1}\equiv\begin{pmatrix}1 & 0 & 0\\
-0 & 0 & 0\\
-0 & 0 & 0
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\begin_inset Formula $s_{3}^{2}\equiv\begin{pmatrix}0 & 0 & 0\\
-0 & 1 & 0\\
-0 & 0 & 0
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size scriptsize
-\begin_inset Formula $s_{3}^{3}\equiv\begin{pmatrix}0 & 0 & 0\\
-0 & 0 & 0\\
-0 & 0 & 1
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -4281,538 +4429,1266 @@ s_{5,5} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
+\align center
 
 \size scriptsize
-\begin_inset Formula 
-\begin{align}
-x_{6} & \equiv\begin{pmatrix}0 & \sqrt{5} & 0 & 0 & 0 & 0\\
-\sqrt{5} & 0 & \sqrt{8} & 0 & 0 & 0\\
-0 & \sqrt{8} & 0 & \sqrt{9} & 0 & 0\\
-0 & 0 & \sqrt{9} & 0 & \sqrt{8} & 0\\
-0 & 0 & 0 & \sqrt{8} & 0 & \sqrt{5}\\
-0 & 0 & 0 & 0 & \sqrt{5} & 0
-\end{pmatrix},y_{6}\equiv\begin{pmatrix}0 & -\sqrt{5}i & 0 & 0 & 0 & 0\\
-\sqrt{5}i & 0 & -\sqrt{8}i & 0 & 0 & 0\\
-0 & \sqrt{8}i & 0 & -\sqrt{9}i & 0 & 0\\
-0 & 0 & \sqrt{9}i & 0 & -\sqrt{8}i & 0\\
-0 & 0 & 0 & \sqrt{8}i & 0 & -\sqrt{5}i\\
-0 & 0 & 0 & 0 & \sqrt{5}i & 0
-\end{pmatrix}\\
-z_{6} & \equiv\left(\begin{array}{cccccc}
-5 & 0 & 0 & 0 & 0 & 0\\
-0 & 3 & 0 & 0 & 0 & 0\\
-0 & 0 & 1 & 0 & 0 & 0\\
-0 & 0 & 0 & -1 & 0 & 0\\
-0 & 0 & 0 & 0 & -3 & 0\\
-0 & 0 & 0 & 0 & 0 & -5
-\end{array}\right)\\
-s_{6+} & \equiv\left(\begin{array}{cccccc}
-0 & \sqrt{5} & 0 & 0 & 0 & 0\\
-0 & 0 & \sqrt{8} & 0 & 0 & 0\\
-0 & 0 & 0 & \sqrt{9} & 0 & 0\\
-0 & 0 & 0 & 0 & \sqrt{8} & 0\\
-0 & 0 & 0 & 0 & 0 & \sqrt{5}\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{array}\right),s_{6-}\equiv\left(\begin{array}{cccccc}
-0 & 0 & 0 & 0 & 0 & 0\\
-\sqrt{5} & 0 & 0 & 0 & 0 & 0\\
-0 & \sqrt{8} & 0 & 0 & 0 & 0\\
-0 & 0 & \sqrt{9} & 0 & 0 & 0\\
-0 & 0 & 0 & \sqrt{8} & 0 & 0\\
-0 & 0 & 0 & 0 & \sqrt{5} & 0
-\end{array}\right)\\
-\Lambda_{s}^{12} & \equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0 & 0\\
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\Lambda_{S}^{12}\equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0 & 0\\
 1 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},\varLambda_{A}^{12}\equiv\begin{pmatrix}0 & -i & 0 & 0 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{A}^{12}\equiv\begin{pmatrix}0 & -i & 0 & 0 & 0 & 0\\
 i & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}\varLambda_{D}^{1}\equiv\begin{pmatrix}1 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{D}^{1}\equiv\begin{pmatrix}1 & 0 & 0 & 0 & 0 & 0\\
 0 & -1 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}\varLambda_{S}^{13}\equiv\begin{pmatrix}0 & 0 & 1 & 0 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{S}^{13}\equiv\begin{pmatrix}0 & 0 & 1 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 1 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}\\
-\varLambda_{A}^{13} & \equiv\begin{pmatrix}0 & 0 & -i & 0 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{A}^{13}\equiv\begin{pmatrix}0 & 0 & -i & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 i & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},\varLambda_{S}^{14}\equiv\begin{pmatrix}0 & 0 & 0 & 1 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{S}^{14}\equiv\begin{pmatrix}0 & 0 & 0 & 1 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 1 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}\varLambda_{A}^{14}\equiv\begin{pmatrix}0 & 0 & 0 & -i & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{A}^{14}\equiv\begin{pmatrix}0 & 0 & 0 & -i & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 i & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}\varLambda_{S}^{15}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 1 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{S}^{15}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 1 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 1 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}\\
-\varLambda_{A}^{15} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & -i & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{A}^{15}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & -i & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 i & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},\varLambda_{S}^{16}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 1\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{S}^{16}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 1\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 1 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}\varLambda_{A}^{16}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & -i\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{A}^{16}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & -i\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 i & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}\varLambda_{S}^{23}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{S}^{23}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 1 & 0 & 0 & 0\\
 0 & 1 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}\\
-\varLambda_{A}^{23} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{A}^{23}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & -i & 0 & 0 & 0\\
 0 & i & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},\varLambda_{D}^{2}\equiv\frac{1}{\sqrt{3}}\begin{pmatrix}1 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{D}^{2}\equiv\frac{1}{\sqrt{3}}\begin{pmatrix}1 & 0 & 0 & 0 & 0 & 0\\
 0 & 1 & 0 & 0 & 0 & 0\\
 0 & 0 & -2 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}\varLambda_{S}^{24}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 1 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 1 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}\varLambda_{A}^{24}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & -i & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & i & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}
-\end{align}
-
-\end_inset
-
-
-\begin_inset Newpage newpage
+\end{pmatrix}$
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula 
-\begin{align}
-\varLambda_{S}^{25} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\begin_inset Formula $\varLambda_{S}^{24}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{A}^{24}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & -i & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & i & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{S}^{25}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 1 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 1 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},\varLambda_{A}^{25}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{A}^{25}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & -i & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & i & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}\varLambda_{S}^{26}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{S}^{26}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 1\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 1 & 0 & 0 & 0 & 0
-\end{pmatrix}\varLambda_{A}^{26}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{A}^{26}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & -i\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & i & 0 & 0 & 0 & 0
-\end{pmatrix}\\
-\varLambda_{S}^{34} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{S}^{34}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 1 & 0 & 0\\
 0 & 0 & 1 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},\varLambda_{A}^{34}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{A}^{34}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & -i & 0 & 0\\
 0 & 0 & i & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}\varLambda_{D}^{3}\equiv\frac{1}{\sqrt{6}}\begin{pmatrix}1 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{D}^{3}\equiv\frac{1}{\sqrt{6}}\begin{pmatrix}1 & 0 & 0 & 0 & 0 & 0\\
 0 & 1 & 0 & 0 & 0 & 0\\
 0 & 0 & 1 & 0 & 0 & 0\\
 0 & 0 & 0 & -3 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}\varLambda_{S}^{35}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{S}^{35}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 1 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 1 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}\\
-\varLambda_{A}^{35} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{A}^{35}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & -i & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & i & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},\varLambda_{S}^{36}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size scriptsize
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{S}^{36}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 1\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 1 & 0 & 0 & 0
-\end{pmatrix}\varLambda_{A}^{36}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{A}^{36}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & -i\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & i & 0 & 0 & 0
-\end{pmatrix}\varLambda_{S}^{45}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{S}^{45}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 1 & 0\\
 0 & 0 & 0 & 1 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}\\
-\varLambda_{A}^{45} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{A}^{45}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & -i & 0\\
 0 & 0 & 0 & i & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},\varLambda_{D}^{4}\equiv\frac{1}{\sqrt{10}}\begin{pmatrix}1 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{D}^{4}\equiv\frac{1}{\sqrt{10}}\begin{pmatrix}1 & 0 & 0 & 0 & 0 & 0\\
 0 & 1 & 0 & 0 & 0 & 0\\
 0 & 0 & 1 & 0 & 0 & 0\\
 0 & 0 & 0 & 1 & 0 & 0\\
 0 & 0 & 0 & 0 & -4 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}\varLambda_{S}^{46}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{S}^{46}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 1\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 1 & 0 & 0
-\end{pmatrix}\varLambda_{A}^{46}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{A}^{46}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & -i\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & i & 0 & 0
-\end{pmatrix}\\
-\varLambda_{S}^{56} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{S}^{56}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 1\\
 0 & 0 & 0 & 0 & 1 & 0
-\end{pmatrix},\varLambda_{A}^{56}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{A}^{56}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & -i\\
 0 & 0 & 0 & 0 & i & 0
-\end{pmatrix}\varLambda_{D}^{5}\equiv\frac{1}{\sqrt{15}}\begin{pmatrix}1 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\varLambda_{D}^{5}\equiv\frac{1}{\sqrt{15}}\begin{pmatrix}1 & 0 & 0 & 0 & 0 & 0\\
 0 & 1 & 0 & 0 & 0 & 0\\
 0 & 0 & 1 & 0 & 0 & 0\\
 0 & 0 & 0 & 1 & 0 & 0\\
 0 & 0 & 0 & 0 & 1 & 0\\
 0 & 0 & 0 & 0 & 0 & -5
-\end{pmatrix}\\
-E_{1} & \equiv\begin{pmatrix}1 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},E_{2}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 1 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},E_{3}\equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0 & 0\\
-1 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},E_{4}\equiv\begin{pmatrix}0 & i & 0 & 0 & 0 & 0\\
--i & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}\\
-E_{5} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 1 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},E_{6}\equiv\begin{pmatrix}0 & 0 & 1 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-1 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},E_{7}\equiv\begin{pmatrix}0 & 0 & i & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
--i & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},E_{8}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 1 & 0 & 0 & 0\\
-0 & 1 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}
-\end{align}
-
-\end_inset
-
-
-\begin_inset Newpage newpage
+\end{pmatrix}$
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula 
-\begin{align}
-E_{9} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\begin_inset Formula $E_{1}\equiv\begin{pmatrix}1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{2}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{3}\equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{4}\equiv\begin{pmatrix}0 & i & 0 & 0 & 0 & 0\\
+-i & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{5}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{6}\equiv\begin{pmatrix}0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{7}\equiv\begin{pmatrix}0 & 0 & i & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+-i & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{8}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{9}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & i & 0 & 0 & 0\\
 0 & -i & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},E_{10}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 1 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},E_{11}\equiv\begin{pmatrix}0 & 0 & 0 & 1 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-1 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},E_{12}\equiv\begin{pmatrix}0 & 0 & 0 & i & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
--i & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}\\
-E_{13} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 1 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 1 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},E_{14}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & i & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & -i & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},E_{15}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 1 & 0 & 0\\
-0 & 0 & 1 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},E_{16}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & i & 0 & 0\\
-0 & 0 & -i & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}\\
-E_{17} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 1 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},E_{18}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 1 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-1 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},E_{19}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & i & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
--i & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},E_{20}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 1 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 1 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}\\
-E_{21} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & i & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & -i & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},E_{22}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 1 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 1 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},E_{23}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & i & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & -i & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},E_{24}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 1 & 0\\
-0 & 0 & 0 & 1 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}\\
-E_{25} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & i & 0\\
-0 & 0 & 0 & -i & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},E_{26}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 1
-\end{pmatrix},E_{27}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 1\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-1 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},E_{28}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & i\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
--i & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}\\
-E_{29} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 1\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 1 & 0 & 0 & 0 & 0
-\end{pmatrix},E_{30}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & i\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & -i & 0 & 0 & 0 & 0
-\end{pmatrix},E_{31}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 1\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 1 & 0 & 0 & 0
-\end{pmatrix},E_{32}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & i\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & -i & 0 & 0 & 0
-\end{pmatrix}\\
-E_{33} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 1\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 1 & 0 & 0
-\end{pmatrix},E_{34}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & i\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & -i & 0 & 0
-\end{pmatrix},E_{35}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 1\\
-0 & 0 & 0 & 0 & 1 & 0
-\end{pmatrix},E_{36}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & i\\
-0 & 0 & 0 & 0 & -i & 0
-\end{pmatrix}
-\end{align}
-
+\end{pmatrix}$
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage newpage
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{10}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{11}\equiv\begin{pmatrix}0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{12}\equiv\begin{pmatrix}0 & 0 & 0 & i & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+-i & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{13}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{14}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & i & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & -i & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{15}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{16}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & i & 0 & 0\\
+0 & 0 & -i & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{17}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{18}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{19}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & i & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+-i & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{20}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{21}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & i & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & -i & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{22}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{23}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & i & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & -i & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{24}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{25}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & i & 0\\
+0 & 0 & 0 & -i & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
 \end_inset
 
 
@@ -4821,6 +5697,311 @@ E_{33} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 \begin_layout Standard
 
 \size scriptsize
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size scriptsize
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{26}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{27}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{28}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & i\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+-i & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{29}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{30}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & i\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & -i & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{31}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{32}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & i\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & -i & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{33}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{34}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & i\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & -i & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{35}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 1 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $E_{36}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & i\\
+0 & 0 & 0 & 0 & -i & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \begin_inset Formula 
 \begin{align}
 |0_{b}1_{t}\rangle\langle1_{b}0_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
@@ -4850,34 +6031,7 @@ E_{33} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 1 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}(iy\lambda_{3}-x\lambda_{3})+\sqrt{\frac{1}{48}}(x\lambda_{8}-iy\lambda_{8})+\frac{1}{6}(x-y)\\
-|1_{b}1_{t}\rangle\langle0_{b}1_{t}|+|0_{b}1_{t}\rangle\langle1_{b}1_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 1 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 1 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{2}\left(\lambda_{5}y+\lambda_{4}x\right)\\
-|1_{b}0_{t}\rangle\langle1_{b}2_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 1\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix},\frac{1}{4}\left(\lambda_{6}-z\lambda_{6}+{\rm i}\lambda_{7}-{\rm i}z\lambda_{7}\right)=\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 1\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=|1_{b}1_{t}\rangle\langle1_{b}2_{t}|\\
-|1_{b}0_{t}\rangle\langle1_{b}2_{t}|+|1_{b}2_{t}\rangle\langle1_{b}0_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 1\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 1 & 0 & 0
-\end{pmatrix}=\frac{1}{2}\left(\lambda_{6}-\lambda_{6}z\right)
+\end{pmatrix}=\frac{1}{4}(iy\lambda_{3}-x\lambda_{3})+\sqrt{\frac{1}{48}}(x\lambda_{8}-iy\lambda_{8})+\frac{1}{6}(x-y)
 \end{align}
 
 \end_inset
@@ -4897,6 +6051,34 @@ E_{33} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 \size scriptsize
 \begin_inset Formula 
 \begin{align}
+|1_{b}1_{t}\rangle\langle0_{b}1_{t}|+|0_{b}1_{t}\rangle\langle1_{b}1_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{2}\left(\lambda_{5}y+\lambda_{4}x\right)\\
+|1_{b}0_{t}\rangle\langle1_{b}2_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}\\
+|1_{b}1_{t}\rangle\langle1_{b}2_{t}| & =\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{4}\left(\lambda_{6}-z\lambda_{6}+{\rm i}\lambda_{7}-{\rm i}z\lambda_{7}\right)\\
+|1_{b}0_{t}\rangle\langle1_{b}2_{t}|+|1_{b}2_{t}\rangle\langle1_{b}0_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0
+\end{pmatrix}=\frac{1}{2}\left(\lambda_{6}-\lambda_{6}z\right)\\
 |0_{b}1_{t}\rangle\langle0_{b}0_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 1 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
@@ -4917,7 +6099,26 @@ E_{33} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{2}\left(z\lambda_{1}+\lambda_{1}\right)\\
+\end{pmatrix}=\frac{1}{2}\left(z\lambda_{1}+\lambda_{1}\right)
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size scriptsize
+\begin_inset Formula 
+\begin{align}
 |0_{b}2_{t}\rangle\langle1_{b}0_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 1 & 0 & 0\\
@@ -4945,19 +6146,7 @@ E_{33} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{2}\left(z\lambda_{4}+\lambda_{4}\right)
-\end{align}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\size scriptsize
-\begin_inset Formula 
-\begin{align}
+\end{pmatrix}=\frac{1}{2}\left(z\lambda_{4}+\lambda_{4}\right)\\
 |1_{b}1_{t}\rangle\langle1_{b}2_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
@@ -4978,20 +6167,30 @@ E_{33} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 1 & 0\\
 0 & 0 & 0 & 1 & 0 & 0\\
 0 & 0 & 1 & 0 & 0 & 0
-\end{pmatrix}=\lambda_{6}x_{2}=\ensuremath{-\frac{1}{2}z\lambda_{1}+\frac{1}{2}\lambda_{1}-\frac{1}{\sqrt{3}}x\lambda_{8}+\frac{1}{3}}x\ne x_{2}\lambda_{6}\\
+\end{pmatrix}=\lambda_{6}x_{2}=\ensuremath{-\frac{1}{2}z\lambda_{1}+\frac{1}{2}\lambda_{1}-\frac{1}{\sqrt{3}}x\lambda_{8}+\frac{1}{3}}x\ne x_{2}\lambda_{6}
+\end{align}
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size scriptsize
+\begin_inset Formula 
+\begin{align}
 x_{1}|1_{t,2}\rangle\langle2_{t,2}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 1\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 1 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{2}x|0_{b}1_{t}\rangle\langle0_{b}2_{t}|+|0_{b}2_{t}\rangle\langle0_{b}1_{t}|\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 1 & 0 & 0 & 0\\
-0 & 1 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{2}\left(\lambda_{6}+z\lambda_{6}\right)\left(\lambda_{6}+{\rm i}\lambda_{7}\right)\\
+\end{pmatrix}=\frac{1}{2}(x\lambda_{6}+{\rm i}\lambda_{7})\\
 x_{1}|1_{t,2}\rangle\langle2_{t,2}|+x_{1}|2_{t,2}\rangle\langle1_{t,2}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 1\\
 0 & 0 & 0 & 0 & 1 & 0\\
@@ -5024,7 +6223,14 @@ x_{1}|1_{t,2}\rangle\langle2_{t,2}|+x_{1}|2_{t,2}\rangle\langle1_{t,2}| & \equiv
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}\left(\lambda_{6}+z\lambda_{6}+{\rm i}\lambda_{7}+{\rm i}z\lambda_{7}\right)\ne\frac{1}{4}\left(\lambda_{6}+\lambda_{6}z+{\rm i}\lambda_{7}+{\rm i}\lambda_{7}z\right)
+\end{pmatrix}=\frac{1}{4}\left(\lambda_{6}+z\lambda_{6}+{\rm i}\lambda_{7}+{\rm i}z\lambda_{7}\right)\ne\frac{1}{4}\left(\lambda_{6}+\lambda_{6}z+{\rm i}\lambda_{7}+{\rm i}\lambda_{7}z\right)\\
+|0_{b}1_{t}\rangle\langle0_{b}2_{t}|+|0_{b}2_{t}\rangle\langle0_{b}1_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{2}\left(\lambda_{6}+z\lambda_{6}\right)
 \end{align}
 
 \end_inset
@@ -5041,19 +6247,1096 @@ x_{1}|1_{t,2}\rangle\langle2_{t,2}|+x_{1}|2_{t,2}\rangle\langle1_{t,2}| & \equiv
 
 \end_layout
 
+\begin_layout Subsection
+7-level systems (spin-
+\begin_inset Formula $3$
+\end_inset
+
+ particles)
+\end_layout
+
 \begin_layout Standard
 
 \size scriptsize
-\begin_inset Formula 
-\begin{equation}
-|0_{b}1_{t}\rangle\langle0_{b}2_{t}|+|0_{b}2_{t}\rangle\langle0_{b}1_{t}|\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 1 & 0 & 0 & 0\\
-0 & 1 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{2}\left(\lambda_{6}+z\lambda_{6}\right)
-\end{equation}
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+SU(7) generators retrieved from: https://aip.scitation.org/doi/10.1063/1.5118346?af=
+R&feed=most-recent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size scriptsize
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{1}\equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{2}\equiv\begin{pmatrix}0 & -i & 0 & 0 & 0 & 0 & 0\\
+i & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{3}\equiv\begin{pmatrix}1 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & -1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{4}\equiv\begin{pmatrix}0 & 0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{5}\equiv\begin{pmatrix}0 & 0 & -i & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+i & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{6}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{7}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & -i & 0 & 0 & 0 & 0\\
+0 & i & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{8}\equiv\frac{1}{\sqrt{3}}\begin{pmatrix}1 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & -2 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{9}\equiv\begin{pmatrix}0 & 0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{10}\equiv\begin{pmatrix}0 & 0 & 0 & -i & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+i & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{11}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{12}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & -i & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & i & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{13}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{14}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & -i & 0 & 0 & 0\\
+0 & 0 & i & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{15}\equiv\frac{1}{\sqrt{6}}\begin{pmatrix}1 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & -3 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{16}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{17}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & -i & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+i & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{18}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{19}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & -i & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & i & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{20}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{21}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & -i & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & i & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{22}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{23}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & -i & 0 & 0\\
+0 & 0 & 0 & i & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{24}\equiv\frac{1}{\sqrt{10}}\begin{pmatrix}1 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & -4 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size scriptsize
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{25}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{26}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & -i & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+i & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{27}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{28}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & -i & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & i & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{29}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{30}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & -i & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & i & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{31}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{32}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & -i & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & i & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{33}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{34}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & -i & 0\\
+0 & 0 & 0 & 0 & i & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{35}\equiv\frac{1}{\sqrt{15}}\begin{pmatrix}1 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & -5 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{36}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{37}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & -i\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+i & 0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{38}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{39}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & -i\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & i & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{40}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{41}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & -i\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & i & 0 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{42}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{43}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & -i\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & i & 0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{44}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{45}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & -i\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & i & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{46}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0 & 1 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{47}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & -i\\
+0 & 0 & 0 & 0 & 0 & i & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{48}\equiv\frac{1}{\sqrt{21}}\begin{pmatrix}1 & 0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0 & 0 & -6
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
 
 \end_inset
 
