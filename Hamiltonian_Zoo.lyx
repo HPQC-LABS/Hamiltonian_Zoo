@@ -1386,6 +1386,8 @@ Matrix Zoo
 \end_inset
 
  particles)
+\size scriptsize
+
 \begin_inset Note Note
 status open
 
@@ -1395,45 +1397,219 @@ status open
 A1-A4 matrices generated based on: https://math.stackexchange.com/a/4034168/202425
 \end_layout
 
+\begin_layout Plain Layout
+SU(2) matrices in Section 2 of: https://walterpfeifer.ch/liealgebra/LieAlg_wieBuc
+h4.pdf
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
+\align center
 
-\size footnotesize
-\begin_inset Formula 
-\begin{align}
-z & \equiv\begin{pmatrix}1 & 0\\
-0 & -1
-\end{pmatrix},x\equiv\begin{pmatrix}0 & 1\\
+\size scriptsize
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $x\equiv\begin{pmatrix}0 & 1\\
 1 & 0
-\end{pmatrix},y\equiv\begin{pmatrix}0 & -{\rm i}\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $y\equiv\begin{pmatrix}0 & -{\rm i}\\
 {\rm i} & 0
-\end{pmatrix}\\
-A_{1} & \equiv\begin{pmatrix}1 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $z\equiv\begin{pmatrix}1 & 0\\
+0 & -1
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $A_{1}\equiv\begin{pmatrix}1 & 0\\
 0 & 0
-\end{pmatrix},A_{2}\equiv\begin{pmatrix}0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $A_{2}\equiv\begin{pmatrix}0 & 0\\
 0 & 1
-\end{pmatrix},A_{3}\equiv\begin{pmatrix}0 & 1\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $A_{3}\equiv\begin{pmatrix}0 & 1\\
 1 & 0
-\end{pmatrix},A_{4}\equiv\begin{pmatrix}0 & {\rm i}\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $A_{4}\equiv\begin{pmatrix}0 & {\rm i}\\
 {\rm -i} & 0
-\end{pmatrix}\\
-s_{+} & \equiv\begin{pmatrix}0 & 1\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $s_{+}\equiv\begin{pmatrix}0 & 1\\
 0 & 0
-\end{pmatrix}=\frac{x+{\rm i}y}{2}\\
-s_{-} & \equiv\begin{pmatrix}0 & 0\\
+\end{pmatrix}=\frac{x+{\rm i}y}{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $s_{-}\equiv\begin{pmatrix}0 & 0\\
 1 & 0
-\end{pmatrix}=\frac{x-{\rm i}y}{2}\\
-s_{\alpha} & \equiv\begin{pmatrix}1 & 0\\
+\end{pmatrix}=\frac{x-{\rm i}y}{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $s_{\alpha}\equiv\begin{pmatrix}1 & 0\\
 0 & 0
-\end{pmatrix}=\frac{\openone+z}{2}\equiv b\\
-s_{\beta} & \equiv\begin{pmatrix}0 & 0\\
+\end{pmatrix}=\frac{\openone+z}{2}\equiv b$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $s_{\beta}\equiv\begin{pmatrix}0 & 0\\
 0 & 1
-\end{pmatrix}=\frac{\openone-z}{2}
-\end{align}
+\end{pmatrix}=\frac{\openone-z}{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
 
 \end_inset
 
@@ -1475,6 +1651,11 @@ B1-B9 matrices generated based on https://math.stackexchange.com/a/4034168/20242
 
 \begin_layout Plain Layout
 Gell-Mann decompositions: https://arxiv.org/pdf/0806.1174.pdf
+\end_layout
+
+\begin_layout Plain Layout
+SU(3) matrices in section 3 of: https://walterpfeifer.ch/liealgebra/LieAlg_wieBuc
+h4.pdf
 \end_layout
 
 \end_inset
@@ -2045,136 +2226,574 @@ Gell-Mann decompositions: https://arxiv.org/pdf/0806.1174.pdf
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Newpage newpage
 \end_inset
 
 
 \size scriptsize
 
-\begin_inset Formula 
-\begin{align}
-\lambda_{1} & \equiv\begin{pmatrix}0 & 1 & 0\\
-1 & 0 & 0\\
-0 & 0 & 0
-\end{pmatrix}=\frac{1}{2}(x_{3}+z_{3}x_{3}+x_{3}z_{3}),\lambda_{2}\equiv\begin{pmatrix}0 & -{\rm i} & 0\\
-{\rm i} & 0 & 0\\
-0 & 0 & 0
-\end{pmatrix}=\frac{1}{2}(y_{3}+y_{3}z_{3}+z_{3}y_{3})\\
-\lambda_{3} & \equiv\begin{pmatrix}1 & 0 & 0\\
-0 & -1 & {\rm 0}\\
-0 & 0 & 0
-\end{pmatrix}=2\openone+\frac{1}{2}(z_{3}-\frac{3}{2}x_{3}^{2}-\frac{3}{2}y_{3}^{2}),\lambda_{4}\equiv\begin{pmatrix}0 & 0 & 1\\
-0 & 0 & {\rm 0}\\
-1 & 0 & 0
-\end{pmatrix}=\frac{1}{2}(x_{3}^{2}-y_{3}^{2})\\
-\lambda_{5} & \equiv\begin{pmatrix}0 & 0 & -{\rm i}\\
-0 & 0 & {\rm 0}\\
-{\rm i} & 0 & 0
-\end{pmatrix}=\frac{1}{2}(x_{3}y_{3}+y_{3}x_{3}),\lambda_{6}\equiv\begin{pmatrix}0 & 0 & 0\\
-0 & 0 & {\rm 1}\\
-0 & 1 & 0
-\end{pmatrix}=\frac{1}{2}(x_{3}-z_{3}x_{3}-x_{3}z_{3})\\
-\lambda_{7} & \equiv\begin{pmatrix}0 & 0 & 0\\
-0 & 0 & {\rm -{\rm i}}\\
-0 & {\rm i} & 0
-\end{pmatrix}=\frac{1}{2}(y_{3}-y_{3}z_{3}-z_{3}y_{3}),\lambda_{8}\equiv\frac{1}{\sqrt{3}}\begin{pmatrix}1 & 0 & 0\\
-0 & 1 & {\rm 0}\\
-0 & 0 & -2
-\end{pmatrix}=\frac{1}{\sqrt{3}}(-2\openone+\frac{3}{2}(z_{3}+\frac{1}{2}x_{3}^{2}+\frac{1}{2}y_{3}^{2}))\\
-s_{3+} & \equiv\begin{pmatrix}0 & 1 & 0\\
+\begin_inset Tabular
+<lyxtabular version="3" rows="16" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{1}=\frac{1}{2}(x_{3}+z_{3}x_{3}+x_{3}z_{3})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{2}=\frac{1}{2}(y_{3}+y_{3}z_{3}+z_{3}y_{3})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{3}=2\openone+\frac{1}{2}(z_{3}-\frac{3}{2}x_{3}^{2}-\frac{3}{2}y_{3}^{2})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{4}=\frac{1}{2}(x_{3}^{2}-y_{3}^{2})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{5}=\frac{1}{2}(x_{3}y_{3}+y_{3}x_{3})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{6}=\frac{1}{2}(x_{3}-z_{3}x_{3}-x_{3}z_{3})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{7}=\frac{1}{2}(y_{3}-y_{3}z_{3}-z_{3}y_{3})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{8}=\frac{1}{\sqrt{3}}(-2\openone+\frac{3}{2}(z_{3}+\frac{1}{2}x_{3}^{2}+\frac{1}{2}y_{3}^{2}))$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $s_{3+}\equiv\begin{pmatrix}0 & 1 & 0\\
 0 & 0 & 1\\
 0 & 0 & 0
-\end{pmatrix}=\frac{x_{3}+{\rm i}y_{3}}{2}\\
-s_{3-} & \equiv\begin{pmatrix}0 & 0 & 0\\
+\end{pmatrix}=\frac{x_{3}+{\rm i}y_{3}}{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $s_{3-}\equiv\begin{pmatrix}0 & 0 & 0\\
 1 & 0 & 0\\
 0 & 1 & 0
-\end{pmatrix}=\frac{x_{3}-{\rm i}y_{3}}{2}\\
-s_{3,1} & \equiv\begin{pmatrix}1 & 0 & 0\\
+\end{pmatrix}=\frac{x_{3}-{\rm i}y_{3}}{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $s_{3,1}\equiv\begin{pmatrix}1 & 0 & 0\\
 0 & 0 & 0\\
 0 & 0 & 0
-\end{pmatrix}=\frac{1}{2}z_{3}^{2}+\frac{1}{4}i(y_{3}x_{3}-x_{3}y_{3})=\frac{z_{3}}{2}(\openone+z_{3})\\
-s_{3,2} & \equiv\begin{pmatrix}0 & 0 & 0\\
+\end{pmatrix}=\frac{1}{2}z_{3}^{2}+\frac{1}{4}i(y_{3}x_{3}-x_{3}y_{3})=\frac{z_{3}}{2}(\openone+z_{3})$
+\end_inset
+
+ 
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $s_{3,2}\equiv\begin{pmatrix}0 & 0 & 0\\
 0 & 1 & 0\\
 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}(x_{3}^{2}+y_{3}^{2})-\frac{1}{2}z_{3}^{2}\\
-s_{3,3} & \equiv\begin{pmatrix}0 & 0 & 0\\
+\end{pmatrix}=\frac{1}{4}(x_{3}^{2}+y_{3}^{2})-\frac{1}{2}z_{3}^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $s_{3,3}\equiv\begin{pmatrix}0 & 0 & 0\\
 0 & 0 & 0\\
 0 & 0 & 1
-\end{pmatrix}=\frac{1}{2}z_{3}^{2}-\frac{1}{4}i(y_{3}x_{3}-x_{3}y_{3})=\frac{z_{3}}{2}(z_{3}-\openone)\\
-x_{3}y_{3}+y_{3}x_{3} & =\begin{pmatrix}0 & 0 & -2i\\
+\end{pmatrix}=\frac{1}{2}z_{3}^{2}-\frac{1}{4}i(y_{3}x_{3}-x_{3}y_{3})=\frac{z_{3}}{2}(z_{3}-\openone)$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\{x_{3},y_{3}\}\equiv x_{3}y_{3}+y_{3}x_{3}=\begin{pmatrix}0 & 0 & -2i\\
 0 & 0 & 0\\
 2i & 0 & 0
-\end{pmatrix},y_{3}z_{3}+z_{3}y_{3}=\begin{pmatrix}0 & -i & 0\\
-i & 0 & i\\
-0 & -i & 0
-\end{pmatrix},z_{3}x_{3}+x_{3}z_{3}=\begin{pmatrix}0 & 1 & 0\\
-1 & 0 & -1\\
-0 & -1 & 0
-\end{pmatrix}\\
-|1\rangle\langle2| & \equiv\begin{pmatrix}0 & 0 & 0\\
-0 & 0 & 1\\
-0 & 0 & 0
-\end{pmatrix}=\frac{1}{2}\left(\lambda_{6}+{\rm i}\lambda_{7}\right)\\
-\lambda_{7}\lambda_{7} & =\begin{pmatrix}0 & 0 & 0\\
-0 & 1 & 0\\
-0 & 0 & 1
-\end{pmatrix}\\
-\lambda_{7}\lambda_{5} & =\begin{pmatrix}0 & 0 & 0\\
-1 & 0 & 0\\
-0 & 0 & 0
-\end{pmatrix},\lambda_{3}\lambda_{7}=\begin{pmatrix}0 & 1 & 0\\
-0 & 0 & 0\\
-0 & 0 & 0
-\end{pmatrix},\lambda_{7}\lambda_{3}+\lambda_{3}\lambda_{7}=\lambda_{1}
-\end{align}
-
+\end{pmatrix}$
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage newpage
 \end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
 
-
-\end_layout
-
-\begin_layout Standard
+\begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula 
-\begin{align}
-\lambda_{7}\lambda_{2} & =\begin{pmatrix}0 & 0 & 0\\
+\begin_inset Formula $\{y_{3},z_{3}\}\equiv y_{3}z_{3}+z_{3}y_{3}=\begin{pmatrix}0 & -i & 0\\
+i & 0 & i\\
+0 & -i & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\{z_{3},x_{3}\}\equiv z_{3}x_{3}+x_{3}z_{3}=\begin{pmatrix}0 & 1 & 0\\
+1 & 0 & -1\\
+0 & -1 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $|1\rangle\langle2|\equiv\begin{pmatrix}0 & 0 & 0\\
+0 & 0 & 1\\
+0 & 0 & 0
+\end{pmatrix}=\frac{1}{2}\left(\lambda_{6}+{\rm i}\lambda_{7}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{7}\lambda_{7}=\begin{pmatrix}0 & 0 & 0\\
+0 & 1 & 0\\
+0 & 0 & 1
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{7}\lambda_{5}=\begin{pmatrix}0 & 0 & 0\\
+1 & 0 & 0\\
+0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{3}\lambda_{7}=\begin{pmatrix}0 & 1 & 0\\
+0 & 0 & 0\\
+0 & 0 & 0
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{7}\lambda_{3}+\lambda_{3}\lambda_{7}=\lambda_{1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{7}\lambda_{2}=\begin{pmatrix}0 & 0 & 0\\
 0 & 0 & 0\\
 -1 & 0 & 0
-\end{pmatrix}=-\lambda_{6}\lambda_{1},\lambda_{2}\lambda_{7}=\begin{pmatrix}0 & 0 & -1\\
+\end{pmatrix}=-\lambda_{6}\lambda_{1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{2}\lambda_{7}=\begin{pmatrix}0 & 0 & -1\\
 0 & 0 & 0\\
 0 & 0 & 0
-\end{pmatrix}=-\lambda_{1}\lambda_{6},\lambda_{7}\lambda_{2}+\lambda_{2}\lambda_{7}=-\lambda_{4},\lambda_{6}\lambda_{1}+\lambda_{1}\lambda_{6}=\lambda_{4}\\
-\lambda_{5}^{2} & =\begin{pmatrix}1 & 0 & 0\\
+\end{pmatrix}=-\lambda_{1}\lambda_{6}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{7}\lambda_{2}+\lambda_{2}\lambda_{7}=-\lambda_{4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{6}\lambda_{1}+\lambda_{1}\lambda_{6}=\lambda_{4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{5}^{2}=\begin{pmatrix}1 & 0 & 0\\
 0 & 0 & 0\\
 0 & 0 & 1
-\end{pmatrix}=\left|\lambda_{1}\right|\\
-\lambda_{5}\lambda_{2} & =\begin{pmatrix}0 & 0 & 0\\
+\end{pmatrix}=\left|\lambda_{1}\right|$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{5}\lambda_{2}=\begin{pmatrix}0 & 0 & 0\\
 0 & 0 & 0\\
 0 & 1 & 0
-\end{pmatrix},\lambda_{2}\lambda_{3}=\begin{pmatrix}0 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{2}\lambda_{5}=\begin{pmatrix}0 & 0 & 0\\
 0 & 0 & 1\\
 0 & 0 & 0
-\end{pmatrix},\lambda_{3}\lambda_{2}+\lambda_{2}\lambda_{3}=\begin{pmatrix}0 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{5}\lambda_{2}+\lambda_{2}\lambda_{5}=\begin{pmatrix}0 & 0 & 0\\
 0 & 0 & 1\\
 0 & 1 & 0
-\end{pmatrix}=\lambda_{6}\\
-\lambda_{2}^{2} & =\begin{pmatrix}1 & 0 & 0\\
+\end{pmatrix}=\lambda_{6}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{2}^{2}=\begin{pmatrix}1 & 0 & 0\\
 0 & 1 & 0\\
 0 & 0 & 0
-\end{pmatrix}=|\lambda_{3}|\\
-y_{3}x_{3} & =\begin{pmatrix}-i & 0 & -i\\
+\end{pmatrix}=|\lambda_{3}|$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $y_{3}x_{3}=\begin{pmatrix}-i & 0 & -i\\
 0 & 0 & 0\\
 i & 0 & i
-\end{pmatrix}=\lambda_{5}-iz_{3}
-\end{align}
+\end{pmatrix}=\lambda_{5}-iz_{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
 
 \end_inset
 
@@ -2206,6 +2825,11 @@ status open
 
 \size scriptsize
 4x4 Gell-Mann matrices: https://arxiv.org/pdf/0806.1174.pdf
+\end_layout
+
+\begin_layout Plain Layout
+SU(4) in Section 5.1 of this source: https://walterpfeifer.ch/liealgebra/LieAlg_wi
+eBuch4.pdf
 \end_layout
 
 \begin_layout Plain Layout
@@ -2981,66 +3605,254 @@ i & 0 & 0 & 0
 \end_layout
 
 \begin_layout Standard
+\align center
 
 \size scriptsize
-\begin_inset Formula 
-\begin{align}
-s_{4+} & \equiv\begin{pmatrix}0 & \sqrt{3} & 0 & 0\\
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $s_{4+}\equiv\begin{pmatrix}0 & \sqrt{3} & 0 & 0\\
 0 & 0 & 2 & 0\\
 0 & 0 & 0 & \sqrt{3}\\
 0 & 0 & 0 & 0
-\end{pmatrix}\equiv\frac{x_{\nicefrac{3}{2}}+{\rm i}y_{\nicefrac{3}{2}}}{2}\equiv\frac{x_{4\times4}+{\rm i}y_{4\times4}}{2}\\
-s_{4-} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+\end{pmatrix}\equiv\frac{x_{\nicefrac{3}{2}}+{\rm i}y_{\nicefrac{3}{2}}}{2}\equiv\frac{x_{4\times4}+{\rm i}y_{4\times4}}{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $s_{4-}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
 \sqrt{3} & 0 & 0 & 0\\
 0 & 2 & 0 & 0\\
 0 & 0 & \sqrt{3} & 0
-\end{pmatrix}\equiv\frac{x_{4}-{\rm i}y_{4}}{2}\\
-s_{4,1} & \equiv\begin{pmatrix}1 & 0 & 0 & 0\\
+\end{pmatrix}\equiv\frac{x_{4}-{\rm i}y_{4}}{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $s_{4,1}\equiv\begin{pmatrix}1 & 0 & 0 & 0\\
 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}\left(z_{2}+z_{1}z_{2}+z_{1}+\openone\right)\\
-s_{4,2} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+\end{pmatrix}=\frac{1}{4}\left(z_{2}+z_{1}z_{2}+z_{1}+\openone\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $s_{4,2}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
 0 & 1 & 0 & 0\\
 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}(\openone+z_{1}-z_{2}-z_{1}z_{2})\\
-s_{4,3} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+\end{pmatrix}=\frac{1}{4}(\openone+z_{1}-z_{2}-z_{1}z_{2})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $s_{4,3}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0\\
 0 & 0 & 1 & 0\\
 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}(\openone-z_{1}+z_{2}-z_{1}z_{2})\\
-s_{4,4} & \equiv\begin{pmatrix}0 & 0 & 0 & 0\\
+\end{pmatrix}=\frac{1}{4}(\openone-z_{1}+z_{2}-z_{1}z_{2})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $s_{4,4}\equiv\begin{pmatrix}0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 1
-\end{pmatrix}=\frac{1}{4}(\openone-z_{1}-z_{2}+z_{1}z_{2})\\
- & \begin{pmatrix}1 & 0 & 0 & 0\\
+\end{pmatrix}=\frac{1}{4}(\openone-z_{1}-z_{2}+z_{1}z_{2})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\begin{pmatrix}1 & 0 & 0 & 0\\
 0 & -1 & 0 & 0\\
 0 & 0 & 1 & 0\\
 0 & 0 & 0 & 1
-\end{pmatrix}=\frac{1}{2}\left(\openone-z_{1}+z_{1}z_{2}+z_{2}\right)\\
- & \begin{pmatrix}1 & 0 & 0 & 0\\
+\end{pmatrix}=\frac{1}{2}\left(\openone-z_{1}+z_{1}z_{2}+z_{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\begin{pmatrix}1 & 0 & 0 & 0\\
 0 & 1 & 0 & 0\\
 0 & 0 & -1 & 0\\
 0 & 0 & 0 & 1
-\end{pmatrix}=\frac{1}{2}\left(\openone-z_{2}+z_{1}z_{2}+z_{1}\right)\\
-|10\rangle\langle01| & =\begin{pmatrix}0 & 0 & 0 & 0\\
+\end{pmatrix}=\frac{1}{2}\left(\openone-z_{2}+z_{1}z_{2}+z_{1}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $|10\rangle\langle01|=\begin{pmatrix}0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0\\
 0 & 1 & 0 & 0\\
 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}\left(x_{1}x_{2}-{\rm i}y_{1}x_{2}+{\rm i}x_{1}y_{2}+y_{1}y_{2}\right)\\
-|01\rangle\langle10| & =\begin{pmatrix}0 & 0 & 0 & 0\\
+\end{pmatrix}=\frac{1}{4}\left(x_{1}x_{2}-{\rm i}y_{1}x_{2}+{\rm i}x_{1}y_{2}+y_{1}y_{2}\right)$
+\end_inset
+
+ 
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $|01\rangle\langle10|=\begin{pmatrix}0 & 0 & 0 & 0\\
 0 & 0 & 1 & 0\\
 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}\left(x_{1}x_{2}-{\rm i}x_{1}y_{2}+{\rm i}y_{1}x_{2}+y_{1}y_{2}\right)\\
-\text{CNOT} & \equiv\begin{pmatrix}1 & 0 & 0 & 0\\
+\end{pmatrix}=\frac{1}{4}\left(x_{1}x_{2}-{\rm i}x_{1}y_{2}+{\rm i}y_{1}x_{2}+y_{1}y_{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\text{CNOT}\equiv\begin{pmatrix}1 & 0 & 0 & 0\\
 0 & 1 & 0 & 0\\
 0 & 0 & 0 & 1\\
 0 & 0 & 1 & 0
-\end{pmatrix}=\frac{1}{2}\left(\openone+z_{1}+x_{2}-z_{1}x_{2}\right)
-\end{align}
+\end{pmatrix}=\frac{1}{2}\left(\openone+z_{1}+x_{2}-z_{1}x_{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
 
 \end_inset
 
@@ -3079,8 +3891,9 @@ They can be explicitly found here: https://www.researchgate.net/publication/3272
 \end_layout
 
 \begin_layout Plain Layout
-Alternate SU(5) generation found in the following sources: http://jefferywinkler.
-com/beyondstandardmodel.html
+Alternate SU(5) generation (built such that SU(3) X SU(2) X U(1) is a subgroup)
+ found in the following sources: http://jefferywinkler.com/beyondstandardmodel.htm
+l 
 \end_layout
 
 \begin_layout Plain Layout
@@ -4187,68 +5000,188 @@ i & 0 & 0 & 0 & 0
 \end_inset
 
 
-\begin_inset Formula 
-\begin{align}
-s_{5+} & \equiv\begin{pmatrix}0 & 2 & 0 & 0 & 0\\
-0 & 0 & \sqrt{6} & 0 & 0\\
-0 & 0 & 0 & \sqrt{6} & 0\\
-0 & 0 & 0 & 0 & 2\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix}\equiv\frac{x_{5\times5}+{\rm i}y_{5\times5}}{2}\equiv\frac{x_{(5)}+{\rm i}y_{(5)}}{2}\\
-s_{5-} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-2 & 0 & 0 & 0 & 0\\
-0 & \sqrt{6} & 0 & 0 & 0\\
-0 & 0 & \sqrt{6} & 0 & 0\\
-0 & 0 & 0 & 2 & 0
-\end{pmatrix}\equiv\frac{x_{5\times5}+{\rm i}y_{5\times5}}{2}\equiv\frac{x_{(5)}+{\rm i}y_{(5)}}{2}\\
-s_{5,1} & \equiv\begin{pmatrix}1 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{2}\varLambda_{D}^{1}+\sqrt{\frac{1}{12}}\Lambda_{D}^{2}+\sqrt{\frac{1}{24}}\Lambda_{D}^{3}+\sqrt{\frac{1}{40}}\varLambda_{D}^{4}+\frac{1}{5}\openone\\
-s_{5,2} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 1 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix}=-\frac{1}{2}\varLambda_{D}^{1}+\sqrt{\frac{1}{12}}\Lambda_{D}^{2}+\sqrt{\frac{1}{24}}\Lambda_{D}^{3}+\sqrt{\frac{1}{40}}\varLambda_{D}^{4}+\frac{1}{5}\openone\\
-s_{5,3} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 1 & 0 & 0\\
-0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0
-\end{pmatrix}=-\sqrt{\frac{1}{3}}\Lambda_{D}^{2}+\sqrt{\frac{1}{24}}\Lambda_{D}^{3}+\sqrt{\frac{1}{40}}\varLambda_{D}^{4}+\frac{1}{5}\openone
-\end{align}
-
-\end_inset
-
-
-\begin_inset Newpage newpage
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
 \align center
 
 \size scriptsize
-\begin_inset Formula 
-\begin{align}
-s_{5,4} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $s_{5+}\equiv\begin{pmatrix}0 & 2 & 0 & 0 & 0\\
+0 & 0 & \sqrt{6} & 0 & 0\\
+0 & 0 & 0 & \sqrt{6} & 0\\
+0 & 0 & 0 & 0 & 2\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}\equiv\frac{x_{5\times5}+{\rm i}y_{5\times5}}{2}\equiv\frac{x_{(5)}+{\rm i}y_{(5)}}{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $s_{5-}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+2 & 0 & 0 & 0 & 0\\
+0 & \sqrt{6} & 0 & 0 & 0\\
+0 & 0 & \sqrt{6} & 0 & 0\\
+0 & 0 & 0 & 2 & 0
+\end{pmatrix}\equiv\frac{x_{5\times5}+{\rm i}y_{5\times5}}{2}\equiv\frac{x_{(5)}+{\rm i}y_{(5)}}{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $s_{5,1}\equiv\begin{pmatrix}1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{2}\varLambda_{D}^{1}+\sqrt{\frac{1}{12}}\Lambda_{D}^{2}+\sqrt{\frac{1}{24}}\Lambda_{D}^{3}+\sqrt{\frac{1}{40}}\varLambda_{D}^{4}+\frac{1}{5}\openone$
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $s_{5,2}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}=-\frac{1}{2}\varLambda_{D}^{1}+\sqrt{\frac{1}{12}}\Lambda_{D}^{2}+\sqrt{\frac{1}{24}}\Lambda_{D}^{3}+\sqrt{\frac{1}{40}}\varLambda_{D}^{4}+\frac{1}{5}\openone$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $s_{5,3}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0
+\end{pmatrix}=-\sqrt{\frac{1}{3}}\Lambda_{D}^{2}+\sqrt{\frac{1}{24}}\Lambda_{D}^{3}+\sqrt{\frac{1}{40}}\varLambda_{D}^{4}+\frac{1}{5}\openone$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $s_{5,4}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 1 & 0\\
 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=-\sqrt{\frac{3}{8}}\Lambda_{D}^{3}+\sqrt{\frac{1}{40}}\varLambda_{D}^{4}+\frac{1}{5}\openone\\
-s_{5,5} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}=-\sqrt{\frac{3}{8}}\Lambda_{D}^{3}+\sqrt{\frac{1}{40}}\varLambda_{D}^{4}+\frac{1}{5}\openone$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $s_{5,5}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 1
-\end{pmatrix}=-\sqrt{\frac{2}{5}}\varLambda_{D}^{4}+\frac{1}{5}\openone
-\end{align}
+\end{pmatrix}=-\sqrt{\frac{2}{5}}\varLambda_{D}^{4}+\frac{1}{5}\openone$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
 
 \end_inset
 
@@ -4288,6 +5221,16 @@ ation/327281996_Determining_SU_N_symmetry_group_generators
 
 \begin_layout Plain Layout
 https://arxiv.org/abs/hep-ph/0504280
+\end_layout
+
+\begin_layout Plain Layout
+SU(6) matrices can be generated using: https://www.sciencedirect.com/science/artic
+le/abs/pii/S0375947409003583
+\end_layout
+
+\begin_layout Plain Layout
+SU(6) from the tensor product of the Pauli and Gell-Mann matrices: https://link.s
+pringer.com/content/pdf/10.1007/s10958-011-0619-9.pdf
 \end_layout
 
 \end_inset
@@ -6002,105 +6945,198 @@ i & 0 & 0 & 0 & 0 & 0
 \end_inset
 
 
-\begin_inset Formula 
-\begin{align}
-|0_{b}1_{t}\rangle\langle1_{b}0_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 1 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}\left(x\lambda_{1}+{\rm i}y\lambda_{1}-{\rm i}x\lambda_{2}+y\lambda_{2}\right)\\
-|1_{b}0_{t}\rangle\langle0_{b}1_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 1 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}\left(x\lambda_{1}-{\rm i}y\lambda_{1}+{\rm i}x\lambda_{2}+y\lambda_{2}\right)\\
-|0_{b}1_{t}\rangle\langle1_{b}0_{t}|+|1_{b}0_{t}\rangle\langle0_{b}1_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 1 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 1 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{2}\left(x\lambda_{1}+y\lambda_{2}\right)\\
-|1_{b}1_{t}\rangle\langle0_{b}1_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 1 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}(iy\lambda_{3}-x\lambda_{3})+\sqrt{\frac{1}{48}}(x\lambda_{8}-iy\lambda_{8})+\frac{1}{6}(x-y)
-\end{align}
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
+\align center
 
 \size scriptsize
-\begin_inset Formula 
-\begin{align}
-|1_{b}1_{t}\rangle\langle0_{b}1_{t}|+|0_{b}1_{t}\rangle\langle1_{b}1_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $|0_{b}1_{t}\rangle\langle1_{b}0_{t}|\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{4}\left(x\lambda_{1}+{\rm i}y\lambda_{1}-{\rm i}x\lambda_{2}+y\lambda_{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $|1_{b}0_{t}\rangle\langle0_{b}1_{t}|\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{4}\left(x\lambda_{1}-{\rm i}y\lambda_{1}+{\rm i}x\lambda_{2}+y\lambda_{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $|0_{b}1_{t}\rangle\langle1_{b}0_{t}|+|1_{b}0_{t}\rangle\langle0_{b}1_{t}|\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{2}\left(x\lambda_{1}+y\lambda_{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $|1_{b}1_{t}\rangle\langle0_{b}1_{t}|\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{4}(iy\lambda_{3}-x\lambda_{3})+\sqrt{\frac{1}{48}}(x\lambda_{8}-iy\lambda_{8})+\frac{1}{6}(x-y)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $|1_{b}1_{t}\rangle\langle0_{b}1_{t}|+|0_{b}1_{t}\rangle\langle1_{b}1_{t}|\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 1 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 1 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{2}\left(\lambda_{5}y+\lambda_{4}x\right)\\
-|1_{b}0_{t}\rangle\langle1_{b}2_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}=\frac{1}{2}\left(\lambda_{5}y+\lambda_{4}x\right)$
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $|1_{b}0_{t}\rangle\langle1_{b}2_{t}|\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 1\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}\\
-|1_{b}1_{t}\rangle\langle1_{b}2_{t}| & =\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $|1_{b}1_{t}\rangle\langle1_{b}2_{t}|=\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 1\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}\left(\lambda_{6}-z\lambda_{6}+{\rm i}\lambda_{7}-{\rm i}z\lambda_{7}\right)\\
-|1_{b}0_{t}\rangle\langle1_{b}2_{t}|+|1_{b}2_{t}\rangle\langle1_{b}0_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}=\frac{1}{4}\left(\lambda_{6}-z\lambda_{6}+{\rm i}\lambda_{7}-{\rm i}z\lambda_{7}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $|1_{b}0_{t}\rangle\langle1_{b}2_{t}|+|1_{b}2_{t}\rangle\langle1_{b}0_{t}|\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 1\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 1 & 0 & 0
-\end{pmatrix}=\frac{1}{2}\left(\lambda_{6}-\lambda_{6}z\right)\\
-|0_{b}1_{t}\rangle\langle0_{b}0_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-1 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}\left(z\lambda_{1}+\lambda_{1}-{\rm i}z\lambda_{2}-{\rm i}\lambda_{2}\right)\\
-|0_{b}0_{t}\rangle\langle0_{b}1_{t}| & \equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}\left(z\lambda_{1}+\lambda_{1}+{\rm i}z\lambda_{2}+{\rm i}\lambda_{2}\right)\\
-|0_{b}1_{t}\rangle\langle0_{b}0_{t}|+|0_{b}0_{t}\rangle\langle0_{b}1_{t}| & \equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0 & 0\\
-1 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{2}\left(z\lambda_{1}+\lambda_{1}\right)
-\end{align}
+\end{pmatrix}=\frac{1}{2}\left(\lambda_{6}-\lambda_{6}z\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
 
 \end_inset
 
@@ -6115,64 +7151,312 @@ i & 0 & 0 & 0 & 0 & 0
 \end_layout
 
 \begin_layout Standard
+\align center
 
 \size scriptsize
-\begin_inset Formula 
-\begin{align}
-|0_{b}2_{t}\rangle\langle1_{b}0_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $|0_{b}1_{t}\rangle\langle0_{b}0_{t}|\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{4}\left(z\lambda_{1}+\lambda_{1}-{\rm i}z\lambda_{2}-{\rm i}\lambda_{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $|0_{b}0_{t}\rangle\langle0_{b}1_{t}|\equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{4}\left(z\lambda_{1}+\lambda_{1}+{\rm i}z\lambda_{2}+{\rm i}\lambda_{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $|0_{b}1_{t}\rangle\langle0_{b}0_{t}|+|0_{b}0_{t}\rangle\langle0_{b}1_{t}|\equiv\begin{pmatrix}0 & 1 & 0 & 0 & 0 & 0\\
+1 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{2}\left(z\lambda_{1}+\lambda_{1}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $|0_{b}2_{t}\rangle\langle1_{b}0_{t}|\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 1 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}\left(x\lambda_{4}+{\rm i}y\lambda_{4}-{\rm i}x\lambda_{5}+y\lambda_{5}\right)\\
-|0_{b}2_{t}\rangle\langle1_{b}0_{t}|+|1_{b}0_{t}\rangle\langle0_{b}2_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}=\frac{1}{4}\left(x\lambda_{4}+{\rm i}y\lambda_{4}-{\rm i}x\lambda_{5}+y\lambda_{5}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $|0_{b}2_{t}\rangle\langle1_{b}0_{t}|+|1_{b}0_{t}\rangle\langle0_{b}2_{t}|\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 1 & 0 & 0\\
 0 & 0 & 1 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{2}\left(x\lambda_{4}+y\lambda_{5}\right)\\
-|0_{b}2_{t}\rangle\langle0_{b}0_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}=\frac{1}{2}\left(x\lambda_{4}+y\lambda_{5}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $|0_{b}2_{t}\rangle\langle0_{b}0_{t}|\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 1 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}\left(z\lambda_{4}+\lambda_{4}-{\rm i}z\lambda_{5}-{\rm i}\lambda_{5}\right)\\
-|0_{b}2_{t}\rangle\langle0_{b}0_{t}|+|0_{b}0_{t}\rangle\langle0_{b}2_{t}| & \equiv\begin{pmatrix}0 & 0 & 1 & 0 & 0 & 0\\
+\end{pmatrix}=\frac{1}{4}\left(z\lambda_{4}+\lambda_{4}-{\rm i}z\lambda_{5}-{\rm i}\lambda_{5}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $|0_{b}2_{t}\rangle\langle0_{b}0_{t}|+|0_{b}0_{t}\rangle\langle0_{b}2_{t}|\equiv\begin{pmatrix}0 & 0 & 1 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 1 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{2}\left(z\lambda_{4}+\lambda_{4}\right)\\
-|1_{b}1_{t}\rangle\langle1_{b}2_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}=\frac{1}{2}\left(z\lambda_{4}+\lambda_{4}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $|1_{b}1_{t}\rangle\langle1_{b}2_{t}|\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 1\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}(\lambda_{6}+i\lambda_{7}-z\lambda_{6}-iz\lambda_{7})\\
-|1_{b}1_{t}\rangle\langle1_{b}2_{t}|+|1_{b}2_{t}\rangle\langle1_{b}1_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}=\frac{1}{4}(\lambda_{6}+i\lambda_{7}-z\lambda_{6}-iz\lambda_{7})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $|1_{b}1_{t}\rangle\langle1_{b}2_{t}|+|1_{b}2_{t}\rangle\langle1_{b}1_{t}|\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 1\\
 0 & 0 & 0 & 0 & 1 & 0
-\end{pmatrix}=\frac{1}{2}(\lambda_{6}-z\lambda_{6})\\
-|1_{t,1}\rangle\langle2_{t,1}|x_{2}+|2_{t,1}\rangle\langle1_{t,1}|x_{2} & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}=\frac{1}{2}(\lambda_{6}-z\lambda_{6})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $|1_{t,1}\rangle\langle2_{t,1}|x_{2}+|2_{t,1}\rangle\langle1_{t,1}|x_{2}\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 1\\
 0 & 0 & 0 & 0 & 1 & 0\\
 0 & 0 & 0 & 1 & 0 & 0\\
 0 & 0 & 1 & 0 & 0 & 0
-\end{pmatrix}=\lambda_{6}x_{2}=\ensuremath{-\frac{1}{2}z\lambda_{1}+\frac{1}{2}\lambda_{1}-\frac{1}{\sqrt{3}}x\lambda_{8}+\frac{1}{3}}x\ne x_{2}\lambda_{6}
-\end{align}
+\end{pmatrix}=\lambda_{6}x_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $\lambda_{6}x_{2}=\ensuremath{-\frac{1}{2}z\lambda_{1}+\frac{1}{2}\lambda_{1}-\frac{1}{\sqrt{3}}x\lambda_{8}+\frac{1}{3}}x$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $x_{1}|1_{t,2}\rangle\langle2_{t,2}|\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{2}(x\lambda_{6}+{\rm i}\lambda_{7})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $x_{1}|1_{t,2}\rangle\langle2_{t,2}|+x_{1}|2_{t,2}\rangle\langle1_{t,2}|\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 1\\
+0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0 & 0
+\end{pmatrix}=x\lambda_{6}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $|0_{b}2_{t}\rangle\langle1_{b}1_{t}|\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & 0 & 0
+\end{pmatrix}=\frac{1}{4}\left(x\lambda_{6}+{\rm i}y\lambda_{6}-{\rm i}x\lambda_{7}+y\lambda_{7}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+
+\size scriptsize
 \begin_inset Newpage newpage
 \end_inset
 
@@ -6180,58 +7464,87 @@ i & 0 & 0 & 0 & 0 & 0
 \end_layout
 
 \begin_layout Standard
+\align center
 
 \size scriptsize
-\begin_inset Formula 
-\begin{align}
-x_{1}|1_{t,2}\rangle\langle2_{t,2}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 1\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 1 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{2}(x\lambda_{6}+{\rm i}\lambda_{7})\\
-x_{1}|1_{t,2}\rangle\langle2_{t,2}|+x_{1}|2_{t,2}\rangle\langle1_{t,2}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 1\\
-0 & 0 & 0 & 0 & 1 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 1 & 0 & 0 & 0\\
-0 & 1 & 0 & 0 & 0 & 0
-\end{pmatrix}=x\lambda_{6}
-\end{align}
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
 
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $|0_{b}2_{t}\rangle\langle1_{b}1_{t}|=\frac{1}{4}\left(\lambda_{6}+\lambda_{6}z+{\rm i}\lambda_{7}+{\rm i}\lambda_{7}z\right)$
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula 
-\begin{align}
-|0_{b}2_{t}\rangle\langle1_{b}1_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 1 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0\\
-0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}\left(x\lambda_{6}+{\rm i}y\lambda_{6}-{\rm i}x\lambda_{7}+y\lambda_{7}\right)=\frac{1}{4}\left(\lambda_{6}+\lambda_{6}z+{\rm i}\lambda_{7}+{\rm i}\lambda_{7}z\right)\ne\frac{1}{4}\left(\lambda_{6}+z\lambda_{6}+{\rm i}\lambda_{7}+{\rm i}z\lambda_{7}\right)\\
-|0_{b}1_{t}\rangle\langle0_{b}2_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\begin_inset Formula $|0_{b}1_{t}\rangle\langle0_{b}2_{t}|\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 1 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{4}\left(\lambda_{6}+z\lambda_{6}+{\rm i}\lambda_{7}+{\rm i}z\lambda_{7}\right)\ne\frac{1}{4}\left(\lambda_{6}+\lambda_{6}z+{\rm i}\lambda_{7}+{\rm i}\lambda_{7}z\right)\\
-|0_{b}1_{t}\rangle\langle0_{b}2_{t}|+|0_{b}2_{t}\rangle\langle0_{b}1_{t}| & \equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
+\end{pmatrix}=\frac{1}{4}\left(\lambda_{6}+z\lambda_{6}+{\rm i}\lambda_{7}+{\rm i}z\lambda_{7}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $|0_{b}1_{t}\rangle\langle0_{b}2_{t}|+|0_{b}2_{t}\rangle\langle0_{b}1_{t}|\equiv\begin{pmatrix}0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 1 & 0 & 0 & 0\\
 0 & 1 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0\\
 0 & 0 & 0 & 0 & 0 & 0
-\end{pmatrix}=\frac{1}{2}\left(\lambda_{6}+z\lambda_{6}\right)
-\end{align}
+\end{pmatrix}=\frac{1}{2}\left(\lambda_{6}+z\lambda_{6}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
 
 \end_inset
 
@@ -7337,6 +8650,76 @@ i & 0 & 0 & 0 & 0 & 0 & 0
 </cell>
 </row>
 </lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size scriptsize
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+SU(8) matrices sources:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Quotes eld
+\end_inset
+
+Triple Nambu representation
+\begin_inset Quotes erd
+\end_inset
+
+ in Eq.
+ 2.9 of: https://aip.scitation.org/doi/10.1063/1.527816
+\end_layout
+
+\begin_layout Plain Layout
+Representation of SU(8) in Pauli basis: https://arxiv.org/pdf/2003.09192.pdf
+\end_layout
+
+\begin_layout Plain Layout
+Dynamical SU(8) - A Labratory for Phase Coexistence: https://dair.dias.ie/813/1/DI
+AS-STP-87-06.pdf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size scriptsize
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+SU(n) matrices sources:
+\end_layout
+
+\begin_layout Plain Layout
+Section 6 of this source shows how SU(n) is generated: https://walterpfeifer.ch/l
+iealgebra/LieAlg_wieBuch4.pdf
+\end_layout
+
+\begin_layout Plain Layout
+Chapter 3 of this book shows how it is generated as well: http://www.astro.sunysb.e
+du/steinkirch/books/group.pdf
+\end_layout
+
+\begin_layout Plain Layout
+Section 2 of this source: https://arxiv.org/pdf/1912.13302.pdf
+\end_layout
+
+\begin_layout Plain Layout
+Generators of SU(n) here: https://onlinelibrary.wiley.com/doi/pdf/10.1002/978352764
+8887.app8
+\end_layout
 
 \end_inset
 

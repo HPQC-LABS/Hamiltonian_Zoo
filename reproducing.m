@@ -251,17 +251,17 @@ LHS = gm5*gm2;
 RHS = [0 0 0 ; 0 0 0 ; 0 1 0];
 isequal(LHS, RHS)
 
-%% Eq. 55 - 2 (Not Working)
-gm2 = [0 -1i 0 ; 1i 0 0 ; 0 0 0]; gm3 = [1 0 0 ; 0 -1 0 ; 0 0 0]; 
+%% Eq. 55 - 2
+gm2 = [0 -1i 0 ; 1i 0 0 ; 0 0 0]; gm5 = [0 0 -1i ; 0 0 0 ; 1i 0 0];
 
-LHS = gm2*gm3;
+LHS = gm2*gm5;
 RHS = [0 0 0 ; 0 0 1 ; 0 0 0];
 isequal(LHS, RHS)
 
-%% Eq. 55 - 3 (Not Working)
-gm2 = [0 -1i 0 ; 1i 0 0 ; 0 0 0]; gm3 = [1 0 0 ; 0 -1 0 ; 0 0 0]; gm6 = [0 0 0 ; 0 0 1 ; 0 1 0];
+%% Eq. 55 - 3
+gm2 = [0 -1i 0 ; 1i 0 0 ; 0 0 0]; gm5 = [0 0 -1i ; 0 0 0 ; 1i 0 0]; gm6 = [0 0 0 ; 0 0 1 ; 0 1 0];
 
-LHS = gm3*gm2 + gm2*gm3;
+LHS = gm5*gm2 + gm2*gm5;
 isequal(LHS, gm6)
 
 %% Eq. 56
