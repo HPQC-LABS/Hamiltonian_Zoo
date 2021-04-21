@@ -175,7 +175,6 @@ Nike Dattani
 \end_layout
 
 \begin_layout Author Email
-
 n.dattani@cfa.harvard.edu
 \end_layout
 
@@ -2546,7 +2545,7 @@ i & 0 & i\\
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $\lambda_{7}\lambda_{7}=\begin{pmatrix}0 & 0 & 0\\
+\begin_inset Formula $\lambda_{6}\lambda_{6}=\begin{pmatrix}0 & 0 & 0\\
 0 & 1 & 0\\
 0 & 0 & 1
 \end{pmatrix}$
@@ -2582,7 +2581,7 @@ i & 0 & i\\
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $\lambda_{3}\lambda_{7}=\begin{pmatrix}0 & 1 & 0\\
+\begin_inset Formula $\lambda_{5}\lambda_{7}=\begin{pmatrix}0 & 1 & 0\\
 0 & 0 & 0\\
 0 & 0 & 0
 \end{pmatrix}$
@@ -2601,7 +2600,7 @@ i & 0 & i\\
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $\lambda_{7}\lambda_{3}+\lambda_{3}\lambda_{7}=\lambda_{1}$
+\begin_inset Formula $\lambda_{7}\lambda_{5}+\lambda_{5}\lambda_{7}=\lambda_{1}$
 \end_inset
 
 
