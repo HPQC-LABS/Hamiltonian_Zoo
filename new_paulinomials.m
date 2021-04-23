@@ -8,7 +8,6 @@ function output_pauli = new_paulinomials(H)
 % the 3rd 2x2 Gell-Mann Matrix (Pauli z matrix) and the 5th 3x3 Gell-Mann matrix.
 
 factors = factor(length(H));
-assert( length(factors) <= 13, 'This code cannot accept a matrix whose dimensions contain more than 13 prime factors.');
 
 gm_index = 1;
 for i = 1:length(factors)
@@ -29,35 +28,19 @@ while IND(1) <= max(1)
     for i = 1:length(IND)
         temp = kron(temp,S{1,i}{1,IND(i)});
     end
-    
-    switch length(factors)
-        case 1
-            basis(:,IND(1))=temp(:);
-        case 2
-            basis(:,sub2ind(max,IND(1),IND(2)))=temp(:);
-        case 3
-            basis(:,sub2ind(max,IND(1),IND(2),IND(3)))=temp(:);
-        case 4
-            basis(:,sub2ind(max,IND(1),IND(2),IND(3),IND(4)))=temp(:);
-        case 5
-            basis(:,sub2ind(max,IND(1),IND(2),IND(3),IND(4),IND(5)))=temp(:);
-        case 6
-            basis(:,sub2ind(max,IND(1),IND(2),IND(3),IND(4),IND(5),IND(6)))=temp(:);
-        case 7
-            basis(:,sub2ind(max,IND(1),IND(2),IND(3),IND(4),IND(5),IND(6),IND(7)))=temp(:);
-        case 8
-            basis(:,sub2ind(max,IND(1),IND(2),IND(3),IND(4),IND(5),IND(6),IND(7),IND(8)))=temp(:);
-        case 9
-            basis(:,sub2ind(max,IND(1),IND(2),IND(3),IND(4),IND(5),IND(6),IND(7),IND(8),IND(9)))=temp(:);
-        case 10
-            basis(:,sub2ind(max,IND(1),IND(2),IND(3),IND(4),IND(5),IND(6),IND(7),IND(8),IND(9),IND(10)))=temp(:);
-        case 11
-            basis(:,sub2ind(max,IND(1),IND(2),IND(3),IND(4),IND(5),IND(6),IND(7),IND(8),IND(9),IND(10),IND(11)))=temp(:);
-        case 12
-            basis(:,sub2ind(max,IND(1),IND(2),IND(3),IND(4),IND(5),IND(6),IND(7),IND(8),IND(9),IND(10),IND(11),IND(12)))=temp(:);
-        case 13
-            basis(:,sub2ind(max,IND(1),IND(2),IND(3),IND(4),IND(5),IND(6),IND(7),IND(8),IND(9),IND(10),IND(11),IND(12),IND(13)))=temp(:);
+      
+    basis_index = IND(1);
+    for ind_outer = 2:1:length(IND)
+        ind_coeff = 1;
+        
+        for ind_inner = 1:ind_outer - 1
+            ind_coeff = ind_coeff*max(ind_inner);
+        end
+        
+        basis_index = basis_index + ind_coeff*(IND(ind_outer) - 1);
     end
+    
+    basis(:,basis_index) = temp(:);
     basis = sparse(basis);
     
     IND(length(IND)) = IND(length(IND)) + 1;
